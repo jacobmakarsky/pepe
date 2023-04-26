@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	indexer "github.com/ethereum-optimism/optimism/indexer"
+	indexer "github.com/ethereum-pepe/pepe/indexer"
 	"github.com/stretchr/testify/require"
 )
 

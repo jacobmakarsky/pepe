@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
+	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core"
@@ -56,7 +56,7 @@ func NewL2Genesis(config *DeployConfig, block *types.Block) (*core.Genesis, erro
 		TerminalTotalDifficultyPassed: true,
 		BedrockBlock:                  new(big.Int).SetUint64(uint64(config.L2GenesisBlockNumber)),
 		RegolithTime:                  config.RegolithTime(block.Time()),
-		Optimism: &params.OptimismConfig{
+		Pepe: &params.OptimismConfig{
 			EIP1559Denominator: eip1559Denom,
 			EIP1559Elasticity:  eip1559Elasticity,
 		},

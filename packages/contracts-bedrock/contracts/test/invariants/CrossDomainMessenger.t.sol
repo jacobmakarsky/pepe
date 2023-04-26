@@ -86,7 +86,7 @@ contract RelayActor is StdUtils {
         // Make sure we've got a fresh message.
         vm.assume(xdm.successfulMessages(_hash) == false && xdm.failedMessages(_hash) == false);
 
-        // Act as the optimism portal and call `relayMessage` on the `L1CrossDomainMessenger` with
+        // Act as the pepe portal and call `relayMessage` on the `L1CrossDomainMessenger` with
         // the outer min gas limit.
         vm.startPrank(address(op));
         if (!doFail) {

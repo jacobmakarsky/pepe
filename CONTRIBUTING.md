@@ -1,4 +1,4 @@
-# Optimism monorepo contributing guide
+# Pepe monorepo contributing guide
 
 🎈 Thanks for your help improving the project! We are so happy to have you!
 
@@ -6,13 +6,13 @@
 
 There are plenty of ways to contribute, in particular we appreciate support in the following areas:
 
-- Reporting issues. For security issues see [Security policy](https://github.com/ethereum-optimism/.github/blob/master/SECURITY.md).
-- Fixing and responding to existing issues. You can start off with those tagged ["good first issue"](https://github.com/ethereum-optimism/optimism/contribute) which are meant as introductory issues for external contributors.
-- Improving the [community site](https://community.optimism.io/), [documentation](https://github.com/ethereum-optimism/community-hub) and [tutorials](https://github.com/ethereum-optimism/optimism-tutorial).
-- Become an "Optimizer" and answer questions in the [Optimism Discord](https://discord.optimism.io).
+- Reporting issues. For security issues see [Security policy](https://github.com/ethereum-pepe/.github/blob/master/SECURITY.md).
+- Fixing and responding to existing issues. You can start off with those tagged ["good first issue"](https://github.com/ethereum-pepe/pepe/contribute) which are meant as introductory issues for external contributors.
+- Improving the [community site](https://community.pepe.io/), [documentation](https://github.com/ethereum-pepe/community-hub) and [tutorials](https://github.com/ethereum-pepe/pepe-tutorial).
+- Become an "Optimizer" and answer questions in the [Pepe Discord](https://discord.pepe.io).
 - Get involved in the protocol design process by proposing changes or new features or write parts of the spec yourself in the [specs subdirectory](./specs/).
 
-Note that we have a [Code of Conduct](https://github.com/ethereum-optimism/.github/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Note that we have a [Code of Conduct](https://github.com/ethereum-pepe/.github/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ## Workflow for Pull Requests
 
@@ -20,7 +20,7 @@ Note that we have a [Code of Conduct](https://github.com/ethereum-optimism/.gith
 
 In general, the smaller the diff the easier it will be for us to review quickly.
 
-In order to contribute, fork the appropriate branch, for non-breaking changes to production that is `develop` and for the next release that is normally `release/X.X.X` branch, see [details about our branching model](https://github.com/ethereum-optimism/optimism/blob/develop/README.md#branching-model-and-releases).
+In order to contribute, fork the appropriate branch, for non-breaking changes to production that is `develop` and for the next release that is normally `release/X.X.X` branch, see [details about our branching model](https://github.com/ethereum-pepe/pepe/blob/develop/README.md#branching-model-and-releases).
 
 Additionally, if you are writing a new feature, please ensure you add appropriate test cases.
 
@@ -74,8 +74,8 @@ You'll need the following:
 Clone the repository and open it:
 
 ```bash
-git clone git@github.com:ethereum-optimism/optimism.git
-cd optimism
+git clone git@github.com:ethereum-pepe/pepe.git
+cd pepe
 ```
 
 ### Install the Correct Version of NodeJS
@@ -111,7 +111,7 @@ Use the above commands to recompile the packages.
 
 ### Building the rest of the system
 
-If you want to run an Optimism node OR **if you want to run the integration tests**, you'll need to build the rest of the system.
+If you want to run an Pepe node OR **if you want to run the integration tests**, you'll need to build the rest of the system.
 
 ```bash
 cd ops
@@ -156,7 +156,7 @@ docker-compose up
 Finally, **if you're running into weird problems and nothing seems to be working**, run:
 
 ```bash
-cd optimism
+cd pepe
 yarn clean
 yarn build
 cd ops

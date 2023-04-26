@@ -8,7 +8,7 @@ import (
 
 	"github.com/urfave/cli"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
+	opservice "github.com/ethereum-pepe/pepe/op-service"
 )
 
 const (

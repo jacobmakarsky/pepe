@@ -1,10 +1,10 @@
-module github.com/ethereum-optimism/optimism/endpoint-monitor
+module github.com/ethereum-pepe/pepe/endpoint-monitor
 
 go 1.18
 
 require (
-	github.com/ethereum-optimism/optimism/l2geth v0.0.0-20220923210602-7121648c1f26
-	github.com/ethereum-optimism/optimism/op-service v0.8.8
+	github.com/ethereum-pepe/pepe/l2geth v0.0.0-20220923210602-7121648c1f26
+	github.com/ethereum-pepe/pepe/op-service v0.8.8
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.13.0

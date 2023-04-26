@@ -5,8 +5,8 @@ import {
   Counter,
   Gauge,
   validators,
-} from '@eth-optimism/common-ts'
-import { sleep } from '@eth-optimism/core-utils'
+} from '@eth-pepe/common-ts'
+import { sleep } from '@eth-pepe/core-utils'
 
 import { version } from '../package.json'
 

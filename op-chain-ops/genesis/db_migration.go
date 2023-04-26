@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/crossdomain"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/ether"
+	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/crossdomain"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/ether"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/core/state"
@@ -33,7 +33,7 @@ type MigrationResult struct {
 	TransitionBlockHash common.Hash
 }
 
-// MigrateDB will migrate an l2geth legacy Optimism database to a Bedrock database.
+// MigrateDB will migrate an l2geth legacy Pepe database to a Bedrock database.
 func MigrateDB(ldb ethdb.Database, config *DeployConfig, l1Block *types.Block, migrationData *crossdomain.MigrationData, commit, noCheck bool) (*MigrationResult, error) {
 	// Grab the hash of the tip of the legacy chain.
 	hash := rawdb.ReadHeadHeaderHash(ldb)
@@ -289,11 +289,11 @@ func MigrateDB(ldb ethdb.Database, config *DeployConfig, l1Block *types.Block, m
 	cfg.TerminalTotalDifficulty = big.NewInt(0)
 	cfg.TerminalTotalDifficultyPassed = true
 
-	// Set the Optimism options.
+	// Set the Pepe options.
 	cfg.BedrockBlock = bedrockBlock.Number()
 	// Enable Regolith from the start of Bedrock
 	cfg.RegolithTime = new(uint64)
-	cfg.Optimism = &params.OptimismConfig{
+	cfg.Pepe = &params.OptimismConfig{
 		EIP1559Denominator: config.EIP1559Denominator,
 		EIP1559Elasticity:  config.EIP1559Elasticity,
 	}

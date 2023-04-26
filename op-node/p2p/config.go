@@ -21,7 +21,7 @@ import (
 	"github.com/libp2p/go-libp2p/p2p/net/conngater"
 	cmgr "github.com/libp2p/go-libp2p/p2p/net/connmgr"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/ethereum-pepe/pepe/op-node/rollup"
 )
 
 var DefaultBootnodes = []*enode.Node{

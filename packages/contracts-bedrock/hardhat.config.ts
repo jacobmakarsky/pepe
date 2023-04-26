@@ -3,7 +3,7 @@ import { HardhatUserConfig } from 'hardhat/config'
 import dotenv from 'dotenv'
 
 // Hardhat plugins
-import '@eth-optimism/hardhat-deploy-config'
+import '@eth-pepe/hardhat-deploy-config'
 import '@foundry-rs/hardhat-forge'
 import '@nomiclabs/hardhat-ethers'
 import 'hardhat-deploy'
@@ -32,7 +32,7 @@ const config: HardhatUserConfig = {
     },
     // NOTE: The 'mainnet' network is currently being used for mainnet rehearsals.
     mainnet: {
-      url: process.env.L1_RPC || 'https://mainnet-l1-rehearsal.optimism.io',
+      url: process.env.L1_RPC || 'https://mainnet-l1-rehearsal.pepe.io',
       accounts: [process.env.PRIVATE_KEY_DEPLOYER || ethers.constants.HashZero],
     },
     devnetL1: {
@@ -59,10 +59,10 @@ const config: HardhatUserConfig = {
       url: process.env.L1_RPC || '',
       accounts: [process.env.PRIVATE_KEY_DEPLOYER || ethers.constants.HashZero],
       companionNetworks: {
-        l2: 'optimism-goerli',
+        l2: 'pepe-goerli',
       },
     },
-    'optimism-goerli': {
+    'pepe-goerli': {
       chainId: 420,
       url: process.env.L2_RPC || '',
       accounts: [process.env.PRIVATE_KEY_DEPLOYER || ethers.constants.HashZero],

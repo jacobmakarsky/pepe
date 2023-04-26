@@ -8,7 +8,7 @@ metadata:
     networking.gke.io/managed-certificates: mainnet-replica-0-5-14
 spec:
   rules:
-  - host: mainnet-replica-0-5-14.optimism.io
+  - host: mainnet-replica-0-5-14.pepe.io
     http:
       paths:
       - backend:
@@ -25,4 +25,4 @@ metadata:
   name: mainnet-replica-0-5-14
 spec:
   domains:
-  - mainnet-replica-0-5-14.optimism.io
+  - mainnet-replica-0-5-14.pepe.io

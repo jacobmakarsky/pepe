@@ -6,7 +6,7 @@
 
 - [Foundations](#foundations)
   - [What is Ethereum scalability?](#what-is-ethereum-scalability)
-  - [What is an Optimistic Rollup?](#what-is-an-optimistic-rollup)
+  - [What is an Pepeistic Rollup?](#what-is-an-pepeistic-rollup)
   - [What is EVM Equivalence?](#what-is-evm-equivalence)
   - [🎶 All together now 🎶](#-all-together-now-)
 - [Protocol Guarantees](#protocol-guarantees)
@@ -21,7 +21,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Optimism is an _EVM equivalent_, _optimistic rollup_ protocol designed to _scale Ethereum_ while remaining maximally
+Pepe is an _EVM equivalent_, _optimistic rollup_ protocol designed to _scale Ethereum_ while remaining maximally
 compatible with existing Ethereum infrastructure. This document provides an overview of the protocol to provide context
 for the rest of the specification.
 
@@ -35,9 +35,9 @@ processed on the network. Of the three resources, computation and storage are cu
 bottlenecks. These bottlenecks limit the supply of transactions, leading to extremely high fees. Scaling ethereum and
 reducing fees can be achieved by better utilizing bandwidth, computation and storage.
 
-### What is an Optimistic Rollup?
+### What is an Pepeistic Rollup?
 
-[Optimistic rollup](https://vitalik.ca/general/2021/01/05/rollup.html) is a layer 2 scalability technique which
+[Pepeistic rollup](https://vitalik.ca/general/2021/01/05/rollup.html) is a layer 2 scalability technique which
 increases the computation & storage capacity of Ethereum without sacrificing security or decentralization. Transaction
 data is submitted on-chain but executed off-chain. If there is an error in the off-chain execution, a fault proof can
 be submitted on-chain to correct the error and protect user funds. In the same way you don't go to court unless there
@@ -45,14 +45,14 @@ is a dispute, you don't execute transactions on on-chain unless there is an erro
 
 ### What is EVM Equivalence?
 
-[EVM Equivalence](https://medium.com/ethereum-optimism/introducing-evm-equivalence-5c2021deb306) is complete compliance
+[EVM Equivalence](https://medium.com/ethereum-pepe/introducing-evm-equivalence-5c2021deb306) is complete compliance
 with the state transition function described in the Ethereum yellow paper, the formal definition of the protocol. By
 conforming to the Ethereum standard across EVM equivalent rollups, smart contract developers can write once and deploy
 anywhere.
 
 ### 🎶 All together now 🎶
 
-**Optimism is an _EVM equivalent_, _optimistic rollup_ protocol designed to _scale Ethereum_.**
+**Pepe is an _EVM equivalent_, _optimistic rollup_ protocol designed to _scale Ethereum_.**
 
 ## Protocol Guarantees
 
@@ -71,13 +71,13 @@ chain is available, so is the rollup.
 guaranteed to _only_ finalize correct (ie. valid) rollup block hashes given a **single honest verifier** assumption. If
 there is ever an invalid block hash asserted on layer 1, an honest verifier will prove it is invalid and win a bond.
 
-**Footnote**: There are two main ways to enforce validity of a rollup: fault proofs (optimistic rollup) and validity
+**Footnote**: There are two main ways to enforce validity of a rollup: fault proofs (pepeistic rollup) and validity
 proofs (zkRollup). For the purposes of this spec we only focus on fault proofs but it is worth noting that validity
 proofs can also be plugged in once they have been made feasible.
 
 ## Network Participants
 
-There are three actors in Optimism: users, sequencers, and verifiers.
+There are three actors in Pepe: users, sequencers, and verifiers.
 
 ![Network Overview](./assets/network-participants-overview.svg)
 
@@ -93,7 +93,7 @@ At the heart of the network are users (us!). Users can:
 
 The sequencer is the primary block producer.
 There may be one sequencer **or** many using a consensus protocol.
-For 1.0.0, there is just one sequencer (currently operated under the oversight of the Optimism Foundation).
+For 1.0.0, there is just one sequencer (currently operated under the oversight of the Pepe Foundation).
 In general, specifications may use "the sequencer" to be a stand-in term
 for the consensus protocol operated by multiple sequencers.
 
@@ -129,7 +129,7 @@ provide context when diving into any particular component specification.
 
 Users will often begin their L2 journey by depositing ETH from L1.
 Once they have ETH to pay fees, they'll start sending transactions on L2.
-The following diagram demonstrates this interaction and all key Optimism components which are or should be utilized:
+The following diagram demonstrates this interaction and all key Pepe components which are or should be utilized:
 
 ![Diagram of Depositing and Sending Transactions](./assets/sequencer-handling-deposits-and-transactions.svg)
 

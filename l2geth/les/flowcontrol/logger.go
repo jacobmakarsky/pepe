@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common/mclock"
+	"github.com/ethereum-pepe/pepe/l2geth/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

@@ -33,7 +33,7 @@ const config: DeployConfig = {
   l1FeeVaultRecipient: '0x90F79bf6EB2c4f870365E785982E1f101E93b906',
   sequencerFeeVaultRecipient: '0x90F79bf6EB2c4f870365E785982E1f101E93b906',
 
-  governanceTokenName: 'Optimism',
+  governanceTokenName: 'Pepe',
   governanceTokenSymbol: 'OP',
   governanceTokenOwner: '0x90F79bf6EB2c4f870365E785982E1f101E93b906',
 

@@ -27,14 +27,14 @@ bond attached to the claims they disprove.
 
 - **data availability layer** - In the context of this document, the data availability layer is the
   generic term for the location where claims about the state of the layer two are made. In the context
-  of Optimism, this is Ethereum Mainnet.
+  of Pepe, this is Ethereum Mainnet.
 - **settlement layer** - In the context of this document, the settlement layer is the location of the
-  bridge as well as where funds deposited to the rollup reside. In the context of Optimism, this is
+  bridge as well as where funds deposited to the rollup reside. In the context of Pepe, this is
   Ethereum Mainnet.
-- **L2** - In the context of this document, the layer two of the Optimistic Rollup. In the context
-  of Optimism, this is the Optimism Mainnet.
+- **L2** - In the context of this document, the layer two of the Pepeistic Rollup. In the context
+  of Pepe, this is the Pepe Mainnet.
 - **rollup-node** - In the context of this document, the rollup node describes the
-  [rollup-node specification](./rollup-node.md). In the context of Optimism, this is the implementation
+  [rollup-node specification](./rollup-node.md). In the context of Pepe, this is the implementation
   of the [rollup-node specification](./rollup-node.md), the `op-node`.
 
 ## Event and Response Lifecycle
@@ -48,8 +48,8 @@ to each of the different game types. For specification of dispute game types, se
 
 ### `GameType.FAULT`
 
-> **Warning**  
-> The `FAULT` game type is not yet implemented. In the first iteration of Optimism's decentralization effort,
+> **Warning**
+> The `FAULT` game type is not yet implemented. In the first iteration of Pepe's decentralization effort,
 > challengers will respond to `ATTESTATION` games only.
 
 **Events and Responses**
@@ -85,8 +85,8 @@ A full diagram and lifecycle of the Challenger's role in the `ATTESTATION` game 
 
 **TODO**
 
-> **Warning**  
-> The `VALIDITY` game type is not yet implemented. In the first iteration of Optimism's decentralization effort,
+> **Warning**
+> The `VALIDITY` game type is not yet implemented. In the first iteration of Pepe's decentralization effort,
 > challengers will respond to `ATTESTATION` games only. A validity proof based dispute game is a possibility,
 > but fault proof based dispute games will be the primary focus of the team in the near future.
 

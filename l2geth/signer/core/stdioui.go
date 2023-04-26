@@ -19,9 +19,9 @@ package core
 import (
 	"context"
 
-	"github.com/ethereum-optimism/optimism/l2geth/internal/ethapi"
-	"github.com/ethereum-optimism/optimism/l2geth/log"
-	"github.com/ethereum-optimism/optimism/l2geth/rpc"
+	"github.com/ethereum-pepe/pepe/l2geth/internal/ethapi"
+	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-pepe/pepe/l2geth/rpc"
 )
 
 type StdIOUI struct {

@@ -3,9 +3,9 @@ package services
 import (
 	"net/http"
 
-	"github.com/ethereum-optimism/optimism/indexer/db"
-	"github.com/ethereum-optimism/optimism/indexer/metrics"
-	"github.com/ethereum-optimism/optimism/indexer/server"
+	"github.com/ethereum-pepe/pepe/indexer/db"
+	"github.com/ethereum-pepe/pepe/indexer/metrics"
+	"github.com/ethereum-pepe/pepe/indexer/server"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/gorilla/mux"

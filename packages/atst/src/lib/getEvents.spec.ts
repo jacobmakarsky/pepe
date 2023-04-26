@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest'
 import { getEvents } from './getEvents'
 
 describe(getEvents.name, () => {
-  // sinc this test is using https://goerli.optimism.io it is currently skipped
+  // sinc this test is using https://goerli.pepe.io it is currently skipped
   // we should start anvil for goerli too and then we can remove this skip
   it.skipIf(process.env.CI)('should get events on goerli', async () => {
     const key = 'animalfarm.school.attended'
@@ -15,7 +15,7 @@ describe(getEvents.name, () => {
         about: '0x00000000000000000000000000000000000060A7',
         key,
         provider: new ethers.providers.JsonRpcProvider(
-          'https://goerli.optimism.io'
+          'https://goerli.pepe.io'
         ),
       })
     ).toMatchInlineSnapshot(`

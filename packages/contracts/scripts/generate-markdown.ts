@@ -18,19 +18,19 @@ interface DeploymentInfo {
 const PUBLIC_DEPLOYMENTS: DeploymentInfo[] = [
   {
     folder: 'mainnet',
-    name: 'Optimism (mainnet)',
+    name: 'Pepe (mainnet)',
     chainid: 10,
-    rpc: 'https://mainnet.optimism.io',
+    rpc: 'https://mainnet.pepe.io',
     l1Explorer: 'https://etherscan.io',
-    l2Explorer: 'https://optimistic.etherscan.io',
+    l2Explorer: 'https://pepeistic.etherscan.io',
   },
   {
     folder: 'goerli',
-    name: 'Optimism Goerli (public testnet)',
+    name: 'Pepe Goerli (public testnet)',
     chainid: 420,
-    rpc: 'https://goerli.optimism.io',
+    rpc: 'https://goerli.pepe.io',
     l1Explorer: 'https://goerli.etherscan.io',
-    l2Explorer: 'https://goerli-optimism.etherscan.io/',
+    l2Explorer: 'https://goerli-pepe.etherscan.io/',
   },
 ]
 
@@ -216,7 +216,7 @@ const main = async () => {
   }
 
   let primary = ``
-  primary = addline(primary, `# Optimism Deployments`)
+  primary = addline(primary, `# Pepe Deployments`)
   for (const deployment of PUBLIC_DEPLOYMENTS) {
     primary = addline(
       primary,

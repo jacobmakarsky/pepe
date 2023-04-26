@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum-optimism/optimism/op-proposer/metrics"
+	"github.com/ethereum-pepe/pepe/op-proposer/metrics"
 	"github.com/olekukonko/tablewriter"
 	"github.com/urfave/cli"
 )

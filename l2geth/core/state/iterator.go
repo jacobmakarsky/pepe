@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/rlp"
-	"github.com/ethereum-optimism/optimism/l2geth/trie"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-pepe/pepe/l2geth/trie"
 )
 
 // NodeIterator is an iterator to traverse the entire state trie post-order,

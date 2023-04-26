@@ -12,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/ethereum/go-ethereum/trie"
 
-	"github.com/ethereum-optimism/optimism/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
 )
 
 // validateReceipts validates that the receipt contents are valid.
@@ -75,7 +75,7 @@ func validateReceipts(block eth.BlockID, receiptHash common.Hash, txHashes []com
 		// Note: 3 non-consensus L1 receipt fields are ignored:
 		// PostState - not part of L1 ethereum anymore since EIP 658 (part of Byzantium)
 		// ContractAddress - we do not care about contract deployments
-		// And Optimism L1 fee meta-data in the receipt is ignored as well
+		// And Pepe L1 fee meta-data in the receipt is ignored as well
 	}
 
 	// Sanity-check: external L1-RPC sources are notorious for not returning all receipts,

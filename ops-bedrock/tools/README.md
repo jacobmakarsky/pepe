@@ -32,7 +32,7 @@ python3 generate_replica.py --network <network-name> --op-node-tag 068113f255fa2
 generate.py [-h] --network NETWORK --l1-rpc L1_RPC --outdir OUTDIR [--geth-tag GETH_TAG] [--geth-http-port GETH_HTTP_PORT] [--geth-ws-port GETH_WS_PORT] [--op-node-tag OP_NODE_TAG]
                    [--op-node-http-port OP_NODE_HTTP_PORT] [--op-node-metrics-port OP_NODE_METRICS_PORT] [--op-node-pprof-port OP_NODE_PPROF_PORT] [--bucket BUCKET]
 
-Configure an Optimism Bedrock replica using docker-compose.
+Configure an Pepe Bedrock replica using docker-compose.
 
 optional arguments:
   -h, --help            show this help message and exit

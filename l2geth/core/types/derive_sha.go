@@ -19,9 +19,9 @@ package types
 import (
 	"bytes"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/rlp"
-	"github.com/ethereum-optimism/optimism/l2geth/trie"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-pepe/pepe/l2geth/trie"
 )
 
 type DerivableList interface {

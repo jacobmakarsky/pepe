@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
-	"github.com/ethereum-optimism/optimism/op-node/sources"
-	"github.com/ethereum-optimism/optimism/op-program/host/config"
+	"github.com/ethereum-pepe/pepe/op-node/chaincfg"
+	"github.com/ethereum-pepe/pepe/op-node/sources"
+	"github.com/ethereum-pepe/pepe/op-program/host/config"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/log"

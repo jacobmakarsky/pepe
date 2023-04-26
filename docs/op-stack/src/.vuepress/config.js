@@ -9,8 +9,8 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['meta', { property: 'og:image', content: 'https://stack.optimism.io/assets/logos/twitter-logo.png' }],
-    ['meta', { name: 'twitter:image', content: 'https://stack.optimism.io/assets/logos/twitter-logo.png' }],
+    ['meta', { property: 'og:image', content: 'https://stack.pepe.io/assets/logos/twitter-logo.png' }],
+    ['meta', { name: 'twitter:image', content: 'https://stack.pepe.io/assets/logos/twitter-logo.png' }],
     ['meta', { name: 'twitter:title', content: 'OP Stack Docs' }],
     ['meta', { property: 'og:title', content: 'OP Stack Docs' }],
     ['meta', { name: 'twitter:card', content: 'summary' } ],
@@ -20,10 +20,10 @@ module.exports = {
   themeConfig: {
     "twitter:card": "summary",
     contributor: false,
-    hostname: 'https://stack.optimism.io',
+    hostname: 'https://stack.pepe.io',
     logo: '/assets/logos/logo.png',
     docsDir: 'src',
-    docsRepo: 'https://github.com/ethereum-optimism/opstack-docs',
+    docsRepo: 'https://github.com/ethereum-pepe/opstack-docs',
     docsBranch: 'main',
     lastUpdated: false,
     darkmode: 'disable',
@@ -40,24 +40,24 @@ module.exports = {
     algolia: {
       appId: 'O9WKE9RMCV',
       apiKey: '00cf17cba30b374d08d7f7afead974be',
-      indexName: 'optimism'
+      indexName: 'pepe'
     },
     nav: [
       {
         text: 'Home',
-        link: 'https://www.optimism.io/'
+        link: 'https://www.pepe.io/'
       },
       {
         text: 'OP Stack Docs',
         link: '/'
       },
       {
-        text: 'Optimism Docs',
-        link: 'https://community.optimism.io/'
+        text: 'Pepe Docs',
+        link: 'https://community.pepe.io/'
       },
       {
         text: 'Governance',
-        link: 'https://community.optimism.io/docs/governance/'
+        link: 'https://community.pepe.io/docs/governance/'
       },
       {
         text: 'Community',
@@ -67,14 +67,14 @@ module.exports = {
             iconPrefix: 'fab fa-',
             iconClass: 'color-discord',
             text: 'Discord',
-            link: 'https://discord.optimism.io',
+            link: 'https://discord.pepe.io',
           },
           {
             icon: 'github',
             iconPrefix: 'fab fa-',
             iconClass: 'color-github',
             text: 'GitHub',
-            link: 'https://github.com/ethereum-optimism/optimism',
+            link: 'https://github.com/ethereum-pepe/pepe',
           },
           {
             icon: 'twitter',
@@ -101,13 +101,13 @@ module.exports = {
             icon: 'computer-classic',
             iconClass: 'color-ecosystem',
             text: 'Ecosystem',
-            link: 'https://www.optimism.io/apps/all',
+            link: 'https://www.pepe.io/apps/all',
           },
           {
             icon: 'globe',
-            iconClass: 'color-optimism',
-            text: 'optimism.io',
-            link: 'https://www.optimism.io/',
+            iconClass: 'color-pepe',
+            text: 'pepe.io',
+            link: 'https://www.pepe.io/',
           }
         ]
       }
@@ -187,7 +187,7 @@ module.exports = {
         children: [
           '/docs/security/faq.md',
           '/docs/security/policy.md',
-          '/docs/security/pause.md',          
+          '/docs/security/pause.md',
           '/docs/security/forced-withdrawal.md',
         ]
       },

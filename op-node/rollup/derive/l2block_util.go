@@ -6,8 +6,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/ethereum-optimism/optimism/op-node/eth"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-node/rollup"
 )
 
 // L2BlockRefSource is a source for the generation of a L2BlockRef. E.g. a

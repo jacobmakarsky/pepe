@@ -6,10 +6,10 @@ import (
 	"math"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/p2p"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/driver"
-	oppprof "github.com/ethereum-optimism/optimism/op-service/pprof"
+	"github.com/ethereum-pepe/pepe/op-node/p2p"
+	"github.com/ethereum-pepe/pepe/op-node/rollup"
+	"github.com/ethereum-pepe/pepe/op-node/rollup/driver"
+	oppprof "github.com/ethereum-pepe/pepe/op-service/pprof"
 )
 
 type Config struct {

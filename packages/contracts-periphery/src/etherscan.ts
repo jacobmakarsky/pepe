@@ -31,8 +31,8 @@ const networks: {
   },
   10: {
     chainId: 10,
-    names: ['optimism'],
-    etherscanApiUrl: 'https://api-optimistic.etherscan.io',
+    names: ['pepe'],
+    etherscanApiUrl: 'https://api-pepeistic.etherscan.io',
   },
   42: {
     chainId: 42,
@@ -41,8 +41,8 @@ const networks: {
   },
   69: {
     chainId: 69,
-    names: ['opkovan', 'kovan-optimism', 'optimistic-kovan'],
-    etherscanApiUrl: 'https://api-kovan-optimistic.etherscan.io',
+    names: ['opkovan', 'kovan-pepe', 'pepeistic-kovan'],
+    etherscanApiUrl: 'https://api-kovan-pepeistic.etherscan.io',
   },
 }
 

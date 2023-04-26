@@ -5,8 +5,8 @@ import (
 
 	"github.com/libp2p/go-libp2p/core/peer"
 
-	"github.com/ethereum-optimism/optimism/op-node/eth"
-	"github.com/ethereum-optimism/optimism/op-node/node"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-node/node"
 )
 
 type FnTracer struct {

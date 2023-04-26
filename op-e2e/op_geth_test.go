@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/eth"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
@@ -19,7 +19,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-// TestMissingGasLimit tests that op-geth cannot build a block without gas limit while optimism is active in the chain config.
+// TestMissingGasLimit tests that op-geth cannot build a block without gas limit while pepe is active in the chain config.
 func TestMissingGasLimit(t *testing.T) {
 	InitParallel(t)
 	cfg := DefaultSystemConfig(t)

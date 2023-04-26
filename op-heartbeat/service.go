@@ -18,11 +18,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/op-node/heartbeat"
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	oppprof "github.com/ethereum-optimism/optimism/op-service/pprof"
+	"github.com/ethereum-pepe/pepe/op-node/heartbeat"
+	"github.com/ethereum-pepe/pepe/op-service/httputil"
+	oplog "github.com/ethereum-pepe/pepe/op-service/log"
+	opmetrics "github.com/ethereum-pepe/pepe/op-service/metrics"
+	oppprof "github.com/ethereum-pepe/pepe/op-service/pprof"
 )
 
 const (

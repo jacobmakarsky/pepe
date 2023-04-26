@@ -1,3 +1,3 @@
-# Optimism Deployments
-- [Optimism (mainnet)](./mainnet#readme)
-- [Optimism Goerli (public testnet)](./goerli#readme)
+# Pepe Deployments
+- [Pepe (mainnet)](./mainnet#readme)
+- [Pepe Goerli (public testnet)](./goerli#readme)

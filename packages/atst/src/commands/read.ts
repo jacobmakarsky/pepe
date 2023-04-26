@@ -48,7 +48,7 @@ export const read = async (options: ReadOptions) => {
   const provider = new providers.JsonRpcProvider({
     url: parsedOptions.rpcUrl,
     headers: {
-      'User-Agent': '@eth-optimism/atst',
+      'User-Agent': '@eth-pepe/atst',
     },
   })
 

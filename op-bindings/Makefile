@@ -10,7 +10,7 @@ bindings: l1block-bindings \
 	l1-cross-domain-messenger-bindings \
 	l1-standard-bridge-bindings \
 	l2-to-l1-message-passer-bindings \
-	optimism-portal-bindings \
+	pepe-portal-bindings \
 	l2-output-oracle-bindings \
 	gas-price-oracle-bindings \
 	legacy-message-passer-bindings \
@@ -18,8 +18,8 @@ bindings: l1block-bindings \
 	l2-cross-domain-messenger-bindings \
 	l2-standard-bridge-bindings \
 	sequencer-fee-vault-bindings \
-	optimism-mintable-erc20-factory-bindings \
-	optimism-mintable-erc20-bindings \
+	pepe-mintable-erc20-factory-bindings \
+	pepe-mintable-erc20-bindings \
 	proxy-bindings \
 	proxy-admin-bindings \
 	erc20-bindings \
@@ -27,7 +27,7 @@ bindings: l1block-bindings \
 	deployer-whitelist-bindings \
 	l2-erc721-bridge-bindings \
 	l1-erc721-bridge-bindings \
-	optimism-mintable-erc721-factory-bindings \
+	pepe-mintable-erc721-factory-bindings \
 	l1-fee-vault-bindings \
 	basefee-vault-bindings \
 	legacy-erc20-eth-bindings
@@ -50,7 +50,7 @@ l1-cross-domain-messenger-bindings: compile
 l1-standard-bridge-bindings: compile
 	./gen_bindings.sh contracts/L1/L1StandardBridge.sol:L1StandardBridge $(pkg)
 
-optimism-portal-bindings: compile
+pepe-portal-bindings: compile
 	./gen_bindings.sh contracts/L1/OptimismPortal.sol:OptimismPortal $(pkg)
 
 l2-output-oracle-bindings: compile
@@ -80,7 +80,7 @@ l2-erc721-bridge-bindings:
 l1-erc721-bridge-bindings:
 	./gen_bindings.sh contracts/L1/L1ERC721Bridge.sol:L1ERC721Bridge $(pkg)
 
-optimism-mintable-erc721-factory-bindings:
+pepe-mintable-erc721-factory-bindings:
 	./gen_bindings.sh contracts/universal/OptimismMintableERC721Factory.sol:OptimismMintableERC721Factory $(pkg)
 
 sequencer-fee-vault-bindings: compile
@@ -92,10 +92,10 @@ basefee-vault-bindings: compile
 l1-fee-vault-bindings: compile
 	./gen_bindings.sh contracts/L2/L1FeeVault.sol:L1FeeVault $(pkg)
 
-optimism-mintable-erc20-factory-bindings: compile
+pepe-mintable-erc20-factory-bindings: compile
 	./gen_bindings.sh contracts/universal/OptimismMintableERC20Factory.sol:OptimismMintableERC20Factory $(pkg)
 
-optimism-mintable-erc20-bindings: compile
+pepe-mintable-erc20-bindings: compile
 	./gen_bindings.sh contracts/universal/OptimismMintableERC20.sol:OptimismMintableERC20 $(pkg)
 
 legacy-erc20-eth-bindings: compile

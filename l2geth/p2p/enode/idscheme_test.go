@@ -23,9 +23,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/l2geth/crypto"
-	"github.com/ethereum-optimism/optimism/l2geth/p2p/enr"
-	"github.com/ethereum-optimism/optimism/l2geth/rlp"
+	"github.com/ethereum-pepe/pepe/l2geth/crypto"
+	"github.com/ethereum-pepe/pepe/l2geth/p2p/enr"
+	"github.com/ethereum-pepe/pepe/l2geth/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

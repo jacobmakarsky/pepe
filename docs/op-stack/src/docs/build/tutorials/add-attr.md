@@ -76,12 +76,12 @@ Deploy this smart contract to your L2 (using any tool you find convenient). Make
 
 ## Add the burn transaction
 
-Now we need to add logic to the `op-node` to automatically submit a burn report whenever an L1 block is produced. Since this transaction is very similar to the system transaction that reports other L1 block info (found in [l1_block_info.go](https://github.com/ethereum-optimism/optimism/blob/c9cd1215b76111888e25ee27a49a0bc0c4eeb0f8/op-node/rollup/derive/l1_block_info.go)), we’ll use that transaction as a jumping-off point. 
+Now we need to add logic to the `op-node` to automatically submit a burn report whenever an L1 block is produced. Since this transaction is very similar to the system transaction that reports other L1 block info (found in [l1_block_info.go](https://github.com/ethereum-pepe/pepe/blob/c9cd1215b76111888e25ee27a49a0bc0c4eeb0f8/op-node/rollup/derive/l1_block_info.go)), we’ll use that transaction as a jumping-off point.
 
 1. Navigate to the `op-node` package:
 
     ```bash
-    cd ~/optimism/op-node
+    cd ~/pepe/op-node
     ```
 
 1. Inside of the folder `rollup/derive`, create a new file called `l1_burn_info.go`:
@@ -105,7 +105,7 @@ Now we need to add logic to the `op-node` to automatically submit a burn report 
         "github.com/ethereum/go-ethereum/core/types"
         "github.com/ethereum/go-ethereum/crypto"
 
-        "github.com/ethereum-optimism/optimism/op-node/eth"
+        "github.com/ethereum-pepe/pepe/op-node/eth"
     )
 
     const (
@@ -202,41 +202,41 @@ Now we need to add logic to the `op-node` to automatically submit a burn report 
 
 ## Insert the burn transactions
 
-Finally, we’ll need to update `~/optimism/op-node/rollup/derive/attributes.go` to insert the new burn transaction into every block. You’ll need to make the following changes:
+Finally, we’ll need to update `~/pepe/op-node/rollup/derive/attributes.go` to insert the new burn transaction into every block. You’ll need to make the following changes:
 
 1. Find these lines:
-    
+
     ```go
     l1InfoTx, err := L1InfoDepositBytes(seqNumber, l1Info, sysConfig)
     if err != nil {
           return nil, NewCriticalError(fmt.Errorf("failed to create l1InfoTx: %w", err))
     }
     ```
-    
+
 1. After those lines, add this code fragment:
-    
+
     ```go
     l1BurnTx, err := L1BurnDepositBytes(seqNumber, l1Info, sysConfig)
     if err != nil {
             return nil, NewCriticalError(fmt.Errorf("failed to create l1InfoTx: %w", err))
     }
     ```
-    
+
 1. Immediately following, change these lines:
-    
+
     ```go
     txs := make([]hexutil.Bytes, 0, 1+len(depositTxs))
     txs = append(txs, l1InfoTx)
     ```
-    
+
     to
-    
+
     ```go
     txs := make([]hexutil.Bytes, 0, 2+len(depositTxs))
     txs = append(txs, l1InfoTx)
     txs = append(txs, l1BurnTx)
     ```
-    
+
 
 All we’re doing here is creating a new burn transaction after every `l1InfoTx` and inserting it into every block.
 
@@ -245,7 +245,7 @@ All we’re doing here is creating a new burn transaction after every `l1InfoTx`
 Before we can see this change take effect, you’ll need to rebuild your `op-node`:
 
 ```bash
-cd ~/optimism/op-node
+cd ~/pepe/op-node
 make op-node
 ```
 

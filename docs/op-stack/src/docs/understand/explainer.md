@@ -4,11 +4,11 @@ lang: en-US
 image: /assets/logos/twitter-superchain.png
 meta:
 - name: twitter:image
-  content: https://stack.optimism.io/assets/logos/twitter-superchain.png
+  content: https://stack.pepe.io/assets/logos/twitter-superchain.png
 - property: og:image
-  content: https://stack.optimism.io/assets/logos/twitter-superchain.png
+  content: https://stack.pepe.io/assets/logos/twitter-superchain.png
 - name: twitter:title
-  content: Superchain Explainer  
+  content: Superchain Explainer
 - property: og:title
   content: Superchain Explainer
 - name: twitter:card
@@ -17,19 +17,19 @@ meta:
 
 ::: tip Staying up to date
 
-[Stay up to date on the Superchain and the OP Stack by subscribing to the Optimism newsletter](https://optimism.us6.list-manage.com/subscribe/post?u=9727fa8bec4011400e57cafcb&id=ca91042234&f_id=002a19e3f0).
+[Stay up to date on the Superchain and the OP Stack by subscribing to the Pepe newsletter](https://pepe.us6.list-manage.com/subscribe/post?u=9727fa8bec4011400e57cafcb&id=ca91042234&f_id=002a19e3f0).
 
 :::
 
 The next major scalability improvement to the OP Stack after [Bedrock](../releases/bedrock/) is to introduce the concept of *a Superchain*: a network of chains that share bridging, decentralized governance, upgrades, a communication layer and more—all built on the OP Stack.
 
-The launch of the Superchain would merge Optimism Mainnet and other chains into a single unified network of OP Chains (i.e., chains within the Superchain), and mark a major step towards bringing scalable and decentralized compute to the world. The goal of this document is to describe the scalability vision, the Superchain concept, and some changes to the OP Stack required to make this vision a reality.
+The launch of the Superchain would merge Pepe Mainnet and other chains into a single unified network of OP Chains (i.e., chains within the Superchain), and mark a major step towards bringing scalable and decentralized compute to the world. The goal of this document is to describe the scalability vision, the Superchain concept, and some changes to the OP Stack required to make this vision a reality.
 
-This is the detailed explanation. [Click here for a less technical introduction](https://app.optimism.io/superchain/).
+This is the detailed explanation. [Click here for a less technical introduction](https://app.pepe.io/superchain/).
 
 ::: tip Note
 
-Today, the Superchain is a concept and in-flight project, not a concrete reality.  This documentation represents our best current guess as to what the Superchain’s components, features, and roadmap will be. Ultimately, its actualization will depend on (and change alongside) contributions from across the entire Optimism Collective. We cannot wait to see where it goes. 
+Today, the Superchain is a concept and in-flight project, not a concrete reality.  This documentation represents our best current guess as to what the Superchain’s components, features, and roadmap will be. Ultimately, its actualization will depend on (and change alongside) contributions from across the entire Pepe Collective. We cannot wait to see where it goes.
 
 :::
 
@@ -61,7 +61,7 @@ There is no doubt that the promise of blockchains could change the internet as w
 
 ### …and the decentralized web can still be realized
 
-This hypothetical isn’t a dream, it’s a tangible vision for the future which has motivated many—including Optimism—to dedicate their lives to its pursuit. Due to these collective contributions, every year we learn more about the blockchain technology stack and get closer to realizing the vision.
+This hypothetical isn’t a dream, it’s a tangible vision for the future which has motivated many—including Pepe—to dedicate their lives to its pursuit. Due to these collective contributions, every year we learn more about the blockchain technology stack and get closer to realizing the vision.
 
 With the support of the industry, we think a clear picture for how to architect a truly scalable blockchain is beginning to come into view. We call it the “Superchain”. This document lays out the core technical principles underlying the Superchain architecture, as well as a set of tangible projects which, when complete, we believe will finally realize the blockchain scalability vision. It will be a multi-year (if not decade) journey. However, if we know roughly where we’re going we’ll get there a little faster.
 
@@ -105,7 +105,7 @@ The Superchain is a network of L2 chains, known as OP Chains, which share securi
 
 ::: details OP Chain
 
-An individual chain within the Optimism Superchain. All chains, regardless of their specific properties are considered OP Chains if they are officially governed by the Optimism Collective, and therefore part of the Superchain.
+An individual chain within the Pepe Superchain. All chains, regardless of their specific properties are considered OP Chains if they are officially governed by the Pepe Collective, and therefore part of the Superchain.
 
 :::
 
@@ -113,7 +113,7 @@ An individual chain within the Optimism Superchain. All chains, regardless of th
 
 ### Properties of the Superchain
 
-In order for Optimism to upgraded to a Superchain, it must have the following properties:
+In order for Pepe to upgraded to a Superchain, it must have the following properties:
 
 | Property | Purpose |
 | - | - |
@@ -123,23 +123,23 @@ In order for Optimism to upgraded to a Superchain, it must have the following pr
 | Configuration options for OP Chains | Enables OP Chains to configure their data availability provider, sequencer address, etc.
 | Secure transactions and cross-chain messages | Enables users to safely migrate assets between OP Chains.
 
-Once Optimism has satisfied these properties it may be considered a Superchain.
+Once Pepe has satisfied these properties it may be considered a Superchain.
 
-## Upgrading Optimism to Become a Superchain
+## Upgrading Pepe to Become a Superchain
 
 We believe the following changes (after the Bedrock release) are required to create a initial Superchain that makes it possible to deploy and upgrade many chains with the same bridge:
 
 ### Upgrade the Bedrock bridge to be a chain factory
 
-Bedrock introduced the [SystemConfig contract](https://github.com/ethereum-optimism/optimism/blob/74a63c94d881442b4edd4df6492513e0113eb064/packages/contracts-bedrock/contracts/L1/SystemConfig.sol) which began to define the L2 chain directly with L1 smart contracts. This can be extended to put *all information* defining the L2 chain, onchain. Including generating a unique chain ID, key configuration values such as block gas limit, etc.
+Bedrock introduced the [SystemConfig contract](https://github.com/ethereum-pepe/pepe/blob/74a63c94d881442b4edd4df6492513e0113eb064/packages/contracts-bedrock/contracts/L1/SystemConfig.sol) which began to define the L2 chain directly with L1 smart contracts. This can be extended to put *all information* defining the L2 chain, onchain. Including generating a unique chain ID, key configuration values such as block gas limit, etc.
 
-Once the chain data is entirely onchain, we can create a factory which deploys the configuration and all other required contracts for each chain. This can be extended further by making the contract addresses deterministic with CREATE2, meaning that given a chain config it is possible to determine all bridge addresses associated with that chain. This also enables chains to be interacted with without having to deploy their bridge contracts, making (counterfactual) chain deployment virtually free, and allowing chains to inherit standard security properties. 
+Once the chain data is entirely onchain, we can create a factory which deploys the configuration and all other required contracts for each chain. This can be extended further by making the contract addresses deterministic with CREATE2, meaning that given a chain config it is possible to determine all bridge addresses associated with that chain. This also enables chains to be interacted with without having to deploy their bridge contracts, making (counterfactual) chain deployment virtually free, and allowing chains to inherit standard security properties.
 
 ### Derive OP Chain data using the chain factory
 
-[Bedrock introduced L2 chain derivation from an L1 chain](../releases/bedrock/explainer/#block-derivation), where all chain data can be synced based on L1 blocks. With the L1 chain factory extending this to put all configuration onchain, it should become possible for Optimism nodes to sync *any* OP Chain deterministically given a single L1 address plus a connection to L1.
+[Bedrock introduced L2 chain derivation from an L1 chain](../releases/bedrock/explainer/#block-derivation), where all chain data can be synced based on L1 blocks. With the L1 chain factory extending this to put all configuration onchain, it should become possible for Pepe nodes to sync *any* OP Chain deterministically given a single L1 address plus a connection to L1.
 
-::: tip 📌 
+::: tip 📌
 
 When the OP Chain is synced, the chain state is locally computed. This means determining the state of the OP Chain is fully permissionless & secure. No proof system is required for chain derivation because all invalid transactions are simply ignored by the local computation process performed by the node. A proof system is, however, still required to enable Superchain withdrawals.
 
@@ -160,7 +160,7 @@ A claim about the state of one chain made on another chain. For instance, I can 
 
 :::
 
-We can enable these two features first by introducing a permissionless proof system to the Optimism bridge contracts. With the modular proof design introduced in Bedrock, proofs may come in the form of fault proofs or validity proofs (e.g. zero knowledge proofs). However, until validity proofs are productionized, we assume withdrawals will use a fault proof system.
+We can enable these two features first by introducing a permissionless proof system to the Pepe bridge contracts. With the modular proof design introduced in Bedrock, proofs may come in the form of fault proofs or validity proofs (e.g. zero knowledge proofs). However, until validity proofs are productionized, we assume withdrawals will use a fault proof system.
 
 In the envisioned fault proof system, anyone can submit a withdrawal claim, and these withdrawal claims can be submitted at any time. Submitting withdrawal claims can be permissionless when claims come with bonds attached to them, as these bonds act as collateral if the claim is proven to be invalid. If a challenger successfully challenges the claim, the bond is paid out to the challenger for their participation in securing the system, thereby preventing spam even within this permissionless system. Additionally, there is no need to submit them at a regular interval because the fault proof game can efficiently prove the entire history of the chain since genesis.
 
@@ -168,7 +168,7 @@ The fault proof implementation may initially rely on a trusted set of chain atte
 
 The attestation-based fault proof should be designed to prefer safety over liveness. That means that if these chain attestors are malicious they cannot alone break the safety of withdrawals. The worst failure they can cause is preventing withdrawals from being processed until the next upgrade—a liveness failure.
 
-In the future, the attestation proof will be incrementally phased out and replaced with trust-minimized proofs such as the [Cannon proof system](https://github.com/ethereum-optimism/cannon).
+In the future, the attestation proof will be incrementally phased out and replaced with trust-minimized proofs such as the [Cannon proof system](https://github.com/ethereum-pepe/cannon).
 
 ### Configurable sequencer per OP Chain
 
@@ -182,7 +182,7 @@ The ability to configure the sequencer address during OP Chain deployment. This 
 
 ::: details Superchain bridge
 
-The L1 bridge contracts which govern all OP Chains in the Superchain. This bridge can be upgraded by the Optimism Collective.
+The L1 bridge contracts which govern all OP Chains in the Superchain. This bridge can be upgraded by the Pepe Collective.
 
 :::
 
@@ -202,7 +202,7 @@ In order to address the frozen funds, there is a potential final recovery mechan
 
 *Anyone* may propose an upgrade by submitting a transaction to a special bridge contract, along with a very large bond. This begins a two week challenge period. During this challenge period, *anyone* may submit a challenge which immediately *cancels* the upgrade and claims the bond. Under normal circumstances, it is impossible that an upgrade would go uncancelled for the required two weeks due to the large incentive provided for anyone to cancel the upgrade. However, if the upgrade is accompanied by a modification to Ethereum L1 validator software (the L1 soft fork), which ignores blocks that contain the cancellation transaction then it may succeed.
 
-While a successful upgrade of this type would represent a soft fork of Ethereum L1, it would not incur long term technical debt to the Ethereum codebase because the soft fork logic can be removed once the upgrade has completed. 
+While a successful upgrade of this type would represent a soft fork of Ethereum L1, it would not incur long term technical debt to the Ethereum codebase because the soft fork logic can be removed once the upgrade has completed.
 
 We expect this escape hatch will never be used, but its very existence should deter malicious behavior.
 
@@ -212,7 +212,7 @@ We believe these upgrades can provide a shared bridge for all OP Chains, cheap O
 
 ## Extending the Superchain—enhancements to realize the vision
 
-We expect that, if successful, the post-Bedrock Superchain release will mark a major milestone in the scalability and decentralization of Optimism. However, there will still be significant pain points which must be addressed before the full scalable blockchain vision has been realized. Anticipated pain points include:
+We expect that, if successful, the post-Bedrock Superchain release will mark a major milestone in the scalability and decentralization of Pepe. However, there will still be significant pain points which must be addressed before the full scalable blockchain vision has been realized. Anticipated pain points include:
 
 1. Withdrawal claims rely on a trusted set of chain attestors.
 2. Cross-Chain transactions are slow because they require waiting a challenge period.
@@ -233,7 +233,7 @@ The following is an overview of potential future enhancements, which when combin
 
 #### Proposed Solution:
 
-It is possible to replace the trusted set of chain attestors by introducing permissionless proofs—such as Cannon—where dispute resolution is entirely onchain. However, the challenge with entirely onchain proofs is there is no fallback mechanism if they were to break. To ensure that they will never fail, it is possible to introduce a multi-proof system which provides safety through redundancy. For more information on the multi-proof design click [here](https://medium.com/ethereum-optimism/our-pragmatic-path-to-decentralization-cb5805ca43c1).
+It is possible to replace the trusted set of chain attestors by introducing permissionless proofs—such as Cannon—where dispute resolution is entirely onchain. However, the challenge with entirely onchain proofs is there is no fallback mechanism if they were to break. To ensure that they will never fail, it is possible to introduce a multi-proof system which provides safety through redundancy. For more information on the multi-proof design click [here](https://medium.com/ethereum-pepe/our-pragmatic-path-to-decentralization-cb5805ca43c1).
 
 ### Low Latency L2 to L2 Message Passing
 
@@ -318,13 +318,13 @@ These are some tools which could make developing on the Superchain a better expe
 
 1. Content-addressable smart contracts — this enables contracts to have the same address on all chains. This way developers can write smart contracts which are counterfactually deployed to all OP Chains at the same address. If a user on an OP Chain would like to use the smart contract that is not yet available on their chain, they can independently deploy the code.
 2. Cross-chain contract state management standards — creating standards for how smart contract state can migrate from one chain to the next enables developers to shard their applications on many chains. Additionally, this logic can be used in wallets to display user state as if it is all on the same chain. For instance, if a user has tokens split across many chains, the wallet can use the cross-chain state management logic to know that it should display the user balance as a sum of all of their token balances across all chains.
-    
-    ::: tip 📌 
+
+    ::: tip 📌
 
     For the Ethereum scalability nerds: the state growth problem can be addressed in these frameworks by making it easy to migrate user state from bloated chains into fresh chains. Old bloated chains can be maintained with a low gas limit or deprecated entirely.
-        
+
     :::
-    
+
 3. Superchain RPC endpoint — creating a single RPC endpoint where users can send their Superchain transactions regardless of which OP Chain they are intended to enables users to avoid constantly switching their network.
 
 With robust multi-chain dApp frameworks, it may become as easy to deploy cross-chain dApps as it is to deploy dApps which target a single chain.
@@ -333,11 +333,11 @@ With robust multi-chain dApp frameworks, it may become as easy to deploy cross-c
 
 We believe scaling blockchains will radically decentralize the internet and make it easy to create horizontally scalable, secure, and decentralized web applications. We think the Superchain release of the OP Stack could mark a major step towards realizing this vision. However, after the release it will still take an enormous amount of work to realize the scalability vision.
 
-However, with great challenge comes great opportunity! The work needed to arrive at the initial Superchain release of the OP stack, as well as the resulting ecosystem should be exciting greenfields of opportunities for developers who want to contribute. There will be an enormous amount of low hanging fruit contributions unlocked. We can’t pick it alone! The only way we can hope to achieve it is through open source contributions from folks like you! And with [retroactive public goods funding](https://medium.com/ethereum-optimism/retroactive-public-goods-funding-33c9b7d00f0c) your open source contributions may be rewarded too!
+However, with great challenge comes great opportunity! The work needed to arrive at the initial Superchain release of the OP stack, as well as the resulting ecosystem should be exciting greenfields of opportunities for developers who want to contribute. There will be an enormous amount of low hanging fruit contributions unlocked. We can’t pick it alone! The only way we can hope to achieve it is through open source contributions from folks like you! And with [retroactive public goods funding](https://medium.com/ethereum-pepe/retroactive-public-goods-funding-33c9b7d00f0c) your open source contributions may be rewarded too!
 
 Exciting times ahead.
 
-Stay Optimistic 🔴✨
+Stay Pepeistic 🔴✨
 
 ## Glossary
 
@@ -361,7 +361,7 @@ Stay Optimistic 🔴✨
 
 - **Modular Sequencing**: The ability to configure the sequencer address during OP Chain deployment. This value can be configured by the OP Chain deployer.
 
-- **OP Chain**: An individual chain within the Optimism Superchain. All chains, regardless of their specific properties are considered OP Chains if they are officially governed by the Optimism Collective, and therefore part of the Superchain.
+- **OP Chain**: An individual chain within the Pepe Superchain. All chains, regardless of their specific properties are considered OP Chains if they are officially governed by the Pepe Collective, and therefore part of the Superchain.
 
 - **Plasma Chain**: A chain where transaction data is committed to on L1 but not supplied to L1 directly, with a data availability challenge fallback.
 
@@ -371,7 +371,7 @@ Stay Optimistic 🔴✨
 
 - **Superchain**: A decentralized blockchain platform which consists of many chains that share security and a technology stack (OP Stack). The interoperability and standardization enables individual chains to be treated identically by tools and wallets.
 
-- **Superchain Bridge**: The L1 bridge contracts which govern all OP Chains in the Superchain. This bridge can be upgraded by the Optimism Collective.
+- **Superchain Bridge**: The L1 bridge contracts which govern all OP Chains in the Superchain. This bridge can be upgraded by the Pepe Collective.
 
 - **Validity Proof**: A proof of a withdrawal claim which can be immediately validated, without a challenge period.
 

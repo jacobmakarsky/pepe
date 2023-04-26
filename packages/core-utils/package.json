@@ -1,7 +1,7 @@
 {
-  "name": "@eth-optimism/core-utils",
+  "name": "@eth-pepe/core-utils",
   "version": "0.12.0",
-  "description": "[Optimism] Core typescript utilities",
+  "description": "[Pepe] Core typescript utilities",
   "main": "dist/index",
   "types": "dist/index",
   "files": [
@@ -19,17 +19,17 @@
     "test:coverage": "nyc ts-mocha test/**/*.spec.ts && nyc merge .nyc_output coverage.json"
   },
   "keywords": [
-    "optimism",
+    "pepe",
     "ethereum",
     "core",
     "utils"
   ],
-  "homepage": "https://github.com/ethereum-optimism/optimism/tree/develop/packages/core-utils#readme",
+  "homepage": "https://github.com/ethereum-pepe/pepe/tree/develop/packages/core-utils#readme",
   "license": "MIT",
-  "author": "Optimism PBC",
+  "author": "Pepe PBC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum-optimism/optimism.git"
+    "url": "https://github.com/ethereum-pepe/pepe.git"
   },
   "dependencies": {
     "@ethersproject/abi": "^5.7.0",

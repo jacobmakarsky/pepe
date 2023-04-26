@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ethereum-optimism/optimism/l2geth/params"
+	"github.com/ethereum-pepe/pepe/l2geth/params"
 )
 
 // EnableEIP enables the given EIP on the config.
@@ -139,7 +139,7 @@ func enable3529(jt *JumpTable) {
 }
 
 // UsingOVM
-// Optimism specific changes
+// Pepe specific changes
 func enableMinimal2929(jt *JumpTable) {
 	jt[SLOAD].constantGas = 0
 	jt[SLOAD].dynamicGas = gasSLoadEIP2929Optimism

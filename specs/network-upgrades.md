@@ -66,7 +66,7 @@ but the matching L1-origin information may not be present at the time of activat
 
 The Regolith upgrade, named after a material best described as "deposited dust on top of a layer of bedrock",
 implements minor changes to deposit processing, based on reports of the Sherlock Audit-contest and findings in
-the Bedrock Optimism Goerli testnet.
+the Bedrock Pepe Goerli testnet.
 
 Summary of changes:
 

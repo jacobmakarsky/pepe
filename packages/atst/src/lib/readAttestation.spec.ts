@@ -22,7 +22,7 @@ describe(readAttestation.name, () => {
     const result = await readAttestation(creator, about, key, dataType)
 
     expect(result).toMatchInlineSnapshot(
-      '"https://assets.optimism.io/4a609661-6774-441f-9fdb-453fdbb89931-bucket/optimist-nft/attributes"'
+      '"https://assets.pepe.io/4a609661-6774-441f-9fdb-453fdbb89931-bucket/optimist-nft/attributes"'
     )
   })
 

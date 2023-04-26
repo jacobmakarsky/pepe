@@ -1,5 +1,5 @@
 import { DeployFunction } from 'hardhat-deploy/dist/types'
-import '@eth-optimism/hardhat-deploy-config'
+import '@eth-pepe/hardhat-deploy-config'
 import 'hardhat-deploy'
 
 import { deploy } from '../src/deploy-utils'

@@ -1,8 +1,8 @@
 /* Imports: Internal */
 import { providers } from 'ethers'
-import { applyL1ToL2Alias } from '@eth-optimism/core-utils'
-import { asL2Provider } from '@eth-optimism/sdk'
-import { getContractInterface } from '@eth-optimism/contracts'
+import { applyL1ToL2Alias } from '@eth-pepe/core-utils'
+import { asL2Provider } from '@eth-pepe/sdk'
+import { getContractInterface } from '@eth-pepe/contracts'
 
 /* Imports: External */
 import { expect } from './shared/setup'

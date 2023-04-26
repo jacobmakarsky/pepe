@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/crypto"
-	"github.com/ethereum-optimism/optimism/l2geth/params"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/crypto"
+	"github.com/ethereum-pepe/pepe/l2geth/params"
 )
 
 var (

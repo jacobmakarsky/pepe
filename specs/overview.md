@@ -1,4 +1,4 @@
-# Optimism Overview
+# Pepe Overview
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -19,7 +19,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-This document is a high-level technical overview of the Optimism protocol. It aims to explain how the protocol works in
+This document is a high-level technical overview of the Pepe protocol. It aims to explain how the protocol works in
 an informal manner, and direct readers to other parts of the specification so that they may learn more.
 
 This document assumes you've read the [introduction](./introduction.md).
@@ -72,7 +72,7 @@ and fault proofs.
   - Handles L1 reorgs.
   - Distributes unsubmitted blocks to other rollup nodes.
 - **Execution Engine (EE)**:
-  - A vanilla Geth node with minor modifications to support Optimism.
+  - A vanilla Geth node with minor modifications to support Pepe.
   - Maintains L2 state.
   - Sync state to other L2 nodes for fast onboarding.
   - Serves the Engine API to the rollup node.
@@ -87,7 +87,7 @@ and fault proofs.
 
 - [Execution Engine](./exec-engine.md)
 
-Since the EE uses Geth under the hood, Optimism uses Geth's built-in peer-to-peer network and transaction pool to
+Since the EE uses Geth under the hood, Pepe uses Geth's built-in peer-to-peer network and transaction pool to
 propagate transactions. The same network can also be used to propagate submitted blocks and support snap-sync.
 
 Unsubmitted blocks, however, are propagated using a separate peer-to-peer network of Rollup Nodes. This is optional,
@@ -105,7 +105,7 @@ The below diagram illustrates how the sequencer and verifiers fit together:
 
 - [Deposits](./deposits.md)
 
-Optimism supports two types of deposits: user deposits, and L1 attributes deposits. To perform a user deposit, users
+Pepe supports two types of deposits: user deposits, and L1 attributes deposits. To perform a user deposit, users
 call the `depositTransaction` method on the `OptimismPortal` contract. This in turn emits `TransactionDeposited` events,
 which the rollup node reads during block derivation.
 
@@ -120,13 +120,13 @@ Both deposit types are represented by a single custom EIP-2718 transaction type 
 #### Overview
 
 The rollup chain can be deterministically derived given an L1 Ethereum chain. The fact that the entire rollup chain can
-be derived based on L1 blocks is _what makes Optimism a rollup_. This process can be represented as:
+be derived based on L1 blocks is _what makes Pepe a rollup_. This process can be represented as:
 
 ```text
 derive_rollup_chain(l1_blockchain) -> rollup_blockchain
 ```
 
-Optimism's block derivation function is designed such that it:
+Pepe's block derivation function is designed such that it:
 
 - Requires no state other than what is easily accessible using L1 and L2 execution engine APIs.
 - Supports sequencers and sequencer consensus.

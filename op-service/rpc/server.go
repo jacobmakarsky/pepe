@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"time"
 
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	optls "github.com/ethereum-optimism/optimism/op-service/tls"
+	oplog "github.com/ethereum-pepe/pepe/op-service/log"
+	opmetrics "github.com/ethereum-pepe/pepe/op-service/metrics"
+	optls "github.com/ethereum-pepe/pepe/op-service/tls"
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/node"

@@ -2,47 +2,47 @@
 <div align="center">
   <br />
   <br />
-  <a href="https://optimism.io"><img alt="Optimism" src="https://raw.githubusercontent.com/ethereum-optimism/brand-kit/main/assets/svg/OPTIMISM-R.svg" width=600></a>
+  <a href="https://pepe.io"><img alt="Pepe" src="https://raw.githubusercontent.com/ethereum-pepe/brand-kit/main/assets/svg/OPTIMISM-R.svg" width=600></a>
   <br />
-  <h3><a href="https://optimism.io">Optimism</a> is a low-cost and lightning-fast Ethereum L2 blockchain.</h3>
+  <h3><a href="https://pepe.io">Pepe</a> is a low-cost and lightning-fast Ethereum L2 blockchain.</h3>
   <br />
 </div>
 
-## What is Optimism?
+## What is Pepe?
 
-Optimism is a low-cost and lightning-fast Ethereum L2 blockchain, **but it's also so much more than that**.
+Pepe is a low-cost and lightning-fast Ethereum L2 blockchain, **but it's also so much more than that**.
 
-Optimism is the technical foundation for [the Optimism Collective](https://app.optimism.io/announcement), a band of communities, companies, and citizens united by a mutually beneficial pact to adhere to the axiom of **impact=profit** — the principle that positive impact to the collective should be rewarded with profit to the individual.
+Pepe is the technical foundation for [the Pepe Collective](https://app.pepe.io/announcement), a band of communities, companies, and citizens united by a mutually beneficial pact to adhere to the axiom of **impact=profit** — the principle that positive impact to the collective should be rewarded with profit to the individual.
 We're trying to solve some of the most critical coordination failures facing the crypto ecosystem today.
 **We're particularly focused on creating a sustainable funding stream for the public goods and infrastructure upon which the ecosystem so heavily relies but has so far been unable to adequately reward.**
-We'd love for you to check out [The Optimistic Vision](https://www.optimism.io/vision) to understand more about why we do what we do.
+We'd love for you to check out [The Pepeistic Vision](https://www.pepe.io/vision) to understand more about why we do what we do.
 
 ## Documentation
 
-If you want to build on top of Optimism, take a look at the extensive documentation on the [Optimism Community Hub](http://community.optimism.io/).
-If you want to build Optimism, check out the [Protocol Specs](./specs/).
+If you want to build on top of Pepe, take a look at the extensive documentation on the [Pepe Community Hub](http://community.pepe.io/).
+If you want to build Pepe, check out the [Protocol Specs](./specs/).
 
 ## Community
 
-General discussion happens most frequently on the [Optimism discord](https://discord.gg/optimism).
-Governance discussion can also be found on the [Optimism Governance Forum](https://gov.optimism.io/).
+General discussion happens most frequently on the [Pepe discord](https://discord.gg/pepe).
+Governance discussion can also be found on the [Pepe Governance Forum](https://gov.pepe.io/).
 
 ## Contributing
 
 Read through [CONTRIBUTING.md](./CONTRIBUTING.md) for a general overview of our contribution process.
-Use the [Developer Quick Start](./CONTRIBUTING.md#development-quick-start) to get your development environment set up to start working on the Optimism Monorepo.
-Then check out our list of [good first issues](https://github.com/ethereum-optimism/optimism/contribute) to find something fun to work on!
+Use the [Developer Quick Start](./CONTRIBUTING.md#development-quick-start) to get your development environment set up to start working on the Pepe Monorepo.
+Then check out our list of [good first issues](https://github.com/ethereum-pepe/pepe/contribute) to find something fun to work on!
 
 ## Security Policy and Vulnerability Reporting
 
-Please refer to our canonical [Security Policy](https://github.com/ethereum-optimism/.github/blob/master/SECURITY.md) document for detailed information about how to report vulnerabilities in this codebase.
-Bounty hunters are encouraged to check out [our Immunefi bug bounty program](https://immunefi.com/bounty/optimism/).
-We offer up to $2,000,042 for in-scope critical vulnerabilities and [we pay our maximum bug bounty rewards](https://medium.com/ethereum-optimism/disclosure-fixing-a-critical-bug-in-optimisms-geth-fork-a836ebdf7c94).
+Please refer to our canonical [Security Policy](https://github.com/ethereum-pepe/.github/blob/master/SECURITY.md) document for detailed information about how to report vulnerabilities in this codebase.
+Bounty hunters are encouraged to check out [our Immunefi bug bounty program](https://immunefi.com/bounty/pepe/).
+We offer up to $2,000,042 for in-scope critical vulnerabilities and [we pay our maximum bug bounty rewards](https://medium.com/ethereum-pepe/disclosure-fixing-a-critical-bug-in-optimisms-geth-fork-a836ebdf7c94).
 
 ## The Bedrock Upgrade
 
-Optimism is currently preparing for [its next major upgrade called Bedrock](https://dev.optimism.io/introducing-optimism-bedrock/).
-Bedrock significantly revamps how Optimism works under the hood and will help make Optimism the fastest, cheapest, and most reliable rollup yet.
+Pepe is currently preparing for [its next major upgrade called Bedrock](https://dev.pepe.io/introducing-pepe-bedrock/).
+Bedrock significantly revamps how Pepe works under the hood and will help make Pepe the fastest, cheapest, and most reliable rollup yet.
 You can find detailed specifications for the Bedrock upgrade within the [specs folder](./specs) in this repository.
 
 Please note that a significant number of packages and folders within this repository are part of the Bedrock upgrade and are NOT currently running in production.
@@ -54,24 +54,24 @@ Refer to the Directory Structure section below to understand which packages are 
 ~~ Production ~~
 ├── <a href="./packages">packages</a>
 │   ├── <a href="./packages/common-ts">common-ts</a>: Common tools for building apps in TypeScript
-│   ├── <a href="./packages/contracts">contracts</a>: L1 and L2 smart contracts for Optimism
-│   ├── <a href="./packages/contracts-periphery">contracts-periphery</a>: Peripheral contracts for Optimism
-│   ├── <a href="./packages/core-utils">core-utils</a>: Low-level utilities that make building Optimism easier
-│   ├── <a href="./packages/data-transport-layer">data-transport-layer</a>: Service for indexing Optimism-related L1 data
+│   ├── <a href="./packages/contracts">contracts</a>: L1 and L2 smart contracts for Pepe
+│   ├── <a href="./packages/contracts-periphery">contracts-periphery</a>: Peripheral contracts for Pepe
+│   ├── <a href="./packages/core-utils">core-utils</a>: Low-level utilities that make building Pepe easier
+│   ├── <a href="./packages/data-transport-layer">data-transport-layer</a>: Service for indexing Pepe-related L1 data
 │   ├── <a href="./packages/chain-mon">chain-mon</a>: Chain monitoring services
 │   ├── <a href="./packages/fault-detector">fault-detector</a>: Service for detecting Sequencer faults
 │   ├── <a href="./packages/message-relayer">message-relayer</a>: Tool for automatically relaying L1<>L2 messages in development
 │   ├── <a href="./packages/replica-healthcheck">replica-healthcheck</a>: Service for monitoring the health of a replica node
-│   └── <a href="./packages/sdk">sdk</a>: provides a set of tools for interacting with Optimism
+│   └── <a href="./packages/sdk">sdk</a>: provides a set of tools for interacting with Pepe
 ├── <a href="./batch-submitter">batch-submitter</a>: Service for submitting batches of transactions and results to L1
 ├── <a href="./bss-core">bss-core</a>: Core batch-submitter logic and utilities
 ├── <a href="./gas-oracle">gas-oracle</a>: Service for updating L1 gas prices on L2
 ├── <a href="./indexer">indexer</a>: indexes and syncs transactions
-├── <a href="./infra/op-replica">infra/op-replica</a>: Deployment examples and resources for running an Optimism replica
-├── <a href="./integration-tests">integration-tests</a>: Various integration tests for the Optimism network
-├── <a href="./l2geth">l2geth</a>: Optimism client software, a fork of <a href="https://github.com/ethereum/go-ethereum/tree/v1.9.10">geth v1.9.10</a>  (deprecated for BEDROCK upgrade)
+├── <a href="./infra/op-replica">infra/op-replica</a>: Deployment examples and resources for running an Pepe replica
+├── <a href="./integration-tests">integration-tests</a>: Various integration tests for the Pepe network
+├── <a href="./l2geth">l2geth</a>: Pepe client software, a fork of <a href="https://github.com/ethereum/go-ethereum/tree/v1.9.10">geth v1.9.10</a>  (deprecated for BEDROCK upgrade)
 ├── <a href="./l2geth-exporter">l2geth-exporter</a>: A prometheus exporter to collect/serve metrics from an L2 geth node
-├── <a href="./op-exporter">op-exporter</a>: A prometheus exporter to collect/serve metrics from an Optimism node
+├── <a href="./op-exporter">op-exporter</a>: A prometheus exporter to collect/serve metrics from an Pepe node
 ├── <a href="./proxyd">proxyd</a>: Configurable RPC request router and proxy
 ├── <a href="./technical-documents">technical-documents</a>: audits and post-mortem documents
 
@@ -93,27 +93,27 @@ Refer to the Directory Structure section below to understand which packages are 
 
 | Branch          | Status                                                                           |
 | --------------- | -------------------------------------------------------------------------------- |
-| [master](https://github.com/ethereum-optimism/optimism/tree/master/)                   | Accepts PRs from `develop` when we intend to deploy to mainnet.                                      |
-| [develop](https://github.com/ethereum-optimism/optimism/tree/develop/)                 | Accepts PRs that are compatible with `master` OR from `release/X.X.X` branches.                    |
+| [master](https://github.com/ethereum-pepe/pepe/tree/master/)                   | Accepts PRs from `develop` when we intend to deploy to mainnet.                                      |
+| [develop](https://github.com/ethereum-pepe/pepe/tree/develop/)                 | Accepts PRs that are compatible with `master` OR from `release/X.X.X` branches.                    |
 | release/X.X.X                                                                          | Accepts PRs for all changes, particularly those not backwards compatible with `develop` and `master`. |
 
 ### Overview
 
 We generally follow [this Git branching model](https://nvie.com/posts/a-successful-git-branching-model/).
-Please read the linked post if you're planning to make frequent PRs into this repository (e.g., people working at/with Optimism).
+Please read the linked post if you're planning to make frequent PRs into this repository (e.g., people working at/with Pepe).
 
 ### Production branch
 
 Our production branch is `master`.
 The `master` branch contains the code for our latest "stable" releases.
 Updates from `master` **always** come from the `develop` branch.
-We only ever update the `master` branch when we intend to deploy code within the `develop` to the Optimism mainnet.
+We only ever update the `master` branch when we intend to deploy code within the `develop` to the Pepe mainnet.
 Our update process takes the form of a PR merging the `develop` branch into the `master` branch.
 
 ### Development branch
 
-Our primary development branch is [`develop`](https://github.com/ethereum-optimism/optimism/tree/develop/).
-`develop` contains the most up-to-date software that remains backwards compatible with our latest experimental [network deployments](https://community.optimism.io/docs/useful-tools/networks/).
+Our primary development branch is [`develop`](https://github.com/ethereum-pepe/pepe/tree/develop/).
+`develop` contains the most up-to-date software that remains backwards compatible with our latest experimental [network deployments](https://community.pepe.io/docs/useful-tools/networks/).
 If you're making a backwards compatible change, please direct your pull request towards `develop`.
 
 **Changes to contracts within `packages/contracts/contracts` are usually NOT considered backwards compatible and SHOULD be made against a release candidate branch**.
@@ -157,6 +157,6 @@ It's strongly recommended to avoid merging PRs into develop during an active rel
 
 ## License
 
-Code forked from [`go-ethereum`](https://github.com/ethereum/go-ethereum) under the name [`l2geth`](https://github.com/ethereum-optimism/optimism/tree/master/l2geth) is licensed under the [GNU GPLv3](https://gist.github.com/kn9ts/cbe95340d29fc1aaeaa5dd5c059d2e60) in accordance with the [original license](https://github.com/ethereum/go-ethereum/blob/master/COPYING).
+Code forked from [`go-ethereum`](https://github.com/ethereum/go-ethereum) under the name [`l2geth`](https://github.com/ethereum-pepe/pepe/tree/master/l2geth) is licensed under the [GNU GPLv3](https://gist.github.com/kn9ts/cbe95340d29fc1aaeaa5dd5c059d2e60) in accordance with the [original license](https://github.com/ethereum/go-ethereum/blob/master/COPYING).
 
-All other files within this repository are licensed under the [MIT License](https://github.com/ethereum-optimism/optimism/blob/master/LICENSE) unless stated otherwise.
+All other files within this repository are licensed under the [MIT License](https://github.com/ethereum-pepe/pepe/blob/master/LICENSE) unless stated otherwise.

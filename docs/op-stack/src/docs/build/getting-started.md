@@ -5,7 +5,7 @@ lang: en-US
 
 ## Overview
 
-Hello! This Getting Started guide is meant to help you kick off your OP Stack journey by taking you through the process of spinning up your very own OP Stack chain on the Ethereum Goerli testnet. You can use this chain to perform tests and prepare for the superchain, or you can modify it to adapt it to your own needs (which may make it incompatible with the superchain in the future). 
+Hello! This Getting Started guide is meant to help you kick off your OP Stack journey by taking you through the process of spinning up your very own OP Stack chain on the Ethereum Goerli testnet. You can use this chain to perform tests and prepare for the superchain, or you can modify it to adapt it to your own needs (which may make it incompatible with the superchain in the future).
 
 ## Know before you go
 
@@ -47,21 +47,21 @@ This tutorial was checked on:
 
 ## Build the Source Code
 
-We’re going to be spinning up an EVM Rollup from the OP Stack source code.  You could use docker images, but this way we keep the option to modify component behavior if you need to do so. The OP Stack source code is split between two repositories, the [Optimism Monorepo](https://github.com/ethereum-optimism/optimism) and the [`op-geth`](https://github.com/ethereum-optimism/op-geth) repository.
+We’re going to be spinning up an EVM Rollup from the OP Stack source code.  You could use docker images, but this way we keep the option to modify component behavior if you need to do so. The OP Stack source code is split between two repositories, the [Pepe Monorepo](https://github.com/ethereum-pepe/pepe) and the [`op-geth`](https://github.com/ethereum-pepe/op-geth) repository.
 
-### Build the Optimism Monorepo
+### Build the Pepe Monorepo
 
-1. Clone the [Optimism Monorepo](https://github.com/ethereum-optimism/optimism).
+1. Clone the [Pepe Monorepo](https://github.com/ethereum-pepe/pepe).
 
     ```bash
     cd ~
-    git clone https://github.com/ethereum-optimism/optimism.git
+    git clone https://github.com/ethereum-pepe/pepe.git
     ```
 
-1. Enter the Optimism Monorepo.
+1. Enter the Pepe Monorepo.
 
     ```bash
-    cd optimism
+    cd pepe
     ```
 
 1. Install required modules. This is a slow process, while it is running you can already start building `op-geth`, as shown below.
@@ -70,7 +70,7 @@ We’re going to be spinning up an EVM Rollup from the OP Stack source code.  Yo
     yarn install
     ```
 
-1. Build the various packages inside of the Optimism Monorepo.
+1. Build the various packages inside of the Pepe Monorepo.
 
     ```bash
     make op-node op-batcher op-proposer
@@ -79,11 +79,11 @@ We’re going to be spinning up an EVM Rollup from the OP Stack source code.  Yo
 
 ### Build op-geth
 
-1. Clone [`op-geth`](https://github.com/ethereum-optimism/op-geth):
+1. Clone [`op-geth`](https://github.com/ethereum-pepe/op-geth):
 
     ```bash
     cd ~
-    git clone https://github.com/ethereum-optimism/op-geth.git
+    git clone https://github.com/ethereum-pepe/op-geth.git
     ```
 
 1. Enter `op-geth`:
@@ -114,10 +114,10 @@ You’ll need four accounts and their private keys when setting up the chain:
 You can generate all of these keys with the `rekey` tool in the `contracts-bedrock` package.
 
 
-1. Enter the Optimism Monorepo:
+1. Enter the Pepe Monorepo:
 
     ```bash
-    cd optimism
+    cd pepe
     ```
 
 1. Move into the `contracts-bedrock` package:
@@ -158,7 +158,7 @@ Recommended funding amounts are as follows:
 - `Proposer` — 5 ETH
 - `Batcher` — 10 ETH
 
-::: danger Not for production deployments 
+::: danger Not for production deployments
 
 The `rekey` tool is *not* designed for production deployments. If you are deploying an OP Stack based chain into production, you should likely be using a combination of hardware security modules and hardware wallets.
 
@@ -166,12 +166,12 @@ The `rekey` tool is *not* designed for production deployments. If you are deploy
 
 ## Configure your network
 
-Once you’ve built both repositories, you’ll need head back to the Optimism Monorepo to set up the configuration for your chain. Currently, chain configuration lives inside of the [`contracts-bedrock`](https://github.com/ethereum-optimism/optimism/tree/develop/packages/contracts-bedrock) package.
+Once you’ve built both repositories, you’ll need head back to the Pepe Monorepo to set up the configuration for your chain. Currently, chain configuration lives inside of the [`contracts-bedrock`](https://github.com/ethereum-pepe/pepe/tree/develop/packages/contracts-bedrock) package.
 
-1. Enter the Optimism Monorepo:
+1. Enter the Pepe Monorepo:
 
     ```bash
-    cd ~/optimism
+    cd ~/pepe
     ```
 
 1. Move into the `contracts-bedrock` package:
@@ -194,7 +194,7 @@ Once you’ve built both repositories, you’ll need head back to the Optimism M
     timestamp            1676253324
     ```
 
-1. Fill out the remainder of the pre-populated config file found at [`deploy-config/getting-started.json`](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/deploy-config/getting-started.json). Use the default values in the config file and make following modifications:
+1. Fill out the remainder of the pre-populated config file found at [`deploy-config/getting-started.json`](https://github.com/ethereum-pepe/pepe/blob/develop/packages/contracts-bedrock/deploy-config/getting-started.json). Use the default values in the config file and make following modifications:
 
     - Replace `"ADMIN"` with the address of the Admin account you generated earlier.
     - Replace `"PROPOSER"` with the address of the Proposer account you generated earlier.
@@ -205,7 +205,7 @@ Once you’ve built both repositories, you’ll need head back to the Optimism M
 
 ## Deploy the L1 contracts
 
-Once you’ve configured your network, it’s time to deploy the L1 smart contracts necessary for the functionality of the chain. 
+Once you’ve configured your network, it’s time to deploy the L1 smart contracts necessary for the functionality of the chain.
 
 1. Inside of `contracts-bedrock`, copy `.env.example` to `.env`.
 
@@ -228,12 +228,12 @@ Contract deployment can take up to 15 minutes. Please wait for all smart contrac
 
 ## Generate the L2 config files
 
-We’ve set up the L1 side of things, but now we need to set up the L2 side of things. We do this by generating three important files, a `genesis.json` file, a `rollup.json` configuration file, and a `jwt.txt` [JSON Web Token](https://jwt.io/introduction) that allows the `op-node` and `op-geth` to communicate securely. 
+We’ve set up the L1 side of things, but now we need to set up the L2 side of things. We do this by generating three important files, a `genesis.json` file, a `rollup.json` configuration file, and a `jwt.txt` [JSON Web Token](https://jwt.io/introduction) that allows the `op-node` and `op-geth` to communicate securely.
 
 1. Head over to the `op-node` package:
 
     ```bash
-    cd ~/optimism/op-node
+    cd ~/pepe/op-node
     ```
 
 1. Run the following command, and make sure to replace `<RPC>` with your L1 RPC URL:
@@ -314,14 +314,14 @@ The other two, `op-batcher` and `op-proposer`, run only in one place, the sequen
 Set these environment variables for the configuration
 
 | Variable       | Value |
-| -------------- | - 
+| -------------- | -
 | `SEQ_ADDR`     | Address of the `Sequencer` account
 | `SEQ_KEY`      | Private key of the `Sequencer` account
 | `BATCHER_KEY`  | Private key of the `Batcher` accounts, which should have at least 1 ETH
 | `PROPOSER_KEY` | Private key of the `Proposer` account
 | `L1_RPC`       | URL for the L1 (such as Goerli) you're using
 | `RPC_KIND`     | The type of L1 server to which you connect, which can optimize requests. Available options are `alchemy`, `quicknode`, `parity`, `nethermind`, `debug_geth`, `erigon`, `basic`, and `any`
-| `L2OO_ADDR`    | The address of the `L2OutputOracleProxy`, available at `~/optimism/packages/contracts-bedrock/deployments/getting-started/L2OutputOracleProxy.json
+| `L2OO_ADDR`    | The address of the `L2OutputOracleProxy`, available at `~/pepe/packages/contracts-bedrock/deployments/getting-started/L2OutputOracleProxy.json
 
 ### `op-geth`
 
@@ -410,7 +410,7 @@ This is the reinitialization procedure:
 Once we’ve got `op-geth` running we’ll need to run `op-node`. Like Ethereum, the OP Stack has a consensus client (the `op-node`) and an execution client (`op-geth`). The consensus client drives the execution client over the Engine API.
 
 ```bash
-cd ~/optimism/op-node
+cd ~/pepe/op-node
 
 ./bin/op-node \
 	--l2=http://localhost:8551 \
@@ -459,7 +459,7 @@ It is best to give the `Batcher` at least 1 Goerli ETH to ensure that it can con
 
 
 ```bash
-cd ~/optimism/op-batcher
+cd ~/pepe/op-batcher
 
 ./bin/op-batcher \
     --l2-eth-rpc=http://localhost:8545 \
@@ -479,7 +479,7 @@ cd ~/optimism/op-batcher
 
 ::: tip Controlling batcher costs
 
-The `--max-channel-duration=n` setting tells the batcher to write all the data to L1 every `n` L1 blocks. 
+The `--max-channel-duration=n` setting tells the batcher to write all the data to L1 every `n` L1 blocks.
 When it is low, transactions are written to L1 frequently, withdrawals are quick, and other nodes can synchronize from L1 fast.
 When it is high, transactions are written to L1 less frequently, and the batcher spends less ETH.
 
@@ -490,7 +490,7 @@ When it is high, transactions are written to L1 less frequently, and the batcher
 Now start `op-proposer`, which proposes new state roots.
 
 ```bash
-cd ~/optimism/op-proposer
+cd ~/pepe/op-proposer
 
 ./bin/op-proposer \
     --poll-interval 12s \
@@ -504,7 +504,7 @@ cd ~/optimism/op-proposer
 <!--
 ::: warning Change before moving to production
 
-The `--allow-non-finalized` flag allows for faster tests on a test network. 
+The `--allow-non-finalized` flag allows for faster tests on a test network.
 However, in production you would probably want to only submit proposals on properly finalized blocks.
 
 :::
@@ -517,7 +517,7 @@ Once you’ve connected your wallet, you’ll probably notice that you don’t h
 1. First, head over to the `contracts-bedrock` package:
 
     ```bash
-    cd ~/optimism/packages/contracts-bedrock
+    cd ~/pepe/packages/contracts-bedrock
     ```
 
 1. Grab the address of the proxy to the L1 standard bridge contract:
@@ -530,21 +530,21 @@ Once you’ve connected your wallet, you’ll probably notice that you don’t h
 
 ## Use your Rollup
 
-Congratulations, you made it! You now have a complete OP Stack based EVM Rollup. 
+Congratulations, you made it! You now have a complete OP Stack based EVM Rollup.
 
-To see your rollup in action, you can use the [Optimism Mainnet Getting Started tutorial](https://github.com/ethereum-optimism/optimism-tutorial/blob/main/getting-started). Follow these steps:
+To see your rollup in action, you can use the [Pepe Mainnet Getting Started tutorial](https://github.com/ethereum-pepe/pepe-tutorial/blob/main/getting-started). Follow these steps:
 
 1. Clone the tutorials repository.
 
     ```bash
     cd ~
-    git clone https://github.com/ethereum-optimism/optimism-tutorial.git
+    git clone https://github.com/ethereum-pepe/pepe-tutorial.git
     ```
 
 1. Change to the Foundry directory of the Getting Started tutorial.
 
     ```bash
-    cd optimism-tutorial/getting-started/foundry
+    cd pepe-tutorial/getting-started/foundry
     ```
 
 1. Put your mnemonic (for the address where you have ETH, the one that sent ETH to `OptimismPortalProxy` on Goerli) in a file `mnem.delme`.
@@ -576,14 +576,14 @@ To see your rollup in action, you can use the [Optimism Mainnet Getting Started 
     cast call $GREETER "greet()" | cast --to-ascii
     ```
 
-To use any other development stack, see the getting started tutorial, just replace the Greeter address with the address of your rollup, and the Optimism Goerli URL with `http://localhost:8545`.
+To use any other development stack, see the getting started tutorial, just replace the Greeter address with the address of your rollup, and the Pepe Goerli URL with `http://localhost:8545`.
 
 
 ### Errors
 
 #### Corrupt data directory
 
-If `op-geth` aborts (for example, because the computer it is running on crashes), you might get these errors on `op-node`: 
+If `op-geth` aborts (for example, because the computer it is running on crashes), you might get these errors on `op-node`:
 
 ```
 WARN [02-16|21:22:02.868] Derivation process temporary error       attempts=14 err="stage 0 failed resetting: temp: failed to find the L2 Heads to start from: failed to fetch L2 block by hash 0x0000000000000000000000000000000000000000000000000000000000000000: failed to determine block-hash of hash 0x0000000000000000000000000000000000000000000000000000000000000000, could not get payload: not found"

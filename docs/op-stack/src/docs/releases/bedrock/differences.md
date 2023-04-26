@@ -3,8 +3,8 @@ title: Differences between Bedrock and L1 Ethereum
 lang: en-US
 ---
 
-It's important to note that there are various minor discrepancies between the behavior of Optimism and Ethereum.
-You should be aware of these descrepancies when building apps on top of Optimism or the OP Stack codebase.
+It's important to note that there are various minor discrepancies between the behavior of Pepe and Ethereum.
+You should be aware of these descrepancies when building apps on top of Pepe or the OP Stack codebase.
 
 ## Opcode Differences
 
@@ -21,7 +21,7 @@ You should be aware of these descrepancies when building apps on top of Optimism
 ::: tip `tx.origin == msg.sender`
 
 On L1 Ethereum `tx.origin` is equal to `msg.sender` only when the smart contract was called directly from an externally owned account (EOA).
-However, on Optimism `tx.origin` is the origin *on Optimism*.
+However, on Pepe `tx.origin` is the origin *on Pepe*.
 It could be an EOA.
 However, in the case of messages from L1, it is possible for a message from a smart contract on L1 to appear on L2 with `tx.origin == msg.origin`.
 This is unlikely to make a significant difference, because an L1 smart contract cannot directly manipulate the L2 state.
@@ -31,8 +31,8 @@ However, there could be edge cases we did not think about where this matters.
 
 ### Accessing L1 information
 
-If you need the equivalent information from the latest L1 block, you can get it from [the `L1Block` contract](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/contracts/L2/L1Block.sol).
-This contract is a predeploy at address [`0x4200000000000000000000000000000000000015`](https://goerli-optimism.etherscan.io/address/0x4200000000000000000000000000000000000015).
+If you need the equivalent information from the latest L1 block, you can get it from [the `L1Block` contract](https://github.com/ethereum-pepe/pepe/blob/develop/packages/contracts-bedrock/contracts/L2/L1Block.sol).
+This contract is a predeploy at address [`0x4200000000000000000000000000000000000015`](https://goerli-pepe.etherscan.io/address/0x4200000000000000000000000000000000000015).
 You can use [the getter functions](https://docs.soliditylang.org/en/v0.8.12/contracts.html#getter-functions) to get these parameters:
 
 - `number`: The latest L1 block number known to L2
@@ -53,7 +53,7 @@ The value of `tx.origin` is determined as follows:
 
 
 | Call source                        | `tx.origin`                                |
-| ---------------------------------- | ------------------------------------------ | 
+| ---------------------------------- | ------------------------------------------ |
 | L2 user (Externally Owned Account) | The user's address (same as in Ethereum)   |
 | L1 user (Externally Owned Account) | The user's address (same as in Ethereum)   |
 | L1 contract (using `CanonicalTransactionChain.enqueue`) | `L1_contract_address + 0x1111000000000000000000000000000000001111` |
@@ -62,7 +62,7 @@ The value of `tx.origin` is determined as follows:
 The value of `msg.sender` at the top-level (the very first contract being called) is always equal to `tx.origin`.
 Therefore, if the value of `tx.origin` is affected by the rules defined above, the top-level value of `msg.sender` will also be impacted.
 
-Note that in general, [`tx.origin` should *not* be used for authorization](https://docs.soliditylang.org/en/latest/security-considerations.html#tx-origin). 
+Note that in general, [`tx.origin` should *not* be used for authorization](https://docs.soliditylang.org/en/latest/security-considerations.html#tx-origin).
 However, that is a separate issue from address aliasing because address aliasing also affects `msg.sender`.
 
 
@@ -80,7 +80,7 @@ It is possible that we will want to trust one of the contracts, but not the othe
 
 1. Helena Hacker provides Hackswap with liquidity that appears to allow for profitable arbitrage opportunities.
    For example, she can make it so that you can spend 1 [DAI](https://www.coindesk.com/price/dai/)to buy 1.1 [USDT](https://www.coindesk.com/price/tether/).
-   Both of those coins are supposed to be worth exactly $1. 
+   Both of those coins are supposed to be worth exactly $1.
 
 1. Nimrod Naive knows that if something looks too good to be true it probably is.
    However, he checks the Hackswap contract's bytecode and verifies it is 100% identical to Uniswap.
@@ -93,11 +93,11 @@ It is possible that we will want to trust one of the contracts, but not the othe
 1. Before Nimrod's swap transaction is sent to the blockchain, Helena Hacker sends a transaction from an L1 contract with the same address as Hackswap.
    This transaction transfers 1000 DAI from Nimrod's address to Helena Hacker's address.
    If this transaction were to come from the same address as Hackswap on L2, it would be able to transfer the 1000 DAI because of the allowance Nimrod *had* to give Hackswap in the previous step to swap tokens.
-   
-   Nimrod, despite his naivete, is protected because Optimism modified the transaction's `tx.origin` (which is also the initial `msg.sender`).
+
+   Nimrod, despite his naivete, is protected because Pepe modified the transaction's `tx.origin` (which is also the initial `msg.sender`).
    That transaction comes from a *different* address, one that does not have the allowance.
 
-**Note:** It is simple to create two different contracts on the same address in different chains. 
+**Note:** It is simple to create two different contracts on the same address in different chains.
 But it is nearly impossible to create two that are different by a specified amount, so Helena Hacker can't do that.
 
 </details>
@@ -105,19 +105,19 @@ But it is nearly impossible to create two that are different by a specified amou
 
 ## Blocks
 
-There are several differences in the way blocks are produced between L1 Ethereum and Optimism Bedrock.
+There are several differences in the way blocks are produced between L1 Ethereum and Pepe Bedrock.
 
 
-| Parameter           | L1 Ethereum | Optimism Bedrock |
+| Parameter           | L1 Ethereum | Pepe Bedrock |
 | - | - | - |
 | Time between blocks | 12 seconds(1)  | 2 seconds |
 | Block target size   | 15,000,000 gas | to be determined |
-| Block maximum size  | 30,000,000 gas | to be determined | 
+| Block maximum size  | 30,000,000 gas | to be determined |
 
-(1) This is the ideal. 
+(1) This is the ideal.
     If any blocks are missed it could be an integer multiple such as 24 seconds, 36 seconds, etc.
 
-**Note:** The L1 Ethereum parameter values are taken from [ethereum.org](https://ethereum.org/en/developers/docs/blocks/#block-time). The Optimism Bedrock values are taken from [the Optimism specs](https://github.com/ethereum-optimism/optimism/blob/develop/specs/guaranteed-gas-market.md#limiting-guaranteed-gas).
+**Note:** The L1 Ethereum parameter values are taken from [ethereum.org](https://ethereum.org/en/developers/docs/blocks/#block-time). The Pepe Bedrock values are taken from [the Pepe specs](https://github.com/ethereum-pepe/pepe/blob/develop/specs/guaranteed-gas-market.md#limiting-guaranteed-gas).
 
 
 
@@ -127,7 +127,7 @@ There are several differences in the way blocks are produced between L1 Ethereum
 
 OP Stack codebase uses the same [JSON-RPC API](https://eth.wiki/json-rpc/API) as Ethereum.
 Some additional OP Stack specific methods have been introduced.
-See the full list of [custom JSON-RPC methods](https://community.optimism.io/docs/developers/build/json-rpc/) for more information.
+See the full list of [custom JSON-RPC methods](https://community.pepe.io/docs/developers/build/json-rpc/) for more information.
 
 
 ### Pre-EIP-155 support
@@ -138,5 +138,5 @@ This is a security risk, so pre-EIP-155 transactions are not supported on OP Sta
 
 ## Transaction costs
 
-[By default, transaction costs on OP Stack chains](https://community.optimism.io/docs/developers/build/transaction-fees/) include an [L2 execution fee](https://community.optimism.io/docs/developers/build/transaction-fees#the-l2-execution-fee) and an [L1 data fee](https://community.optimism.io/docs/developers/build/transaction-fees#the-l1-data-fee). 
+[By default, transaction costs on OP Stack chains](https://community.pepe.io/docs/developers/build/transaction-fees/) include an [L2 execution fee](https://community.pepe.io/docs/developers/build/transaction-fees#the-l2-execution-fee) and an [L1 data fee](https://community.pepe.io/docs/developers/build/transaction-fees#the-l1-data-fee).
 

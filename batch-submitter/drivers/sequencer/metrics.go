@@ -1,7 +1,7 @@
 package sequencer
 
 import (
-	"github.com/ethereum-optimism/optimism/bss-core/metrics"
+	"github.com/ethereum-pepe/pepe/bss-core/metrics"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 )

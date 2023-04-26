@@ -17,8 +17,8 @@
             </a>
           </li>
           <li>
-            <a href="https://github.com/ethereum-optimism/optimism/contribute" target="_blank" rel="noopener noreferrer">
-              <i class="far fa-hands-helping"></i> Contribute to Optimism
+            <a href="https://github.com/ethereum-pepe/pepe/contribute" target="_blank" rel="noopener noreferrer">
+              <i class="far fa-hands-helping"></i> Contribute to Pepe
             </a>
           </li>
         </ul>
@@ -28,7 +28,7 @@
         <span class="footer-section-header">Still need help?</span>
         <ul>
           <li>
-            <a href="https://discord.optimism.io" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.pepe.io" target="_blank" rel="noopener noreferrer">
               <i class="fab fa-discord"></i> Discord community
             </a>
           </li>
@@ -36,7 +36,7 @@
             <a href="https://wkf.ms/3XTdpLl" target="_blank" rel="noopener noreferrer">
               <i class="far fa-comment-dots"></i> Get support for going live
             </a>
-          </li>          
+          </li>
         </ul>
       </div>
     </div>

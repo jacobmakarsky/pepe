@@ -23,13 +23,13 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ethereum-optimism/optimism/l2geth/event"
-	"github.com/ethereum-optimism/optimism/l2geth/log"
-	"github.com/ethereum-optimism/optimism/l2geth/node"
-	"github.com/ethereum-optimism/optimism/l2geth/p2p"
-	"github.com/ethereum-optimism/optimism/l2geth/p2p/enode"
-	"github.com/ethereum-optimism/optimism/l2geth/p2p/simulations/pipes"
-	"github.com/ethereum-optimism/optimism/l2geth/rpc"
+	"github.com/ethereum-pepe/pepe/l2geth/event"
+	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-pepe/pepe/l2geth/node"
+	"github.com/ethereum-pepe/pepe/l2geth/p2p"
+	"github.com/ethereum-pepe/pepe/l2geth/p2p/enode"
+	"github.com/ethereum-pepe/pepe/l2geth/p2p/simulations/pipes"
+	"github.com/ethereum-pepe/pepe/l2geth/rpc"
 	"github.com/gorilla/websocket"
 )
 

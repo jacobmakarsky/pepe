@@ -6,10 +6,10 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/common/hexutil"
-	"github.com/ethereum-optimism/optimism/l2geth/core/types"
-	"github.com/ethereum-optimism/optimism/l2geth/crypto"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-pepe/pepe/l2geth/crypto"
 	"github.com/go-resty/resty/v2"
 )
 

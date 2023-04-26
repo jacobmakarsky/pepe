@@ -11,14 +11,14 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-node/client"
-	"github.com/ethereum-optimism/optimism/op-node/eth"
-	"github.com/ethereum-optimism/optimism/op-node/node"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/driver"
-	"github.com/ethereum-optimism/optimism/op-node/sources"
-	"github.com/ethereum-optimism/optimism/op-node/testutils"
+	"github.com/ethereum-pepe/pepe/op-node/client"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-node/node"
+	"github.com/ethereum-pepe/pepe/op-node/rollup"
+	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
+	"github.com/ethereum-pepe/pepe/op-node/rollup/driver"
+	"github.com/ethereum-pepe/pepe/op-node/sources"
+	"github.com/ethereum-pepe/pepe/op-node/testutils"
 )
 
 // L2Verifier is an actor that functions like a rollup node,
@@ -78,7 +78,7 @@ func NewL2Verifier(t Testing, log log.Logger, l1 derive.L1Fetcher, eng L2API, cf
 	backend := &l2VerifierBackend{verifier: rollupNode}
 	apis := []rpc.API{
 		{
-			Namespace:     "optimism",
+			Namespace:     "pepe",
 			Service:       node.NewNodeAPI(cfg, eng, backend, log, m),
 			Public:        true,
 			Authenticated: false,

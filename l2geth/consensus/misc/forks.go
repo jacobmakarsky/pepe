@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/core/types"
-	"github.com/ethereum-optimism/optimism/l2geth/params"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-pepe/pepe/l2geth/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

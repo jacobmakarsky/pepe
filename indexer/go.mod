@@ -1,11 +1,11 @@
-module github.com/ethereum-optimism/optimism/indexer
+module github.com/ethereum-pepe/pepe/indexer
 
 go 1.19
 
-replace github.com/ethereum/go-ethereum v1.11.4 => github.com/ethereum-optimism/op-geth v1.11.2-de8c5df46.0.20230321002540-11f0554a4313
+replace github.com/ethereum/go-ethereum v1.11.4 => github.com/ethereum-pepe/op-geth v1.11.2-de8c5df46.0.20230321002540-11f0554a4313
 
 require (
-	github.com/ethereum-optimism/optimism v0.2.1-0.20230326215719-b8e2fa58359a
+	github.com/ethereum-pepe/pepe v0.2.1-0.20230326215719-b8e2fa58359a
 	github.com/ethereum/go-ethereum v1.11.4
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
@@ -44,7 +44,7 @@ require (
 	github.com/edsrzf/mmap-go v1.1.0 // indirect
 	github.com/elastic/gosigar v0.14.2 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
-	github.com/ethereum-optimism/go-ethereum-hdwallet v0.1.3 // indirect
+	github.com/ethereum-pepe/go-ethereum-hdwallet v0.1.3 // indirect
 	github.com/fjl/memsize v0.0.1 // indirect
 	github.com/flynn/noise v1.0.0 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect

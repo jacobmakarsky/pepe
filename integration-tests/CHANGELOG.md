@@ -1,4 +1,4 @@
-# @eth-optimism/integration-tests
+# @eth-pepe/integration-tests
 
 ## 0.5.22
 
@@ -217,7 +217,7 @@
 ### Patch Changes
 
 - 299a459e: Introduces a new opcode L1BLOCKNUMBER to replace old functionality where blocknumber would return the L1 block number and the L2 block number was inaccessible.
-- 343da72a: Add tests for optimistic ethereum related fields to the receipt
+- 343da72a: Add tests for pepeistic ethereum related fields to the receipt
 - 7b761af5: Add updated fee scheme integration tests
 - b70ee70c: upgraded to solidity 0.8.9
 - a98a1884: Fixes dependencies instead of using caret constraints

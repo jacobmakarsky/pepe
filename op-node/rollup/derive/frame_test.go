@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/testutils"
+	"github.com/ethereum-pepe/pepe/op-node/testutils"
 	"github.com/stretchr/testify/require"
 )
 

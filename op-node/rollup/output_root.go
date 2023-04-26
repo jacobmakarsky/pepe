@@ -3,8 +3,8 @@ package rollup
 import (
 	"errors"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
 	"github.com/ethereum/go-ethereum/crypto"
 )
 

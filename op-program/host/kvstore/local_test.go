@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
-	"github.com/ethereum-optimism/optimism/op-program/host/config"
-	"github.com/ethereum-optimism/optimism/op-program/preimage"
+	"github.com/ethereum-pepe/pepe/op-node/chaincfg"
+	"github.com/ethereum-pepe/pepe/op-program/host/config"
+	"github.com/ethereum-pepe/pepe/op-program/preimage"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/stretchr/testify/require"

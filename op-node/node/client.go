@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/client"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-node/sources"
+	"github.com/ethereum-pepe/pepe/op-node/client"
+	"github.com/ethereum-pepe/pepe/op-node/rollup"
+	"github.com/ethereum-pepe/pepe/op-node/sources"
 
 	"github.com/ethereum/go-ethereum/log"
 	gn "github.com/ethereum/go-ethereum/node"

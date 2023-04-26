@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/ethereum-optimism/optimism/l2geth/metrics"
-	"github.com/ethereum-optimism/optimism/l2geth/p2p"
+	"github.com/ethereum-pepe/pepe/l2geth/metrics"
+	"github.com/ethereum-pepe/pepe/l2geth/p2p"
 )
 
 var (

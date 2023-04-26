@@ -7,15 +7,15 @@ import (
 	"net/http"
 	"strconv"
 
-	ophttp "github.com/ethereum-optimism/optimism/op-node/http"
+	ophttp "github.com/ethereum-pepe/pepe/op-node/http"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
-	"github.com/ethereum-optimism/optimism/op-node/p2p"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-node/sources"
+	"github.com/ethereum-pepe/pepe/op-node/metrics"
+	"github.com/ethereum-pepe/pepe/op-node/p2p"
+	"github.com/ethereum-pepe/pepe/op-node/rollup"
+	"github.com/ethereum-pepe/pepe/op-node/sources"
 )
 
 type rpcServer struct {
@@ -35,7 +35,7 @@ func newRPCServer(ctx context.Context, rpcCfg *RPCConfig, rollupCfg *rollup.Conf
 	r := &rpcServer{
 		endpoint: endpoint,
 		apis: []rpc.API{{
-			Namespace:     "optimism",
+			Namespace:     "pepe",
 			Service:       api,
 			Public:        true,
 			Authenticated: false,

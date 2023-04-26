@@ -11,11 +11,11 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
-	"github.com/ethereum-optimism/optimism/op-node/eth"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
-	"github.com/ethereum-optimism/optimism/op-node/testlog"
-	"github.com/ethereum-optimism/optimism/op-node/testutils"
+	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-node/rollup"
+	"github.com/ethereum-pepe/pepe/op-node/testlog"
+	"github.com/ethereum-pepe/pepe/op-node/testutils"
 )
 
 // TestAttributesQueue checks that it properly uses the PreparePayloadAttributes function

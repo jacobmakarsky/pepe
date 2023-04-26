@@ -7,7 +7,7 @@ import (
 	"net/http/pprof"
 	"strconv"
 
-	"github.com/ethereum-optimism/optimism/op-service/httputil"
+	"github.com/ethereum-pepe/pepe/op-service/httputil"
 )
 
 func ListenAndServe(ctx context.Context, hostname string, port int) error {

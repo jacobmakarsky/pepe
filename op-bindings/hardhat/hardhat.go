@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
+	"github.com/ethereum-pepe/pepe/op-bindings/solc"
 )
 
 var (

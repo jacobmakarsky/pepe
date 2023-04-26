@@ -1,10 +1,10 @@
 # The OP Stack Docs
 
-[![Discord](https://img.shields.io/discord/667044843901681675.svg?color=768AD4&label=discord&logo=https%3A%2F%2Fdiscordapp.com%2Fassets%2F8c9701b98ad4372b58f13fd9f65f966e.svg)](https://discord.gg/optimism)
+[![Discord](https://img.shields.io/discord/667044843901681675.svg?color=768AD4&label=discord&logo=https%3A%2F%2Fdiscordapp.com%2Fassets%2F8c9701b98ad4372b58f13fd9f65f966e.svg)](https://discord.gg/pepe)
 [![Twitter Follow](https://img.shields.io/twitter/follow/optimismPBC.svg?label=optimismPBC&style=social)](https://twitter.com/optimismPBC)
 
 The OP Stack is an open, collectively maintained development stack for blockchain ecosystems.
-This repository contains the source code for the [OP Stack Docs](https://stack.optimism.io).
+This repository contains the source code for the [OP Stack Docs](https://stack.pepe.io).
 
 ## Development
 

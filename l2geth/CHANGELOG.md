@@ -176,8 +176,8 @@
 
 ### Patch Changes
 
-- d4bf299f: Add support to fully unmarshal Receipts with Optimism fields
-- 8be69ca7: Add changeset for https://github.com/ethereum-optimism/optimism/pull/2011 - replicas forward write requests to the sequencer via a configured parameter `--sequencer.clienthttp` or `SEQUENCER_CLIENT_HTTP`
+- d4bf299f: Add support to fully unmarshal Receipts with Pepe fields
+- 8be69ca7: Add changeset for https://github.com/ethereum-pepe/pepe/pull/2011 - replicas forward write requests to the sequencer via a configured parameter `--sequencer.clienthttp` or `SEQUENCER_CLIENT_HTTP`
 - c9fd6ec2: Correctly parse fee enforcement via config to allow turning off L2 fees for development
 
 ## 0.5.6
@@ -204,7 +204,7 @@
 ### Patch Changes
 
 - 5febe10f: fixes empty block detection and removes empty worker tasks
-- 272d20d6: renames l2geth package name to github.com/ethereum-optimism/optimism/l2geth
+- 272d20d6: renames l2geth package name to github.com/ethereum-pepe/pepe/l2geth
 
 ## 0.5.2
 
@@ -226,7 +226,7 @@
 - e4a1129c: Adds aliasing to msg.sender and tx.origin to avoid xdomain attacks
 - 299a459e: Introduces a new opcode L1BLOCKNUMBER to replace old functionality where blocknumber would return the L1 block number and the L2 block number was inaccessible.
 - 872f5976: Removes various unused OVM contracts
-- 65289e63: Add optimistic ethereum specific fields to the receipt. These fields are related to the L1 portion of the fee. Note that this is a consensus change as it will impact the blockhash through the receipts root
+- 65289e63: Add pepeistic ethereum specific fields to the receipt. These fields are related to the L1 portion of the fee. Note that this is a consensus change as it will impact the blockhash through the receipts root
 - 92c9692d: Opcode tweaks. Coinbase returns SequencerFeeVault address. Difficulty returns zero.
 - 1e63ffa0: Refactors and simplifies OVM_ETH usage
 - d3cb1b86: Reintroduces the whitelist into the v2 system

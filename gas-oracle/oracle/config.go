@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum-optimism/optimism/gas-oracle/flags"
+	"github.com/ethereum-pepe/pepe/gas-oracle/flags"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"

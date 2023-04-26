@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/l2geth/accounts/keystore"
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/log"
+	"github.com/ethereum-pepe/pepe/l2geth/accounts/keystore"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

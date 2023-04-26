@@ -6,10 +6,10 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/ethereum-optimism/optimism/op-proposer/cmd/doc"
-	"github.com/ethereum-optimism/optimism/op-proposer/flags"
-	"github.com/ethereum-optimism/optimism/op-proposer/proposer"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	"github.com/ethereum-pepe/pepe/op-proposer/cmd/doc"
+	"github.com/ethereum-pepe/pepe/op-proposer/flags"
+	"github.com/ethereum-pepe/pepe/op-proposer/proposer"
+	oplog "github.com/ethereum-pepe/pepe/op-service/log"
 	"github.com/ethereum/go-ethereum/log"
 )
 

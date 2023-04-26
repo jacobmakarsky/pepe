@@ -111,9 +111,9 @@ abstract contract ERC721Bridge {
      *         `bridgeERC721To` function after ensuring that the recipient address on the remote
      *         chain exists. Also note that the current owner of the token on this chain must
      *         approve this contract to operate the NFT before it can be bridged.
-     *         **WARNING**: Do not bridge an ERC721 that was originally deployed on Optimism. This
+     *         **WARNING**: Do not bridge an ERC721 that was originally deployed on Pepe. This
      *         bridge only supports ERC721s originally deployed on Ethereum. Users will need to
-     *         wait for the one-week challenge period to elapse before their Optimism-native NFT
+     *         wait for the one-week challenge period to elapse before their Pepe-native NFT
      *         can be refunded on L2.
      *
      * @param _localToken  Address of the ERC721 on this domain.
@@ -154,9 +154,9 @@ abstract contract ERC721Bridge {
      * @notice Initiates a bridge of an NFT to some recipient's account on the other chain. Note
      *         that the current owner of the token on this chain must approve this contract to
      *         operate the NFT before it can be bridged.
-     *         **WARNING**: Do not bridge an ERC721 that was originally deployed on Optimism. This
+     *         **WARNING**: Do not bridge an ERC721 that was originally deployed on Pepe. This
      *         bridge only supports ERC721s originally deployed on Ethereum. Users will need to
-     *         wait for the one-week challenge period to elapse before their Optimism-native NFT
+     *         wait for the one-week challenge period to elapse before their Pepe-native NFT
      *         can be refunded on L2.
      *
      * @param _localToken  Address of the ERC721 on this domain.

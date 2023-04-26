@@ -23,11 +23,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/ethdb"
-	"github.com/ethereum-optimism/optimism/l2geth/ethdb/leveldb"
-	"github.com/ethereum-optimism/optimism/l2geth/ethdb/memorydb"
-	"github.com/ethereum-optimism/optimism/l2geth/log"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
+	"github.com/ethereum-pepe/pepe/l2geth/ethdb/leveldb"
+	"github.com/ethereum-pepe/pepe/l2geth/ethdb/memorydb"
+	"github.com/ethereum-pepe/pepe/l2geth/log"
 	"github.com/olekukonko/tablewriter"
 )
 

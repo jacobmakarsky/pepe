@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	ethereum "github.com/ethereum-optimism/optimism/l2geth"
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/core/rawdb"
-	"github.com/ethereum-optimism/optimism/l2geth/core/types"
-	"github.com/ethereum-optimism/optimism/l2geth/ethdb"
-	"github.com/ethereum-optimism/optimism/l2geth/event"
-	"github.com/ethereum-optimism/optimism/l2geth/trie"
+	ethereum "github.com/ethereum-pepe/pepe/l2geth"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
+	"github.com/ethereum-pepe/pepe/l2geth/event"
+	"github.com/ethereum-pepe/pepe/l2geth/trie"
 )
 
 // Reduce some of the parameters to make the tester faster.
@@ -666,7 +666,7 @@ func TestBoundedForkedSync64Fast(t *testing.T)  { testBoundedForkedSync(t, 64, F
 func TestBoundedForkedSync64Light(t *testing.T) { testBoundedForkedSync(t, 64, LightSync) }
 
 func testBoundedForkedSync(t *testing.T, protocol int, mode SyncMode) {
-	t.Skip("Unused in Optimism")
+	t.Skip("Unused in Pepe")
 	t.Parallel()
 
 	tester := newTester()
@@ -1391,7 +1391,7 @@ func TestFakedSyncProgress64Fast(t *testing.T)  { testFakedSyncProgress(t, 64, F
 func TestFakedSyncProgress64Light(t *testing.T) { testFakedSyncProgress(t, 64, LightSync) }
 
 func testFakedSyncProgress(t *testing.T, protocol int, mode SyncMode) {
-	t.Skip("Flakey tests unused by Optimism")
+	t.Skip("Flakey tests unused by Pepe")
 	t.Parallel()
 
 	tester := newTester()

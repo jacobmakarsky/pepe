@@ -26,10 +26,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/core"
-	"github.com/ethereum-optimism/optimism/l2geth/log"
-	"github.com/ethereum-optimism/optimism/l2geth/params"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/core"
+	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-pepe/pepe/l2geth/params"
 )
 
 var (

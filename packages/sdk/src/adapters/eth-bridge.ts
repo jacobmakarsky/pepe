@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { ethers, Overrides, BigNumber } from 'ethers'
 import { TransactionRequest, BlockTag } from '@ethersproject/abstract-provider'
-import { predeploys } from '@eth-optimism/contracts'
-import { hexStringEquals } from '@eth-optimism/core-utils'
+import { predeploys } from '@eth-pepe/contracts'
+import { hexStringEquals } from '@eth-pepe/core-utils'
 
 import {
   NumberLike,

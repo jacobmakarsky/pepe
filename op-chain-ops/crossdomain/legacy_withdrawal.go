@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
+	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
+	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
@@ -43,7 +43,7 @@ func NewLegacyWithdrawal(msgSender, target, sender common.Address, data []byte, 
 
 // Encode will serialze the Withdrawal in the legacy format so that it
 // is suitable for hashing. This assumes that the message is being withdrawn
-// through the standard optimism cross domain messaging system by hashing in
+// through the standard pepe cross domain messaging system by hashing in
 // the L2CrossDomainMessenger address.
 func (w *LegacyWithdrawal) Encode() ([]byte, error) {
 	enc, err := EncodeCrossDomainMessageV0(w.XDomainTarget, w.XDomainSender, []byte(w.XDomainData), w.XDomainNonce)

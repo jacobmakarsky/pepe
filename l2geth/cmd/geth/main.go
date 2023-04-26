@@ -29,19 +29,19 @@ import (
 	"time"
 
 	"github.com/elastic/gosigar"
-	"github.com/ethereum-optimism/optimism/l2geth/accounts"
-	"github.com/ethereum-optimism/optimism/l2geth/accounts/keystore"
-	"github.com/ethereum-optimism/optimism/l2geth/cmd/utils"
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/console"
-	"github.com/ethereum-optimism/optimism/l2geth/eth"
-	"github.com/ethereum-optimism/optimism/l2geth/eth/downloader"
-	"github.com/ethereum-optimism/optimism/l2geth/ethclient"
-	"github.com/ethereum-optimism/optimism/l2geth/internal/debug"
-	"github.com/ethereum-optimism/optimism/l2geth/les"
-	"github.com/ethereum-optimism/optimism/l2geth/log"
-	"github.com/ethereum-optimism/optimism/l2geth/metrics"
-	"github.com/ethereum-optimism/optimism/l2geth/node"
+	"github.com/ethereum-pepe/pepe/l2geth/accounts"
+	"github.com/ethereum-pepe/pepe/l2geth/accounts/keystore"
+	"github.com/ethereum-pepe/pepe/l2geth/cmd/utils"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/console"
+	"github.com/ethereum-pepe/pepe/l2geth/eth"
+	"github.com/ethereum-pepe/pepe/l2geth/eth/downloader"
+	"github.com/ethereum-pepe/pepe/l2geth/ethclient"
+	"github.com/ethereum-pepe/pepe/l2geth/internal/debug"
+	"github.com/ethereum-pepe/pepe/l2geth/les"
+	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-pepe/pepe/l2geth/metrics"
+	"github.com/ethereum-pepe/pepe/l2geth/node"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -149,7 +149,7 @@ var (
 	}
 
 	// UsingOVM
-	// Optimism specific flags must be added to the application
+	// Pepe specific flags must be added to the application
 	// flag parsing logic
 	optimismFlags = []cli.Flag{
 		utils.Eth1SyncServiceEnable,

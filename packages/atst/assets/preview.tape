@@ -47,7 +47,7 @@ Set FontSize 16
 Set Width 1920
 Set Height 1080
 
-Type "atst write --key attitude --about 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045 --value 'feeling very optimistic' --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --rpc-url http://localhost:8545"
+Type "atst write --key attitude --about 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045 --value 'feeling very pepeistic' --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --rpc-url http://localhost:8545"
 Enter
 Sleep 2000ms
 

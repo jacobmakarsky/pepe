@@ -1,39 +1,39 @@
 {
   "private": true,
-  "name": "@eth-optimism/integration-tests",
+  "name": "@eth-pepe/integration-tests",
   "version": "0.5.22",
-  "description": "[Optimism] Integration tests",
+  "description": "[Pepe] Integration tests",
   "scripts": {
     "lint": "yarn lint:fix && yarn lint:check",
     "lint:fix": "yarn lint:check --fix",
     "lint:check": "eslint . --max-warnings=0",
     "build": "hardhat compile",
-    "test:integration": "hardhat --network optimism test",
+    "test:integration": "hardhat --network pepe test",
     "test:actor": "IS_LIVE_NETWORK=true ts-node actor-tests/lib/runner.ts",
-    "test:integration:live": "NO_NETWORK=true IS_LIVE_NETWORK=true hardhat --network optimism test",
+    "test:integration:live": "NO_NETWORK=true IS_LIVE_NETWORK=true hardhat --network pepe test",
     "clean": "rimraf cache artifacts",
     "pre-commit": "lint-staged"
   },
   "keywords": [
-    "optimism",
+    "pepe",
     "ethereum",
     "integration",
     "tests"
   ],
-  "homepage": "https://github.com/ethereum-optimism/optimism/tree/develop/packages/integration-tests#readme",
+  "homepage": "https://github.com/ethereum-pepe/pepe/tree/develop/packages/integration-tests#readme",
   "license": "MIT",
-  "author": "Optimism PBC",
+  "author": "Pepe PBC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum-optimism/optimism.git"
+    "url": "https://github.com/ethereum-pepe/pepe.git"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.5.4",
-    "@eth-optimism/contracts": "^0.5.40",
-    "@eth-optimism/contracts-bedrock": "0.13.2",
-    "@eth-optimism/contracts-periphery": "^1.0.7",
-    "@eth-optimism/core-utils": "0.12.0",
-    "@eth-optimism/sdk": "2.0.2",
+    "@eth-pepe/contracts": "^0.5.40",
+    "@eth-pepe/contracts-bedrock": "0.13.2",
+    "@eth-pepe/contracts-periphery": "^1.0.7",
+    "@eth-pepe/core-utils": "0.12.0",
+    "@eth-pepe/sdk": "2.0.2",
     "@ethersproject/abstract-provider": "^5.7.0",
     "@ethersproject/providers": "^5.7.0",
     "@ethersproject/transactions": "^5.7.0",

@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/common/prque"
-	"github.com/ethereum-optimism/optimism/l2geth/core/types"
-	"github.com/ethereum-optimism/optimism/l2geth/log"
-	"github.com/ethereum-optimism/optimism/l2geth/metrics"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/common/prque"
+	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-pepe/pepe/l2geth/metrics"
 )
 
 var (

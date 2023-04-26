@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-node/eth"
-	"github.com/ethereum-optimism/optimism/op-node/testutils"
-	"github.com/ethereum-optimism/optimism/op-program/client/mpt"
-	"github.com/ethereum-optimism/optimism/op-program/preimage"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-node/testutils"
+	"github.com/ethereum-pepe/pepe/op-program/client/mpt"
+	"github.com/ethereum-pepe/pepe/op-program/preimage"
 )
 
 // testBlock tests that the given block with receipts can be passed through the preimage oracle.

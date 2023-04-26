@@ -3,10 +3,10 @@ package op_heartbeat
 import (
 	"errors"
 
-	"github.com/ethereum-optimism/optimism/op-heartbeat/flags"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	opmetrics "github.com/ethereum-optimism/optimism/op-service/metrics"
-	oppprof "github.com/ethereum-optimism/optimism/op-service/pprof"
+	"github.com/ethereum-pepe/pepe/op-heartbeat/flags"
+	oplog "github.com/ethereum-pepe/pepe/op-service/log"
+	opmetrics "github.com/ethereum-pepe/pepe/op-service/metrics"
+	oppprof "github.com/ethereum-pepe/pepe/op-service/pprof"
 	"github.com/urfave/cli"
 )
 

@@ -3,9 +3,9 @@ package p2p_test
 import (
 	"testing"
 
-	p2p "github.com/ethereum-optimism/optimism/op-node/p2p"
-	p2pMocks "github.com/ethereum-optimism/optimism/op-node/p2p/mocks"
-	"github.com/ethereum-optimism/optimism/op-node/testlog"
+	p2p "github.com/ethereum-pepe/pepe/op-node/p2p"
+	p2pMocks "github.com/ethereum-pepe/pepe/op-node/p2p/mocks"
+	"github.com/ethereum-pepe/pepe/op-node/testlog"
 	log "github.com/ethereum/go-ethereum/log"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	peer "github.com/libp2p/go-libp2p/core/peer"

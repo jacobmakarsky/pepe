@@ -13,7 +13,7 @@ OP Stack configuration is an active work in progress and will likely evolve sign
 
 ## New Blockchain Configuration
 
-New OP Stack blockchains are currently configured with a JSON file inside the Optimism repository. The file is `<optimism repository>/packages/contracts-bedrock/deploy-config/<chain name>.json`. For example, [this is the configuration file for the tutorial blockchain](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/deploy-config/getting-started.json). 
+New OP Stack blockchains are currently configured with a JSON file inside the Pepe repository. The file is `<pepe repository>/packages/contracts-bedrock/deploy-config/<chain name>.json`. For example, [this is the configuration file for the tutorial blockchain](https://github.com/ethereum-pepe/pepe/blob/develop/packages/contracts-bedrock/deploy-config/getting-started.json).
 
 
 ### Admin accounts
@@ -65,7 +65,7 @@ These fields apply to output root proposals.
 
 | Key | Type | Description | Default value |
 | --- | --- | --- | --- |
-| `l2OutputOracleStartingBlockNumber` | Number | Block number of the first OP Stack block. Typically this should be zero, but this may be non-zero for networks that have been upgraded from a legacy system (like Optimism Mainnet). Will be removed with the addition of permissionless proposals. | 0 |
+| `l2OutputOracleStartingBlockNumber` | Number | Block number of the first OP Stack block. Typically this should be zero, but this may be non-zero for networks that have been upgraded from a legacy system (like Pepe Mainnet). Will be removed with the addition of permissionless proposals. | 0 |
 | `l2OutputOracleStartingTimestamp` | Number | Timestamp of the first OP Stack block. This MUST be the timestamp corresponding to the block defined by the `l1StartingBlockTag`. Will be removed with the addition of permissionless proposals. |  |
 | `l2OutputOracleSubmissionInterval` | Number of blocks | Number of blocks between proposals to the `L2OutputOracle`. Will be removed with the addition of permissionless proposals. | 120 (24 minutes) |
 | `finalizationPeriodSeconds` | Number of seconds | Number of seconds that a proposal must be available to challenge before it is considered finalized by the `OptimismPortal` contract. | We recommend 12 on test networks, seven days on production ones |
@@ -76,17 +76,17 @@ These fields apply to output root proposals.
 
 ### L1 data fee
 
-These fields apply to the cost of the [L1 data fee](https://community.optimism.io/docs/developers/build/transaction-fees/#the-l1-data-fee) for L2 transactions.
+These fields apply to the cost of the [L1 data fee](https://community.pepe.io/docs/developers/build/transaction-fees/#the-l1-data-fee) for L2 transactions.
 
 | Key | Type | Description | Default value |
 | --- | --- | --- | --- |
-| `gasPriceOracleOverhead` | Number | Fixed L1 gas overhead per transaction. Default value will likely be adjusted with more information from the Optimism Goerli deployment. | 2100 |
+| `gasPriceOracleOverhead` | Number | Fixed L1 gas overhead per transaction. Default value will likely be adjusted with more information from the Pepe Goerli deployment. | 2100 |
 | `gasPriceOracleScalar` | Number | Dynamic L1 gas overhead per transaction, given in 6 decimals. Default value of 1000000 implies a dynamic gas overhead of exactly 1x (no overhead). | 1000000 |
 
 
 ### EIP 1559 gas algorithm
 
-These fields apply to [the EIP 1559 algorithm](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1559.md) used for the [L2 execution costs](https://community.optimism.io/docs/developers/build/transaction-fees/#the-l2-execution-fee) of transactions on the blockchain.
+These fields apply to [the EIP 1559 algorithm](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1559.md) used for the [L2 execution costs](https://community.pepe.io/docs/developers/build/transaction-fees/#the-l2-execution-fee) of transactions on the blockchain.
 
 | Key | Type | Description | Default value | Value on L1 Ethereum |
 | --- | --- | --- | --- | --- |
@@ -98,10 +98,10 @@ These fields apply to [the EIP 1559 algorithm](https://github.com/ethereum/EIPs/
 
 ### Governance token
 
-The governance token is a side-effect of use of the OP Stack in the Optimism Mainnet network. It may not be included by default in future releases.
+The governance token is a side-effect of use of the OP Stack in the Pepe Mainnet network. It may not be included by default in future releases.
 
 | Key | Type | Description | Default value |
 | --- | --- | --- | --- |
 | `governanceTokenOwner` | L2 Address | Address that will own the token contract deployed by default to every OP Stack based chain.  |  |
 | `governanceTokenSymbol` | String | Symbol for the token deployed by default to each OP Stack chain. | OP |
-| `governanceTokenName` | String | Name for the token deployed by default to each OP Stack chain. | Optimism |
+| `governanceTokenName` | String | Name for the token deployed by default to each OP Stack chain. | Pepe |

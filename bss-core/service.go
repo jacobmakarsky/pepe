@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/bss-core/metrics"
-	"github.com/ethereum-optimism/optimism/bss-core/txmgr"
+	"github.com/ethereum-pepe/pepe/bss-core/metrics"
+	"github.com/ethereum-pepe/pepe/bss-core/txmgr"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"

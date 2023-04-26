@@ -7,7 +7,7 @@ import {
   BatchContext,
   encodeAppendSequencerBatch,
   expectApprox,
-} from '@eth-optimism/core-utils'
+} from '@eth-pepe/core-utils'
 import { TransactionResponse } from '@ethersproject/abstract-provider'
 
 /* Internal Imports */

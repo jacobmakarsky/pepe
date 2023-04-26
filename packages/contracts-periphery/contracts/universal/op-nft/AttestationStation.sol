@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.15;
 
-import { Semver } from "@eth-optimism/contracts-bedrock/contracts/universal/Semver.sol";
+import { Semver } from "@eth-pepe/contracts-bedrock/contracts/universal/Semver.sol";
 
 /**
  * @title AttestationStation
- * @author Optimism Collective
+ * @author Pepe Collective
  * @author Gitcoin
  * @notice Where attestations live.
  */

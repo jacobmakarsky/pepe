@@ -1,7 +1,7 @@
 /* Imports: External */
-import { BaseService, LegacyMetrics } from '@eth-optimism/common-ts'
+import { BaseService, LegacyMetrics } from '@eth-pepe/common-ts'
 import { StaticJsonRpcProvider } from '@ethersproject/providers'
-import { getChainId, sleep, toRpcHexString } from '@eth-optimism/core-utils'
+import { getChainId, sleep, toRpcHexString } from '@eth-pepe/core-utils'
 import { BigNumber } from 'ethers'
 import { LevelUp } from 'levelup'
 import axios from 'axios'
@@ -180,7 +180,7 @@ export class L2IngestionService extends BaseService<L2IngestionServiceOptions> {
           currentL2Block === 0
         ) {
           this.logger.info(
-            'All Layer 2 (Optimism) transactions are synchronized',
+            'All Layer 2 (Pepe) transactions are synchronized',
             {
               currentL2Block,
               targetL2Block,
@@ -191,7 +191,7 @@ export class L2IngestionService extends BaseService<L2IngestionServiceOptions> {
         }
 
         this.logger.info(
-          'Synchronizing unconfirmed transactions from Layer 2 (Optimism)',
+          'Synchronizing unconfirmed transactions from Layer 2 (Pepe)',
           {
             fromBlock: highestSyncedL2BlockNumber,
             toBlock: targetL2Block,

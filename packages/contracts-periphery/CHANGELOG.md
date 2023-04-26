@@ -1,4 +1,4 @@
-# @eth-optimism/contracts-periphery
+# @eth-pepe/contracts-periphery
 
 ## 1.0.7
 
@@ -137,7 +137,7 @@
 
 ### Patch Changes
 
-- da1633a3: ERC721 bridge from Eth Mainnet to Optimism
+- da1633a3: ERC721 bridge from Eth Mainnet to Pepe
 - 61a30273: Simplify, cleanup, and standardize ERC721 bridge contracts.
 - a320e744: Updates contracts-periphery to use the standardized hardhat deploy config plugin
 - 29ff7462: Revert es target back to 2017
@@ -167,4 +167,4 @@
 
 - d18ae135: Updates all ethers versions in response to BN.js bug
 - Updated dependencies [d18ae135]
-  - @eth-optimism/core-utils@0.8.5
+  - @eth-pepe/core-utils@0.8.5

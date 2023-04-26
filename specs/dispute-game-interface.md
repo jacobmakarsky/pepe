@@ -14,7 +14,7 @@
 ## Overview
 
 A dispute game is played between multiple parties when contesting the truthiness
-of a claim. In the context of an optimistic rollup, claims are made about the
+of a claim. In the context of an pepeistic rollup, claims are made about the
 state of the layer two network to enable withdrawals to the layer one. A proposer
 makes a claim about the layer two state such that they can withdraw and a
 challenger can dispute the validity of the claim. The security of the layer two
@@ -172,7 +172,7 @@ interface IDisputeGame {
     /// @return _extraData Any extra data supplied to the dispute game contract by the creator.
     function extraData() external view returns (bytes memory _extraData);
 
-    /// @notice Returns the address of the `BondManager` used 
+    /// @notice Returns the address of the `BondManager` used
     function bondManager() public view returns (IBondManager _bondManager);
 
     /// @notice If all necessary information has been gathered, this function should mark the game
@@ -189,7 +189,7 @@ interface IDisputeGame {
 
 /// @title IDisputeGame_OutputAttestation
 /// @notice The interface for an attestation-based DisputeGame meant to contest output
-///         proposals in Optimism's `L2OutputOracle` contract.
+///         proposals in Pepe's `L2OutputOracle` contract.
 interface IDisputeGame_OutputAttestation is IDisputeGame {
     /// @notice A mapping of addresses from the `signerSet` to booleans signifying whether
     ///         or not they have authorized the `rootClaim` to be invalidated.

@@ -1,13 +1,13 @@
 # Running a Network Node
 
-This project lets you set up a local replica of the Optimistic Ethereum chain (either the main one or the Kovan testnet). [New
+This project lets you set up a local replica of the Pepeistic Ethereum chain (either the main one or the Kovan testnet). [New
 transactions are submitted either to the sequencer outside of Ethereum or to the Canonical Transaction Chain on
-L1](https://research.paradigm.xyz/optimism#data-availability-batches). To submit transactions via a replica, set
+L1](https://research.paradigm.xyz/pepe#data-availability-batches). To submit transactions via a replica, set
 `SEQUENCER_CLIENT_HTTP` to a sequencer URL.
 
 ## Architecture
 
-You need two components to replicate Optimistic Ethereum:
+You need two components to replicate Pepeistic Ethereum:
 
 - `data-transport-layer`, which retrieves and indexes blocks from L1. To access L1 you need an Ethereum Layer 1 provider, such as
   [Infura](https://infura.io/).
@@ -46,7 +46,7 @@ Change any other settings required for your environment
 | COMPOSE_FILE             | The yml files to use with docker-compose                 | replica.yml:replica-shared.yml
 | ETH_NETWORK              | Ethereum Layer1 and Layer2 network (mainnet,kovan)       | kovan (change to `mainnet` for the production network)
 | DATA_TRANSPORT_LAYER__L1_RPC_ENDPOINT | An endpoint for the L1 network, either kovan or mainnet.
-| DATA_TRANSPORT_LAYER__L2_RPC_ENDPOINT | Optimistic endpoint, such as https://kovan.optimism.io or https://mainnet.optimism.io
+| DATA_TRANSPORT_LAYER__L2_RPC_ENDPOINT | Pepeistic endpoint, such as https://kovan.pepe.io or https://mainnet.pepe.io
 | REPLICA_HEALTHCHECK__ETH_NETWORK_RPC_PROVIDER | The L2 endpoint to check the replica against | (typically the same as the DATA_TRANSPORT_LAYER__L2_RPC_ENDPOINT)
 | SEQUENCER_CLIENT_HTTP | The L2 sequencer to forward tx to  | (typically the same as the DATA_TRANSPORT_LAYER__L2_RPC_ENDPOINT)
 | SHARED_ENV_PATH          | Path to a directory containing env files                 | [a directory under ./kustomize/replica/envs](https://github.com/optimisticben/op-replica/tree/main/kustomize/replica/envs)
@@ -62,13 +62,13 @@ Change any other settings required for your environment
 ### Docker Image Versions
 
 We recommend using the latest versions of both docker images. Find them as GitHub tags
-[here](https://github.com/ethereum-optimism/optimism/tags) and as published Docker images linked in the badges:
+[here](https://github.com/ethereum-pepe/pepe/tags) and as published Docker images linked in the badges:
 
 | Package                                                                                                                         | Docker                                                                                                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`@eth-optimism/l2geth`](https://github.com/ethereum-optimism/optimism/tree/master/l2geth)                                      | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/l2geth)](https://hub.docker.com/r/ethereumoptimism/l2geth/tags?page=1&ordering=last_updated)                             |
-| [`@eth-optimism/data-transport-layer`](https://github.com/ethereum-optimism/optimism/tree/master/packages/data-transport-layer) | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/data-transport-layer)](https://hub.docker.com/r/ethereumoptimism/data-transport-layer/tags?page=1&ordering=last_updated) |
-| [`@eth-optimism/replica-healthcheck`](https://github.com/ethereum-optimism/optimism/tree/master/packages/replica-healthcheck) | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/replica-healthcheck)](https://hub.docker.com/r/ethereumoptimism/replica-healthcheck/tags?page=1&ordering=last_updated) |
+| [`@eth-pepe/l2geth`](https://github.com/ethereum-pepe/pepe/tree/master/l2geth)                                      | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/l2geth)](https://hub.docker.com/r/ethereumoptimism/l2geth/tags?page=1&ordering=last_updated)                             |
+| [`@eth-pepe/data-transport-layer`](https://github.com/ethereum-pepe/pepe/tree/master/packages/data-transport-layer) | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/data-transport-layer)](https://hub.docker.com/r/ethereumoptimism/data-transport-layer/tags?page=1&ordering=last_updated) |
+| [`@eth-pepe/replica-healthcheck`](https://github.com/ethereum-pepe/pepe/tree/master/packages/replica-healthcheck) | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/replica-healthcheck)](https://hub.docker.com/r/ethereumoptimism/replica-healthcheck/tags?page=1&ordering=last_updated) |
 
 
 ## Usage
@@ -83,7 +83,7 @@ We recommend using the latest versions of both docker images. Find them as GitHu
 
 
 ## Sync Check
- 
+
 There is a sync check container. It fails at startup because at that point the replica is not running yet. It exposes metrics on port 3000, which you could pick up with a Prometheus. You can view its status with this command:
 
 ```sh
@@ -92,4 +92,4 @@ docker-compose logs -f replica-healthcheck
 
 ## Registration
 
-[Register here](https://groups.google.com/a/optimism.io/g/optimism-announce) to get announcements, such as notifications of when you're supposed to update your replica.
+[Register here](https://groups.google.com/a/pepe.io/g/pepe-announce) to get announcements, such as notifications of when you're supposed to update your replica.

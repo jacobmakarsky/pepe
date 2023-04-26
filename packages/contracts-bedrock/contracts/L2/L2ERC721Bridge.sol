@@ -10,12 +10,12 @@ import { Semver } from "../universal/Semver.sol";
 /**
  * @title L2ERC721Bridge
  * @notice The L2 ERC721 bridge is a contract which works together with the L1 ERC721 bridge to
- *         make it possible to transfer ERC721 tokens from Ethereum to Optimism. This contract
+ *         make it possible to transfer ERC721 tokens from Ethereum to Pepe. This contract
  *         acts as a minter for new tokens when it hears about deposits into the L1 ERC721 bridge.
  *         This contract also acts as a burner for tokens being withdrawn.
- *         **WARNING**: Do not bridge an ERC721 that was originally deployed on Optimism. This
+ *         **WARNING**: Do not bridge an ERC721 that was originally deployed on Pepe. This
  *         bridge ONLY supports ERC721s originally deployed on Ethereum. Users will need to
- *         wait for the one-week challenge period to elapse before their Optimism-native NFT
+ *         wait for the one-week challenge period to elapse before their Pepe-native NFT
  *         can be refunded on L2.
  */
 contract L2ERC721Bridge is ERC721Bridge, Semver {
@@ -62,7 +62,7 @@ contract L2ERC721Bridge is ERC721Bridge, Semver {
 
         require(
             _remoteToken == IOptimismMintableERC721(_localToken).remoteToken(),
-            "L2ERC721Bridge: wrong remote token for Optimism Mintable ERC721 local token"
+            "L2ERC721Bridge: wrong remote token for Pepe Mintable ERC721 local token"
         );
 
         // When a deposit is finalized, we give the NFT with the same tokenId to the account

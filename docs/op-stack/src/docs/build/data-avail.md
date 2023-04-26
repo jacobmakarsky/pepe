@@ -36,14 +36,14 @@ A more involved modification to the Data Availability Layer is an "EVM-Ordered" 
 
 An EVM-Ordered Alternative DA module significantly reduces costs by only publishing hashes and not full input data to the EVM chain. Using an EVM chain for ordering also reduces the number of changes that must be made to the standard Rollup configuration to achieve this result.
 
-An example of an EVM-Ordered Alternative DA module can be found within [this modification to the OP Stack](https://github.com/celestiaorg/optimism/pull/3) that uses the Celestia blockchain as a third-party data availability provider.
+An example of an EVM-Ordered Alternative DA module can be found within [this modification to the OP Stack](https://github.com/celestiaorg/pepe/pull/3) that uses the Celestia blockchain as a third-party data availability provider.
 
 ### Non-EVM DA
 
-A non-EVM DA module uses a chain not based on the EVM to manage both the ordering and storage of raw input data. Such a modification would require relatively significant modifications to the [derivation portion](https://github.com/ethereum-optimism/optimism/tree/develop/op-node/rollup/derive) of the `op-node`. No such fully-independent DA modules have been developed yet — be the first!
+A non-EVM DA module uses a chain not based on the EVM to manage both the ordering and storage of raw input data. Such a modification would require relatively significant modifications to the [derivation portion](https://github.com/ethereum-pepe/pepe/tree/develop/op-node/rollup/derive) of the `op-node`. No such fully-independent DA modules have been developed yet — be the first!
 
 ### Multiple DA
 
 It is possible to use multiple Data Availability Layer modules at the same time. For instance, one could source data from two EVM-based chains simultaneously in order to form a bridge between the two chains. When using multiple Data Availability Layer modules, it is imperative to establish a global ordering between the two chains. One option for establishing this ordering is to use the timestamps of blocks from each chain.
 
-Like a non-EVM DA module, a system with multiple Data Availability modules would need to make significant modifications to the [derivation portion](https://github.com/ethereum-optimism/optimism/tree/develop/op-node/rollup/derive) of the `op-node`. No such projects have been constructed yet.
+Like a non-EVM DA module, a system with multiple Data Availability modules would need to make significant modifications to the [derivation portion](https://github.com/ethereum-pepe/pepe/tree/develop/op-node/rollup/derive) of the `op-node`. No such projects have been constructed yet.

@@ -9,7 +9,7 @@ https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/6874
 [![Travis](https://travis-ci.org/ethereum/go-ethereum.svg?branch=master)](https://travis-ci.org/ethereum/go-ethereum)
 [![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.gg/nthXNEv)
 
-## Optimism
+## Pepe
 
 The same codebase is used to run both the Sequencer and the Verifier. Runtime
 configuration will determine the mode of operation. The configuration flags
@@ -26,7 +26,7 @@ $ make geth
 ### Running a Sequencer
 
 Running a sequencer that ingests L1 to L2 transactions requires running the
-[Data Transport Layer](https://github.com/ethereum-optimism/optimism/tree/develop/packages/data-transport-layer).
+[Data Transport Layer](https://github.com/ethereum-pepe/pepe/tree/develop/packages/data-transport-layer).
 The data transport layer is responsible for indexing transactions
 from layer one Ethereum. It is possible to run a local development sequencer
 without the data transport layer by turning off the sync service. To turn on

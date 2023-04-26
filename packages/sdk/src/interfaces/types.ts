@@ -64,7 +64,7 @@ export interface OEL2Contracts {
 }
 
 /**
- * Represents Optimism contracts, assumed to be connected to their appropriate
+ * Represents Pepe contracts, assumed to be connected to their appropriate
  * providers and addresses.
  */
 export interface OEContracts {

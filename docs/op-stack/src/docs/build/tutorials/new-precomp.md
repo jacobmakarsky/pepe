@@ -11,7 +11,7 @@ OP Stack Hacks are not for the faint of heart. You will not be able to receive s
 
 One possible use of OP Stack is to run an EVM with a new precompile for operations to speed up calculations that are not currently supported. In this case we’ll make a simple precompile that returns a constant value if it’s called with four or less bytes, or an error if it is called with more than that.
 
-To create a new precompile, the file to modify is [`op-geth/core/vm/contracts.go`](https://github.com/ethereum-optimism/op-geth/blob/optimism-history/core/vm/contracts.go).
+To create a new precompile, the file to modify is [`op-geth/core/vm/contracts.go`](https://github.com/ethereum-pepe/op-geth/blob/pepe-history/core/vm/contracts.go).
 
 1. Add to `PrecompiledContractsBerlin` on line 82 (or a later fork, if the list of precompiles changes again) a structure named after your new precompile, with an address that is unlikely to ever clash with a standard precompile (0x100, for example):
 
@@ -19,7 +19,7 @@ To create a new precompile, the file to modify is [`op-geth/core/vm/contracts.go
     common.BytesToAddress([]byte{1,0}): &retConstant{},
     ```
 
-1. Add the lines for the precompile. 
+1. Add the lines for the precompile.
 
     ```go
     type retConstant struct{}
@@ -103,7 +103,7 @@ The next step is to define the precompiled contract itself.
 type retConstant struct{}
 ```
 
-First we create a structure for the precompile. 
+First we create a structure for the precompile.
 
 ```go
 func (c *retConstant) RequiredGas(input []byte) uint64 {
@@ -120,7 +120,7 @@ var (
 
 ```
 
-Next we define a variable for the error. 
+Next we define a variable for the error.
 
 ```go
 func (c *retConstant) Run(input []byte) ([]byte, error) {
@@ -136,7 +136,7 @@ This is the function that actually executes the precompile.
     }
 ```
 
-Return an error if warranted. The reason this precompile allows up to four bytes of input is that any standard call (for example, using `cast`) is going to have at least four bytes for the function signature. 
+Return an error if warranted. The reason this precompile allows up to four bytes of input is that any standard call (for example, using `cast`) is going to have at least four bytes for the function signature.
 
 `return a, b` is the way we return two values from a function in Go. The normal output is `nil`, nothing, because we return an error.
 

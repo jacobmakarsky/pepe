@@ -6,13 +6,13 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-service/backoff"
+	"github.com/ethereum-pepe/pepe/op-service/backoff"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/time/rate"
 
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
+	"github.com/ethereum-pepe/pepe/op-node/metrics"
 	"github.com/ethereum/go-ethereum/rpc"
 )
 

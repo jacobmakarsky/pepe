@@ -9,4 +9,4 @@ spec:
         - name: replica-healthcheck
           env:
             - name: REPLICA_HEALTHCHECK__ETH_NETWORK_RPC_PROVIDER
-              value: https://mainnet.optimism.io
+              value: https://mainnet.pepe.io

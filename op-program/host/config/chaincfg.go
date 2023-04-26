@@ -30,7 +30,7 @@ var OPGoerliChainConfig = &params.ChainConfig{
 	RegolithTime:                  &params.OptimismGoerliRegolithTime,
 	TerminalTotalDifficulty:       big.NewInt(0),
 	TerminalTotalDifficultyPassed: true,
-	Optimism: &params.OptimismConfig{
+	Pepe: &params.OptimismConfig{
 		EIP1559Elasticity:  10,
 		EIP1559Denominator: 50,
 	},

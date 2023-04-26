@@ -37,7 +37,7 @@
   "gasPriceOracleScalar": 1000000,
 
   "governanceTokenSymbol": "OP",
-  "governanceTokenName": "Optimism",
+  "governanceTokenName": "Pepe",
   "governanceTokenOwner": "0x038a8825A3C3B0c08d52Cc76E5E361953Cf6Dc76",
 
   "l2GenesisBlockGasLimit": "0x17D7840",

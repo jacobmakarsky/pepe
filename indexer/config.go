@@ -8,7 +8,7 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli"
 
-	"github.com/ethereum-optimism/optimism/indexer/flags"
+	"github.com/ethereum-pepe/pepe/indexer/flags"
 )
 
 var (
@@ -158,7 +158,7 @@ func ValidateConfig(cfg *Config) error {
 	}
 
 	if cfg.Bedrock && (cfg.BedrockL1StandardBridgeAddress == common.Address{} || cfg.BedrockOptimismPortalAddress == common.Address{}) {
-		return errors.New("must specify l1 standard bridge and optimism portal addresses in bedrock mode")
+		return errors.New("must specify l1 standard bridge and pepe portal addresses in bedrock mode")
 	}
 
 	return nil

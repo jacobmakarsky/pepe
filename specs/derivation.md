@@ -122,7 +122,7 @@ inception][g-l2-chain-inception] as first epoch, then process all sequencing win
 [Architecture section][architecture] for more information on how we implement this in practice.
 The L2 chain may contain pre-Bedrock history, but the L2 genesis here refers to the first Bedrock L2 block.
 
-Each epoch may contain a variable number of L2 blocks (one every `l2_block_time`, 2s on Optimism), at the discretion of
+Each epoch may contain a variable number of L2 blocks (one every `l2_block_time`, 2s on Pepe), at the discretion of
 [the sequencer][g-sequencer], but subject to the following constraints for each block:
 
 - `min_l2_timestamp <= block.timestamp <= max_l2_timestamp`, where
@@ -131,7 +131,7 @@ Each epoch may contain a variable number of L2 blocks (one every `l2_block_time`
     - This ensures that the L2 timestamp is not behind the L1 origin timestamp.
   - `block.timestamp = prev_l2_timestamp + l2_block_time`
     - `prev_l2_timestamp` is the timestamp of the last L2 block of the previous epoch
-    - `l2_block_time` is a configurable parameter of the time between L2 blocks (on Optimism, 2s)
+    - `l2_block_time` is a configurable parameter of the time between L2 blocks (on Pepe, 2s)
   - `max_l2_timestamp = max(l1_timestamp + max_sequencer_drift, min_l2_timestamp + l2_block_time)`
     - `l1_timestamp` is the timestamp of the L1 block associated with the L2 block's epoch
     - `max_sequencer_drift` is the most a sequencer is allowed to get ahead of L1
@@ -873,7 +873,7 @@ Note that this form of finalization only affects inputs, and nodes can then subj
 by reproducing the chain from these irreversible inputs and the set protocol rules and parameters.
 
 This is however completely unrelated to the outputs posted on L1, which require a form of proof like a fault-proof or
-zk-proof to finalize. Optimistic-rollup outputs like withdrawals on L1 are only labeled "finalized" after passing a week
+zk-proof to finalize. Pepeistic-rollup outputs like withdrawals on L1 are only labeled "finalized" after passing a week
 without dispute (fault proof challenge window), a name-collision with the proof-of-stake finalization.
 
 [merge]: https://ethereum.org/en/upgrades/merge/

@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/crypto"
-	"github.com/ethereum-optimism/optimism/l2geth/rlp"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/crypto"
+	"github.com/ethereum-pepe/pepe/l2geth/rlp"
 )
 
 func TestEIP155Signing(t *testing.T) {

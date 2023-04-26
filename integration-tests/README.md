@@ -1,4 +1,4 @@
-# @eth-optimism/integration-tests
+# @eth-pepe/integration-tests
 
 Note that these tests are ran against the legacy system, see `op-e2e` for
 the bedrock test suite.
@@ -51,4 +51,4 @@ Actor tests use the same environment variables as the integration tests, so set 
 already. Then, run `yarn test:actor <args>` to run the tests. Note that it will be **very expensive** to run the actor
 tests against mainnet, and that the tests can take a while to complete.
 
-See [actor-tests/README.md](actor-tests/README.md) for information on actor tests. 
+See [actor-tests/README.md](actor-tests/README.md) for information on actor tests.

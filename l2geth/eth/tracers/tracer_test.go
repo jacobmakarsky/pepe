@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/core/state"
-	"github.com/ethereum-optimism/optimism/l2geth/core/vm"
-	"github.com/ethereum-optimism/optimism/l2geth/params"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/core/state"
+	"github.com/ethereum-pepe/pepe/l2geth/core/vm"
+	"github.com/ethereum-pepe/pepe/l2geth/params"
 )
 
 type account struct{}

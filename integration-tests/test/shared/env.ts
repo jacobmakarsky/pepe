@@ -4,7 +4,7 @@ import {
   TransactionResponse,
   TransactionReceipt,
 } from '@ethersproject/providers'
-import { getChainId, sleep } from '@eth-optimism/core-utils'
+import { getChainId, sleep } from '@eth-pepe/core-utils'
 import {
   CrossChainMessenger,
   MessageStatus,
@@ -12,8 +12,8 @@ import {
   StandardBridgeAdapter,
   ETHBridgeAdapter,
   BridgeAdapterData,
-} from '@eth-optimism/sdk'
-import { predeploys } from '@eth-optimism/contracts'
+} from '@eth-pepe/sdk'
+import { predeploys } from '@eth-pepe/contracts'
 
 /* Imports: Internal */
 import {

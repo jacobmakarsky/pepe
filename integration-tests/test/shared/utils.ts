@@ -1,12 +1,12 @@
 /* Imports: External */
 import { Wallet, providers, BigNumber, utils } from 'ethers'
-import { predeploys } from '@eth-optimism/contracts'
-import { remove0x } from '@eth-optimism/core-utils'
+import { predeploys } from '@eth-pepe/contracts'
+import { remove0x } from '@eth-pepe/core-utils'
 import {
   CrossChainMessenger,
   NumberLike,
   asL2Provider,
-} from '@eth-optimism/sdk'
+} from '@eth-pepe/sdk'
 import { cleanEnv, str, num, bool, makeValidator } from 'envalid'
 import dotenv from 'dotenv'
 dotenv.config()

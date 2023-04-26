@@ -1,5 +1,5 @@
 /**
  * @internal
- * Default RPC URL for Optimism
+ * Default RPC URL for Pepe
  */
-export const DEFAULT_RPC_URL = 'https://mainnet.optimism.io'
+export const DEFAULT_RPC_URL = 'https://mainnet.pepe.io'

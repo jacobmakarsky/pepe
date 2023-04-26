@@ -1,8 +1,8 @@
-# Optimism Smart Contracts (Bedrock)
+# Pepe Smart Contracts (Bedrock)
 
-[![codecov](https://codecov.io/gh/ethereum-optimism/optimism/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=contracts-bedrock-tests)](https://codecov.io/gh/ethereum-optimism/optimism)
+[![codecov](https://codecov.io/gh/ethereum-pepe/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=contracts-bedrock-tests)](https://codecov.io/gh/ethereum-pepe/pepe)
 
-This package contains the smart contracts that compose the on-chain component of Optimism's upcoming Bedrock upgrade.
+This package contains the smart contracts that compose the on-chain component of Pepe's upcoming Bedrock upgrade.
 We've tried to maintain 100% backwards compatibility with the existing system while also introducing new useful features.
 You can find detailed specifications for the contracts contained within this package [here](../../specs).
 
@@ -12,9 +12,9 @@ You can find detailed specifications for the contracts contained within this pac
 
 | Name                                                                                     | Proxy Type                                                              | Description                                                                                         |
 | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| [`L1CrossDomainMessenger`](../../specs/messengers.md)                                    | [`ResolvedDelegateProxy`](./contracts/legacy/ResolvedDelegateProxy.sol) | High-level interface for sending messages to and receiving messages from Optimism                   |
-| [`L1StandardBridge`](../../specs/bridges.md)                                             | [`L1ChugSplashProxy`](./contracts/legacy/L1ChugSplashProxy.sol)         | Standardized system for transfering ERC20 tokens to/from Optimism                                   |
-| [`L2OutputOracle`](../../specs/proposals.md#l2-output-oracle-smart-contract)             | [`Proxy`](./contracts/universal/Proxy.sol)                              | Stores commitments to the state of Optimism which can be used by contracts on L1 to access L2 state |
+| [`L1CrossDomainMessenger`](../../specs/messengers.md)                                    | [`ResolvedDelegateProxy`](./contracts/legacy/ResolvedDelegateProxy.sol) | High-level interface for sending messages to and receiving messages from Pepe                   |
+| [`L1StandardBridge`](../../specs/bridges.md)                                             | [`L1ChugSplashProxy`](./contracts/legacy/L1ChugSplashProxy.sol)         | Standardized system for transfering ERC20 tokens to/from Pepe                                   |
+| [`L2OutputOracle`](../../specs/proposals.md#l2-output-oracle-smart-contract)             | [`Proxy`](./contracts/universal/Proxy.sol)                              | Stores commitments to the state of Pepe which can be used by contracts on L1 to access L2 state |
 | [`OptimismPortal`](../../specs/deposits.md#deposit-contract)                             | [`Proxy`](./contracts/universal/Proxy.sol)                              | Low-level message passing interface                                                                 |
 | [`OptimismMintableERC20Factory`](../../specs/predeploys.md#optimismmintableerc20factory) | [`Proxy`](./contracts/universal/Proxy.sol)                              | Deploys standard `OptimismMintableERC20` tokens that are compatible with either `StandardBridge`    |
 | [`ProxyAdmin`](../../specs/TODO)                                                         | -                                                                       | Contract that can upgrade L1 contracts                                                              |
@@ -45,7 +45,7 @@ You can find detailed specifications for the contracts contained within this pac
 We export contract ABIs, contract source code, and contract deployment information for this package via `npm`:
 
 ```shell
-npm install @eth-optimism/contracts-bedrock
+npm install @eth-pepe/contracts-bedrock
 ```
 
 ## Development
@@ -151,7 +151,7 @@ We also have the following custom tags:
 #### Errors
 
 - Use `require` statements when making simple assertions.
-- Use `revert` if throwing an error where an assertion is not being made (no custom errors). See [here](https://github.com/ethereum-optimism/optimism/blob/861ae315a6db698a8c0adb1f8eab8311fd96be4c/packages/contracts-bedrock/contracts/L2/OVM_ETH.sol#L31) for an example of this in practice.
+- Use `revert` if throwing an error where an assertion is not being made (no custom errors). See [here](https://github.com/ethereum-pepe/pepe/blob/861ae315a6db698a8c0adb1f8eab8311fd96be4c/packages/contracts-bedrock/contracts/L2/OVM_ETH.sol#L31) for an example of this in practice.
 - Error strings MUST have the format `"{ContractName}: {message}"` where `message` is a lower case string.
 
 #### Function Parameters

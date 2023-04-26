@@ -15,13 +15,13 @@ To execute:
 2. Install the local version of atst
 
 ```bash
-npm uninstall @eth-optimism/atst -g && npm i . -g && atst --version
+npm uninstall @eth-pepe/atst -g && npm i . -g && atst --version
 ```
 
 3. Start anvil
 
 ```bash
-anvil --fork-url https://mainnet.optimism.io
+anvil --fork-url https://mainnet.pepe.io
 ```
 
 4. Record tape vhs < assets/preview.tape

@@ -1,6 +1,6 @@
 # docker-compose
 
-The docker-compose project runs a local optimism stack.
+The docker-compose project runs a local pepe stack.
 
 ## prerequisites
 
@@ -86,7 +86,7 @@ Influxdb has authentication disabled.
 Grafana requires a login. The defaults are:
 ```
 user: admin
-password: optimism
+password: pepe
 ```
 
 ## Data persistance

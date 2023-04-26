@@ -1,13 +1,13 @@
 package genesis
 
 import (
-	"github.com/ethereum-optimism/optimism/op-chain-ops/state"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/state"
 	"github.com/ethereum/go-ethereum/core/types"
 
 	"github.com/ethereum/go-ethereum/core"
 )
 
-// BuildL2DeveloperGenesis will build the developer Optimism Genesis
+// BuildL2DeveloperGenesis will build the developer Pepe Genesis
 // Block. Suitable for devnets.
 func BuildL2DeveloperGenesis(config *DeployConfig, l1StartBlock *types.Block) (*core.Genesis, error) {
 	genspec, err := NewL2Genesis(config, l1StartBlock)

@@ -504,7 +504,7 @@ const check = {
     )
 
     const name = await GovernanceToken.name()
-    assert(name === 'Optimism')
+    assert(name === 'Pepe')
     console.log(`  - name: ${name}`)
 
     const symbol = await GovernanceToken.symbol()

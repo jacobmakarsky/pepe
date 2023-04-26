@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/cmd/batch_decoder/fetch"
-	"github.com/ethereum-optimism/optimism/op-node/cmd/batch_decoder/reassemble"
-	"github.com/ethereum-optimism/optimism/op-node/rollup/derive"
+	"github.com/ethereum-pepe/pepe/op-node/cmd/batch_decoder/fetch"
+	"github.com/ethereum-pepe/pepe/op-node/cmd/batch_decoder/reassemble"
+	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/urfave/cli"
@@ -18,7 +18,7 @@ import (
 func main() {
 	app := cli.NewApp()
 	app.Name = "batch-decoder"
-	app.Usage = "Optimism Batch Decoding Utility"
+	app.Usage = "Pepe Batch Decoding Utility"
 	app.Commands = []cli.Command{
 		{
 			Name:  "fetch",

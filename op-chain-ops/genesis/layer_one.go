@@ -17,10 +17,10 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/ethereum/go-ethereum/trie"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/deployer"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/state"
+	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
+	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/deployer"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/state"
 )
 
 var (
@@ -61,7 +61,7 @@ func init() {
 }
 
 // BuildL1DeveloperGenesis will create a L1 genesis block after creating
-// all of the state required for an Optimism network to function.
+// all of the state required for an Pepe network to function.
 func BuildL1DeveloperGenesis(config *DeployConfig) (*core.Genesis, error) {
 	if config.L2OutputOracleStartingTimestamp != -1 {
 		return nil, errors.New("l2oo starting timestamp must be -1")

@@ -1,7 +1,7 @@
 import assert from 'assert'
 
 import { DeployFunction } from 'hardhat-deploy/dist/types'
-import '@eth-optimism/hardhat-deploy-config'
+import '@eth-pepe/hardhat-deploy-config'
 import { ethers } from 'ethers'
 
 import { assertContractVariable, deploy } from '../src/deploy-utils'

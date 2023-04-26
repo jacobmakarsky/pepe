@@ -10,14 +10,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/indexer/metrics"
-	"github.com/ethereum-optimism/optimism/indexer/server"
-	"github.com/ethereum-optimism/optimism/indexer/services/query"
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
+	"github.com/ethereum-pepe/pepe/indexer/metrics"
+	"github.com/ethereum-pepe/pepe/indexer/server"
+	"github.com/ethereum-pepe/pepe/indexer/services/query"
+	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ethereum-optimism/optimism/indexer/db"
-	"github.com/ethereum-optimism/optimism/indexer/services/l2/bridge"
+	"github.com/ethereum-pepe/pepe/indexer/db"
+	"github.com/ethereum-pepe/pepe/indexer/services/l2/bridge"
 
 	"github.com/ethereum/go-ethereum/rpc"
 

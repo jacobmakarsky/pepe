@@ -3,8 +3,8 @@ package rpc
 import (
 	"github.com/urfave/cli"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
-	oprpc "github.com/ethereum-optimism/optimism/op-service/rpc"
+	opservice "github.com/ethereum-pepe/pepe/op-service"
+	oprpc "github.com/ethereum-pepe/pepe/op-service/rpc"
 )
 
 const (

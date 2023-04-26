@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common/mclock"
-	"github.com/ethereum-optimism/optimism/l2geth/light"
+	"github.com/ethereum-pepe/pepe/l2geth/common/mclock"
+	"github.com/ethereum-pepe/pepe/l2geth/light"
 )
 
 var (

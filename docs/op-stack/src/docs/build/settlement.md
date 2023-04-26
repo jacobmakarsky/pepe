@@ -17,7 +17,7 @@ The Settlement Layer includes modules that are used by third-party chains to est
 
 ## Default
 
-The default Settlement Layer module is currently the Attestation Proof Optimistic Settlement module. This module allows a third-party chain to become aware of the state of an OP Stack chain through an Optimistic protocol where challenges can be executed alongside a threshold of attestations from a pre-defined set of addresses over a state that differs from the proposed state. With a Cannon fault proof shipped to production, this default module can be replaced with a module that allows anyone to challenge proposals by playing the Cannon dispute game.
+The default Settlement Layer module is currently the Attestation Proof Pepeistic Settlement module. This module allows a third-party chain to become aware of the state of an OP Stack chain through an Pepeistic protocol where challenges can be executed alongside a threshold of attestations from a pre-defined set of addresses over a state that differs from the proposed state. With a Cannon fault proof shipped to production, this default module can be replaced with a module that allows anyone to challenge proposals by playing the Cannon dispute game.
 
 ## Security
 
@@ -27,11 +27,11 @@ Modifications to the Settlement Layer can strongly impact the security of common
 
 ### Tweaked parameters
 
-One simple modification to the Settlement Layer is to tweak the parameters of the default Optimistic asset withdrawal mechanism. For example, the withdrawal period can be reduced if a smaller withdrawal period would be sufficient to secure your system.
+One simple modification to the Settlement Layer is to tweak the parameters of the default Pepeistic asset withdrawal mechanism. For example, the withdrawal period can be reduced if a smaller withdrawal period would be sufficient to secure your system.
 
 ### Custom proofs
 
-Settlement Layer modules use a proof system to verify the correctness of the state of your OP Stack chain as proposed on the third-party chain. In general, these proofs are either Optimistic proofs that require a withdrawal delay or Validity proofs that use a mathematical proof system to assert the validity of the proposal. The current Attestation Proof Optimistic Settlement module could be replaced with a fault proof system.
+Settlement Layer modules use a proof system to verify the correctness of the state of your OP Stack chain as proposed on the third-party chain. In general, these proofs are either Pepeistic proofs that require a withdrawal delay or Validity proofs that use a mathematical proof system to assert the validity of the proposal. The current Attestation Proof Pepeistic Settlement module could be replaced with a fault proof system.
 
 ### Multiple modules
 

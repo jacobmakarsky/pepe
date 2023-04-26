@@ -20,8 +20,8 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/metrics"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/metrics"
 )
 
 // The fields below define the low level database schema prefixing.
@@ -53,7 +53,7 @@ var (
 	txLookupPrefix  = []byte("l") // txLookupPrefix + hash -> transaction/receipt lookup metadata
 	bloomBitsPrefix = []byte("B") // bloomBitsPrefix + bit (uint16 big endian) + section (uint64 big endian) + hash -> bloom bits
 
-	// Optimism specific
+	// Pepe specific
 	txMetaPrefix = []byte("x") // txMetaPrefix + hash -> transaction metadata
 
 	// headIndexKey tracks the last processed ctc index

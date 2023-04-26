@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/gas-oracle/flags"
-	ometrics "github.com/ethereum-optimism/optimism/gas-oracle/metrics"
-	"github.com/ethereum-optimism/optimism/gas-oracle/oracle"
+	"github.com/ethereum-pepe/pepe/gas-oracle/flags"
+	ometrics "github.com/ethereum-pepe/pepe/gas-oracle/metrics"
+	"github.com/ethereum-pepe/pepe/gas-oracle/oracle"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/metrics/influxdb"
 	"github.com/ethereum/go-ethereum/params"
@@ -26,8 +26,8 @@ func main() {
 
 	app.Version = GitVersion + "-" + params.VersionWithCommit(GitCommit, GitDate)
 	app.Name = "gas-oracle"
-	app.Usage = "Remotely Control the Optimism Gas Price"
-	app.Description = "Configure with a private key and an Optimism HTTP endpoint " +
+	app.Usage = "Remotely Control the Pepe Gas Price"
+	app.Description = "Configure with a private key and an Pepe HTTP endpoint " +
 		"to send transactions that update the L2 gas price."
 
 	// Configure the logging

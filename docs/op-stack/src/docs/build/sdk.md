@@ -3,7 +3,7 @@ title: Using the SDK with OP Stack
 lang: en-US
 ---
 
-When building applications for use with your OP Stack, you can continue to use [the Optimism JavaScript SDK](https://sdk.optimism.io/).
+When building applications for use with your OP Stack, you can continue to use [the Pepe JavaScript SDK](https://sdk.pepe.io/).
 The main difference is you need to provide some contract addresses to the `CrossDomainMessenger` because they aren't preconfigured.
 
 
@@ -11,7 +11,7 @@ The main difference is you need to provide some contract addresses to the `Cross
 
 ### L1 contract addresses
 
-The contract addresses are in `.../optimism/packages/contracts-bedrock/deployments/getting-started`, which you created when you deployed the L1 contracts.
+The contract addresses are in `.../pepe/packages/contracts-bedrock/deployments/getting-started`, which you created when you deployed the L1 contracts.
 
 | Contract name when creating `CrossDomainMessenger` | File with address |
 | - | - |
@@ -36,12 +36,12 @@ In JavaScript you can create the zero address using the expression `"0x".padEnd(
 ## The CrossChainMessenger object
 
 These directions assume you are inside the [Hardhat console](https://hardhat.org/hardhat-runner/docs/guides/hardhat-console).
-They further assume that your project already includes the Optimism SDK [`@eth-optimism/sdk`](https://www.npmjs.com/package/@eth-optimism/sdk).
+They further assume that your project already includes the Pepe SDK [`@eth-pepe/sdk`](https://www.npmjs.com/package/@eth-pepe/sdk).
 
 1. Import the SDK
 
    ```js
-   optimismSDK = require("@eth-optimism/sdk")
+   optimismSDK = require("@eth-pepe/sdk")
    ```
 
 1. Set the configuration parameters.
@@ -72,32 +72,32 @@ They further assume that your project already includes the Optimism SDK [`@eth-o
       BondManager: zeroAddr,
       // These contracts have the addresses you found out earlier.
       AddressManager: "0x....",   // Lib_AddressManager.json
-      L1CrossDomainMessenger: "0x....",   // Proxy__OVM_L1CrossDomainMessenger.json  
+      L1CrossDomainMessenger: "0x....",   // Proxy__OVM_L1CrossDomainMessenger.json
       L1StandardBridge: "0x....",   // Proxy__OVM_L1StandardBridge.json
       OptimismPortal: "0x....",   // OptimismPortalProxy.json
       L2OutputOracle: "0x....",   // L2OutputOracleProxy.json
-   }                       
+   }
    ```
 
 1. Create the data structure for the standard bridge.
 
    ```js
-    bridges = { 
-      Standard: { 
-         l1Bridge: l1Contracts.L1StandardBridge, 
-         l2Bridge: "0x4200000000000000000000000000000000000010", 
+    bridges = {
+      Standard: {
+         l1Bridge: l1Contracts.L1StandardBridge,
+         l2Bridge: "0x4200000000000000000000000000000000000010",
          Adapter: optimismSDK.StandardBridgeAdapter
       },
       ETH: {
-         l1Bridge: l1Contracts.L1StandardBridge, 
-         l2Bridge: "0x4200000000000000000000000000000000000010", 
+         l1Bridge: l1Contracts.L1StandardBridge,
+         l2Bridge: "0x4200000000000000000000000000000000000010",
          Adapter: optimismSDK.ETHBridgeAdapter
       }
    }
    ```
 
 
-1. Create the [`CrossChainMessenger`](https://sdk.optimism.io/classes/crosschainmessenger) object.
+1. Create the [`CrossChainMessenger`](https://sdk.pepe.io/classes/crosschainmessenger) object.
 
    ```js
    crossChainMessenger = new optimismSDK.CrossChainMessenger({
@@ -109,7 +109,7 @@ They further assume that your project already includes the Optimism SDK [`@eth-o
       l1ChainId: await l1Signer.getChainId(),
       l2ChainId: await l2Signer.getChainId(),
       l1SignerOrProvider: l1Signer,
-      l2SignerOrProvider: l2Signer,    
+      l2SignerOrProvider: l2Signer,
    })
    ```
 
@@ -148,7 +148,7 @@ To verify the SDK's functionality, transfer some ETH from L1 to L2.
    (balances0[0]-balances1[0])/1e9
    ```
 
-1. See that the L2 balance changed (it might take a few minutes).  
+1. See that the L2 balance changed (it might take a few minutes).
 
    ```js
    ((await l2Provider.getBalance(l1Signer.address))-balances0[1])/1e9

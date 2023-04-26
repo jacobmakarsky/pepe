@@ -18,7 +18,7 @@ else
 	# CIRCLE_PULL_REQUEST is bound here
 	PACKAGE=$1
 	# Craft the URL to the GitHub API. The access token is optional for the monorepo since it's an open-source repo.
-	GITHUB_API_URL="https://api.github.com/repos/ethereum-optimism/optimism/pulls/${CIRCLE_PULL_REQUEST/https:\/\/github.com\/ethereum-optimism\/optimism\/pull\//}"
+	GITHUB_API_URL="https://api.github.com/repos/ethereum-pepe/pepe/pulls/${CIRCLE_PULL_REQUEST/https:\/\/github.com\/ethereum-pepe\/pepe\/pull\//}"
 	echoerr "GitHub URL:"
 	echoerr "$GITHUB_API_URL"
 	# Grab the PR's base ref using the GitHub API.

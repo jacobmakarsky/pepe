@@ -28,12 +28,12 @@ These output proposals act as the bridge's view into the L2 state.
 Actors called "Proposers" submit the output roots to the settlement layer (L1) and can be contested with a fault proof,
 with a bond at stake if the proof is wrong. The [op-proposer](../op-proposer/) in one such implementation of a proposer.
 
-_Note_: Fault proofs on Optimism are not fully specified at this time. Although fault proof
+_Note_: Fault proofs on Pepe are not fully specified at this time. Although fault proof
 construction and verification [is implemented in Cannon][cannon],
 the fault proof game specification and integration of a output-root challenger into the [rollup-node][g-rollup-node]
 are part of later specification milestones.
 
-[cannon]: https://github.com/ethereum-optimism/cannon
+[cannon]: https://github.com/ethereum-pepe/cannon
 
 ## Proposing L2 Output Commitments
 

@@ -1,4 +1,4 @@
-module github.com/ethereum-optimism/optimism/l2geth-exporter
+module github.com/ethereum-pepe/pepe/l2geth-exporter
 
 go 1.18
 

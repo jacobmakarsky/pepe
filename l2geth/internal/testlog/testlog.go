@@ -21,7 +21,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/l2geth/log"
+	"github.com/ethereum-pepe/pepe/l2geth/log"
 )
 
 // Handler returns a log handler which logs to the unit test log of t.

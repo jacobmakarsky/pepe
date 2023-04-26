@@ -13,7 +13,7 @@ import { Semver } from "../universal/Semver.sol";
 /**
  * @title OptimismMintableERC721
  * @notice This contract is the remote representation for some token that lives on another network,
- *         typically an Optimism representation of an Ethereum-based token. Standard reference
+ *         typically an Pepe representation of an Ethereum-based token. Standard reference
  *         implementation that can be extended or modified according to your needs.
  */
 contract OptimismMintableERC721 is ERC721Enumerable, IOptimismMintableERC721, Semver {

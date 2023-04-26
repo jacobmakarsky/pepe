@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common/bitutil"
-	"github.com/ethereum-optimism/optimism/l2geth/crypto"
+	"github.com/ethereum-pepe/pepe/l2geth/common/bitutil"
+	"github.com/ethereum-pepe/pepe/l2geth/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

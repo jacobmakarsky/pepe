@@ -1,6 +1,6 @@
 import { BaseProvider } from '@ethersproject/providers'
 import { BigNumber } from 'ethers'
-import { TypedEvent } from '@eth-optimism/contracts/dist/types/common'
+import { TypedEvent } from '@eth-pepe/contracts/dist/types/common'
 
 import {
   TransactionBatchEntry,

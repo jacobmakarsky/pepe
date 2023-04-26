@@ -15,10 +15,10 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-optimism/optimism/op-node/sources"
-	"github.com/ethereum-optimism/optimism/op-proposer/metrics"
-	"github.com/ethereum-optimism/optimism/op-proposer/proposer"
-	"github.com/ethereum-optimism/optimism/op-service/txmgr"
+	"github.com/ethereum-pepe/pepe/op-node/sources"
+	"github.com/ethereum-pepe/pepe/op-proposer/metrics"
+	"github.com/ethereum-pepe/pepe/op-proposer/proposer"
+	"github.com/ethereum-pepe/pepe/op-service/txmgr"
 )
 
 type ProposerCfg struct {

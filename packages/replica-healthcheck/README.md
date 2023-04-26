@@ -1,6 +1,6 @@
-# @eth-optimism/replica-healthcheck
+# @eth-pepe/replica-healthcheck
 
-[![codecov](https://codecov.io/gh/ethereum-optimism/optimism/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=replica-healthcheck-tests)](https://codecov.io/gh/ethereum-optimism/optimism)
+[![codecov](https://codecov.io/gh/ethereum-pepe/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=replica-healthcheck-tests)](https://codecov.io/gh/ethereum-pepe/pepe)
 
 ## What is this?
 
@@ -9,10 +9,10 @@
 
 ## Installation
 
-Clone, install, and build the Optimism monorepo:
+Clone, install, and build the Pepe monorepo:
 
 ```
-git clone https://github.com/ethereum-optimism/optimism.git
+git clone https://github.com/ethereum-pepe/pepe.git
 yarn install
 yarn build
 ```

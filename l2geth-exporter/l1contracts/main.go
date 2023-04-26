@@ -4,7 +4,7 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/l2geth-exporter/bindings"
+	"github.com/ethereum-pepe/pepe/l2geth-exporter/bindings"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"

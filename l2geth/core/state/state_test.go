@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/core/rawdb"
-	"github.com/ethereum-optimism/optimism/l2geth/crypto"
-	"github.com/ethereum-optimism/optimism/l2geth/ethdb"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-pepe/pepe/l2geth/crypto"
+	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
 )
 
 var toAddr = common.BytesToAddress

@@ -22,18 +22,18 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/l2geth/accounts"
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/core"
-	"github.com/ethereum-optimism/optimism/l2geth/core/bloombits"
-	"github.com/ethereum-optimism/optimism/l2geth/core/state"
-	"github.com/ethereum-optimism/optimism/l2geth/core/types"
-	"github.com/ethereum-optimism/optimism/l2geth/core/vm"
-	"github.com/ethereum-optimism/optimism/l2geth/eth/downloader"
-	"github.com/ethereum-optimism/optimism/l2geth/ethdb"
-	"github.com/ethereum-optimism/optimism/l2geth/event"
-	"github.com/ethereum-optimism/optimism/l2geth/params"
-	"github.com/ethereum-optimism/optimism/l2geth/rpc"
+	"github.com/ethereum-pepe/pepe/l2geth/accounts"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/core"
+	"github.com/ethereum-pepe/pepe/l2geth/core/bloombits"
+	"github.com/ethereum-pepe/pepe/l2geth/core/state"
+	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-pepe/pepe/l2geth/core/vm"
+	"github.com/ethereum-pepe/pepe/l2geth/eth/downloader"
+	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
+	"github.com/ethereum-pepe/pepe/l2geth/event"
+	"github.com/ethereum-pepe/pepe/l2geth/params"
+	"github.com/ethereum-pepe/pepe/l2geth/rpc"
 )
 
 // Backend interface provides the common API services (that are provided by
@@ -87,7 +87,7 @@ type Backend interface {
 	ChainConfig() *params.ChainConfig
 	CurrentBlock() *types.Block
 
-	// Optimism-specific API
+	// Pepe-specific API
 	IsVerifier() bool
 	IsSyncing() bool
 	GetEthContext() (uint64, uint64)

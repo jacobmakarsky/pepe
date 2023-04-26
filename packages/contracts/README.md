@@ -1,34 +1,34 @@
-# Optimism Smart Contracts
+# Pepe Smart Contracts
 
-[![codecov](https://codecov.io/gh/ethereum-optimism/optimism/branch/master/graph/badge.svg?token=0VTG7PG7YR&flag=contracts-tests)](https://codecov.io/gh/ethereum-optimism/optimism)
+[![codecov](https://codecov.io/gh/ethereum-pepe/pepe/branch/master/graph/badge.svg?token=0VTG7PG7YR&flag=contracts-tests)](https://codecov.io/gh/ethereum-pepe/pepe)
 
-`@eth-optimism/contracts` contains the various Solidity smart contracts used within the Optimism system.
-Some of these contracts are [meant to be deployed to Ethereum ("Layer 1")](https://github.com/ethereum-optimism/optimism/tree/develop/packages/contracts/contracts/L1), while others are [meant to be deployed to Optimism ("Layer 2")](https://github.com/ethereum-optimism/optimism/tree/develop/packages/contracts/contracts/L2).
-Within each contract file you'll find the network upon which the contract is meant to be deloyed, listed as either `EVM` (for Ethereum) or `OVM` (for Optimism).
+`@eth-pepe/contracts` contains the various Solidity smart contracts used within the Pepe system.
+Some of these contracts are [meant to be deployed to Ethereum ("Layer 1")](https://github.com/ethereum-pepe/pepe/tree/develop/packages/contracts/contracts/L1), while others are [meant to be deployed to Pepe ("Layer 2")](https://github.com/ethereum-pepe/pepe/tree/develop/packages/contracts/contracts/L2).
+Within each contract file you'll find the network upon which the contract is meant to be deloyed, listed as either `EVM` (for Ethereum) or `OVM` (for Pepe).
 If neither `EVM` nor `OVM` are listed, the contract is likely intended to be used on either network.
 
 ## Usage (npm)
 
-You can import `@eth-optimism/contracts` to use the Optimism contracts within your own codebase.
+You can import `@eth-pepe/contracts` to use the Pepe contracts within your own codebase.
 Install via `npm` or `yarn`:
 
 ```shell
-npm install @eth-optimism/contracts
+npm install @eth-pepe/contracts
 ```
 
 Within your contracts:
 
 ```solidity
-import { SomeContract } from "@eth-optimism/contracts/path/to/SomeContract.sol";
+import { SomeContract } from "@eth-pepe/contracts/path/to/SomeContract.sol";
 ```
 
-Note that the `/path/to/SomeContract.sol` is the path to the target contract within the [contracts folder](https://github.com/ethereum-optimism/optimism/tree/develop/packages/contracts/contracts) inside of this package.
-For example, the [L1CrossDomainMessenger](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts/contracts/L1/messaging/L1CrossDomainMessenger.sol) contract is located at `packages/contracts/contracts/L1/messaging/L1CrossDomainMessenger.sol`, relative to this README.
+Note that the `/path/to/SomeContract.sol` is the path to the target contract within the [contracts folder](https://github.com/ethereum-pepe/pepe/tree/develop/packages/contracts/contracts) inside of this package.
+For example, the [L1CrossDomainMessenger](https://github.com/ethereum-pepe/pepe/blob/develop/packages/contracts/contracts/L1/messaging/L1CrossDomainMessenger.sol) contract is located at `packages/contracts/contracts/L1/messaging/L1CrossDomainMessenger.sol`, relative to this README.
 You would therefore import the contract as:
 
 
 ```solidity
-import { L1CrossDomainMessenger } from "@eth-optimism/contracts/L1/messaging/L1CrossDomainMessenger.sol";
+import { L1CrossDomainMessenger } from "@eth-pepe/contracts/L1/messaging/L1CrossDomainMessenger.sol";
 ```
 
 ## Guide for Developers
@@ -43,7 +43,7 @@ Install the following:
 Clone the repo:
 
 ```shell
-git clone https://github.com/ethereum-optimism/contracts.git
+git clone https://github.com/ethereum-pepe/contracts.git
 cd contracts
 ```
 
@@ -137,7 +137,7 @@ npx hardhat etherscan-verify --network <my network name>
 
 #### Creating a genesis file
 
-Optimism expects that certain contracts (called "predeploys") be deployed to the L2 network at pre-determined addresses.
+Pepe expects that certain contracts (called "predeploys") be deployed to the L2 network at pre-determined addresses.
 We guarantee this by creating a genesis file in which certain contracts are already within the L2 state at the genesis block.
 To create the genesis file for your network, you must first deploy the L1 contracts using the appropriate commands from above.
 Once you've deployed your contracts, run the following command:
@@ -153,7 +153,7 @@ You can then ingest this file via `geth init`.
 
 #### Whitelisting
 
-Optimism has removed the whitelist from the Optimism mainnet.
+Pepe has removed the whitelist from the Pepe mainnet.
 However, if you are running your own network and still wish to use the whitelist, you can manage the whitelist with the `whitelist` task.
 Run the following to get help text for the `whitelist` command:
 
@@ -172,5 +172,5 @@ npx hardhat withdraw-fees --help
 ```
 
 ## Security
-Please refer to our [Security Policy](https://github.com/ethereum-optimism/.github/security/policy) for information about how to disclose security issues with this code.
-We also maintain a [bug bounty program via Immunefi](https://immunefi.com/bounty/optimism/) with a maximum payout of $2,000,042 for critical bug reports.
+Please refer to our [Security Policy](https://github.com/ethereum-pepe/.github/security/policy) for information about how to disclose security issues with this code.
+We also maintain a [bug bounty program via Immunefi](https://immunefi.com/bounty/pepe/) with a maximum payout of $2,000,042 for critical bug reports.

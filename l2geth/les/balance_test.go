@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common/mclock"
+	"github.com/ethereum-pepe/pepe/l2geth/common/mclock"
 )
 
 func TestSetBalance(t *testing.T) {

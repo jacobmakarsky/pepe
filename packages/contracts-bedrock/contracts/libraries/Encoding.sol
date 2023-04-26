@@ -7,7 +7,7 @@ import { RLPWriter } from "./rlp/RLPWriter.sol";
 
 /**
  * @title Encoding
- * @notice Encoding handles Optimism's various different encoding schemes.
+ * @notice Encoding handles Pepe's various different encoding schemes.
  */
 library Encoding {
     /**

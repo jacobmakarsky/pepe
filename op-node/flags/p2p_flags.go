@@ -5,7 +5,7 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/ethereum-optimism/optimism/op-node/p2p"
+	"github.com/ethereum-pepe/pepe/op-node/p2p"
 )
 
 func p2pEnv(v string) string {
@@ -182,10 +182,10 @@ var (
 	}
 	UserAgent = cli.StringFlag{
 		Name:     "p2p.useragent",
-		Usage:    "User-agent string to share via LibP2P identify. If empty it defaults to 'optimism'.",
+		Usage:    "User-agent string to share via LibP2P identify. If empty it defaults to 'pepe'.",
 		Hidden:   true,
 		Required: false,
-		Value:    "optimism",
+		Value:    "pepe",
 		EnvVar:   p2pEnv("AGENT"),
 	}
 	TimeoutNegotiation = cli.DurationFlag{

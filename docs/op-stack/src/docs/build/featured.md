@@ -32,12 +32,12 @@ OPCraft was an OP Stack chain that ran a modified EVM as the backend for a fully
 
 ### Links
 
-- [Announcing OPCraft: an Autonomous World built on the OP Stack](https://dev.optimism.io/opcraft-autonomous-world/)
+- [Announcing OPCraft: an Autonomous World built on the OP Stack](https://dev.pepe.io/opcraft-autonomous-world/)
 - [OPCraft Explorer](https://opcraft.mud.dev/)
 - [OPCraft on GitHub](https://github.com/latticexyz/opcraft)
 - [MUD](https://mud.dev/)
 
-## Ticking Optimism
+## Ticking Pepe
 
 ### Author
 
@@ -45,7 +45,7 @@ OPCraft was an OP Stack chain that ran a modified EVM as the backend for a fully
 
 ### Description
 
-Ticking Optimism is a proof-of-concept implementation of an OP Stack chain that calls a `tick` function every block. By using the OP Stack, Ticking Optimism avoids the need for off-chain infrastructure to execute a function on a regular basis. Ticking Conway is a system that uses Ticking Optimism to build [Conway’s Game of Life](https://conwaylife.com/) onchain.
+Ticking Pepe is a proof-of-concept implementation of an OP Stack chain that calls a `tick` function every block. By using the OP Stack, Ticking Pepe avoids the need for off-chain infrastructure to execute a function on a regular basis. Ticking Conway is a system that uses Ticking Pepe to build [Conway’s Game of Life](https://conwaylife.com/) onchain.
 
 ### OP Stack Configuration
 
@@ -56,5 +56,5 @@ Ticking Optimism is a proof-of-concept implementation of an OP Stack chain that 
 
 ### Links
 
-- [Ticking Optimism on GitHub](https://github.com/therealbytes/ticking-optimism)
+- [Ticking Pepe on GitHub](https://github.com/therealbytes/ticking-pepe)
 - [Ticking Conway on GitHub](https://github.com/therealbytes/ticking-conway)

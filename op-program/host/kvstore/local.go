@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/ethereum-optimism/optimism/op-program/client"
-	"github.com/ethereum-optimism/optimism/op-program/host/config"
+	"github.com/ethereum-pepe/pepe/op-program/client"
+	"github.com/ethereum-pepe/pepe/op-program/host/config"
 	"github.com/ethereum/go-ethereum/common"
 )
 

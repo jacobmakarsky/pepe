@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: Ethereum Optimism Data Transport Later
+  title: Ethereum Pepe Data Transport Later
   description: |
     Make sequencer or contract data available behind a common API
   version: 0.1.0

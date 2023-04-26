@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/l2geth/crypto"
-	"github.com/ethereum-optimism/optimism/l2geth/p2p"
-	"github.com/ethereum-optimism/optimism/l2geth/rpc"
+	"github.com/ethereum-pepe/pepe/l2geth/crypto"
+	"github.com/ethereum-pepe/pepe/l2geth/p2p"
+	"github.com/ethereum-pepe/pepe/l2geth/rpc"
 )
 
 var (

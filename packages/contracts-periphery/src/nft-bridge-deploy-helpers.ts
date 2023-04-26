@@ -1,6 +1,6 @@
 import { utils } from 'ethers'
 
-// https://optimistic.etherscan.io/address/0x2501c477d0a35545a387aa4a3eee4292a9a8b3f0
+// https://pepeistic.etherscan.io/address/0x2501c477d0a35545a387aa4a3eee4292a9a8b3f0
 export const l2MainnetMultisig = '0x2501c477D0A35545a387Aa4A3EEe4292A9a8B3F0'
 // https://etherscan.io/address/0x9BA6e03D8B90dE867373Db8cF1A58d2F7F006b3A
 export const l1MainnetMultisig = '0x9BA6e03D8B90dE867373Db8cF1A58d2F7F006b3A'
@@ -11,10 +11,10 @@ export const predeployDeployer = '0xdfc82d475833a50de90c642770f34a9db7deb725'
 
 export const isTargetL2Network = (network: string): boolean => {
   switch (network) {
-    case 'optimism':
-    case 'optimism-goerli':
+    case 'pepe':
+    case 'pepe-goerli':
     case 'ops-l2':
-    case 'optimism-kovan':
+    case 'pepe-kovan':
       return true
     default:
       return false
@@ -36,16 +36,16 @@ export const isTargetL1Network = (network: string): boolean => {
 
 export const getProxyAdmin = (network: string): string => {
   switch (network) {
-    case 'optimism':
+    case 'pepe':
       return l2MainnetMultisig
     case 'mainnet':
     case 'ethereum':
       return l1MainnetMultisig
     case 'kovan':
-    case 'optimism-kovan':
+    case 'pepe-kovan':
       return goerliAdmin
     case 'goerli':
-    case 'optimism-goerli':
+    case 'pepe-goerli':
       return goerliAdmin
     case 'ops-l1':
     case 'ops-l2':

@@ -1,4 +1,4 @@
-# @eth-optimism/core-utils
+# @eth-pepe/core-utils
 
 ## 0.12.0
 
@@ -112,7 +112,7 @@
 ### Patch Changes
 
 - b4165299: Added tests and docstrings to misc functions
-- 3c2acd91: Refactor folder structure of @eth-optimism/core-utils.
+- 3c2acd91: Refactor folder structure of @eth-pepe/core-utils.
 
 ## 0.7.6
 
@@ -155,7 +155,7 @@
 
 ### Minor Changes
 
-- 896168e2: Parse optimistic ethereum specific fields on transaction receipts
+- 896168e2: Parse pepeistic ethereum specific fields on transaction receipts
 - 83a449c4: Change the expectApprox interface to allow setting an absoluteexpected deviation range
 - 81ccd6e4: `regenesis/0.5.0` release
 
@@ -330,4 +330,4 @@
 
 ### Minor Changes
 
-- 6cbc54d: allow injecting L2 transaction and block context via core-utils (this removes the need to import the now deprecated @eth-optimism/provider package)
+- 6cbc54d: allow injecting L2 transaction and block context via core-utils (this removes the need to import the now deprecated @eth-pepe/provider package)

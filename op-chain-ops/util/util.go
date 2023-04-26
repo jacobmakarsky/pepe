@@ -120,7 +120,7 @@ var AddressesFlags = []cli.Flag{
 		EnvVars: []string{"ADDRESS_MANAGER_ADDRESS"},
 	},
 	&cli.StringFlag{
-		Name:    "optimism-portal-address",
+		Name:    "pepe-portal-address",
 		Usage:   "OptimismPortal address",
 		EnvVars: []string{"OPTIMISM_PORTAL_ADDRESS"},
 	},
@@ -156,7 +156,7 @@ func NewAddresses(ctx *cli.Context) (*Addresses, error) {
 	if err != nil {
 		return nil, err
 	}
-	addresses.OptimismPortal, err = parseAddress(ctx, "optimism-portal-address")
+	addresses.OptimismPortal, err = parseAddress(ctx, "pepe-portal-address")
 	if err != nil {
 		return nil, err
 	}

@@ -14,12 +14,12 @@ import (
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/crossdomain"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/genesis"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/util"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
+	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/crossdomain"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/genesis"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/util"
+	"github.com/ethereum-pepe/pepe/op-node/rollup"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
@@ -88,7 +88,7 @@ func main() {
 				Usage: "RPC URL for an L2 Node",
 			},
 			&cli.StringFlag{
-				Name:  "optimism-portal-address",
+				Name:  "pepe-portal-address",
 				Usage: "Address of the OptimismPortal on L1",
 			},
 			&cli.StringFlag{
@@ -730,7 +730,7 @@ type contracts struct {
 // newContracts will create a contracts struct with the contract bindings
 // preconfigured
 func newContracts(ctx *cli.Context, l1Backend, l2Backend bind.ContractBackend) (*contracts, error) {
-	optimismPortalAddress := ctx.String("optimism-portal-address")
+	optimismPortalAddress := ctx.String("pepe-portal-address")
 	if len(optimismPortalAddress) == 0 {
 		return nil, errors.New("OptimismPortal address not configured")
 	}
@@ -764,7 +764,7 @@ func newContracts(ctx *cli.Context, l1Backend, l2Backend bind.ContractBackend) (
 	log.Info(
 		"Addresses",
 		"l1-crossdomain-messenger", l1xdmAddr,
-		"optimism-portal", optimismPortalAddr,
+		"pepe-portal", optimismPortalAddr,
 		"l2-output-oracle", l2OracleAddr,
 	)
 

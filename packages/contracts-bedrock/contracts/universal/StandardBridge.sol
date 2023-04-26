@@ -333,7 +333,7 @@ abstract contract StandardBridge {
         if (_isOptimismMintableERC20(_localToken)) {
             require(
                 _isCorrectTokenPair(_localToken, _remoteToken),
-                "StandardBridge: wrong remote token for Optimism Mintable ERC20 local token"
+                "StandardBridge: wrong remote token for Pepe Mintable ERC20 local token"
             );
 
             OptimismMintableERC20(_localToken).mint(_to, _amount);
@@ -411,7 +411,7 @@ abstract contract StandardBridge {
         if (_isOptimismMintableERC20(_localToken)) {
             require(
                 _isCorrectTokenPair(_localToken, _remoteToken),
-                "StandardBridge: wrong remote token for Optimism Mintable ERC20 local token"
+                "StandardBridge: wrong remote token for Pepe Mintable ERC20 local token"
             );
 
             OptimismMintableERC20(_localToken).burn(_from, _amount);

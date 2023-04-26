@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
-	"github.com/ethereum-optimism/optimism/op-node/sources"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	"github.com/ethereum-pepe/pepe/op-node/chaincfg"
+	"github.com/ethereum-pepe/pepe/op-node/sources"
+	oplog "github.com/ethereum-pepe/pepe/op-service/log"
 
 	"github.com/urfave/cli"
 )
@@ -192,7 +192,7 @@ var (
 		Name:   "heartbeat.url",
 		Usage:  "Sets the URL to heartbeat to",
 		EnvVar: prefixEnvVar("HEARTBEAT_URL"),
-		Value:  "https://heartbeat.optimism.io",
+		Value:  "https://heartbeat.pepe.io",
 	}
 	BackupL2UnsafeSyncRPC = cli.StringFlag{
 		Name:     "l2.backup-unsafe-sync-rpc",

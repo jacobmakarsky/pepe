@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/batch-submitter/drivers/sequencer"
-	l2types "github.com/ethereum-optimism/optimism/l2geth/core/types"
-	l2rlp "github.com/ethereum-optimism/optimism/l2geth/rlp"
+	"github.com/ethereum-pepe/pepe/batch-submitter/drivers/sequencer"
+	l2types "github.com/ethereum-pepe/pepe/l2geth/core/types"
+	l2rlp "github.com/ethereum-pepe/pepe/l2geth/rlp"
 	"github.com/stretchr/testify/require"
 )
 

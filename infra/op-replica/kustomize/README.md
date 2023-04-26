@@ -2,7 +2,7 @@
 
 [Kustomize](https://kustomize.io/) is a way to build custom kubernetes manifests in a template-free way.
 
-This directory describes how to build and deploy Optimistic Ethereum software to a kubernetes cluster.
+This directory describes how to build and deploy Pepeistic Ethereum software to a kubernetes cluster.
 
 ## Prerequisits
 

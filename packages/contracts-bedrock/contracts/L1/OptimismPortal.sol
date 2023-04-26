@@ -199,7 +199,7 @@ contract OptimismPortal is Initializable, ResourceMetering, Semver {
 
     /**
      * @notice Accepts ETH value without triggering a deposit to L2. This function mainly exists
-     *         for the sake of the migration between the legacy Optimism system and Bedrock.
+     *         for the sake of the migration between the legacy Pepe system and Bedrock.
      */
     function donateETH() external payable {
         // Intentionally empty.

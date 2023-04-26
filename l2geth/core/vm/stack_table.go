@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/ethereum-optimism/optimism/l2geth/params"
+	"github.com/ethereum-pepe/pepe/l2geth/params"
 )
 
 func minSwapStack(n int) int {

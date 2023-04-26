@@ -977,7 +977,7 @@ contract OptimismPortal_FinalizeWithdrawal_Test is Portal_Initializer {
         bytes memory _data
     ) external {
         vm.assume(
-            _target != address(op) && // Cannot call the optimism portal or a contract
+            _target != address(op) && // Cannot call the pepe portal or a contract
                 _target.code.length == 0 && // No accounts with code
                 _target != CONSOLE && // The console has no code but behaves like a contract
                 uint160(_target) > 9 // No precompiles (or zero address)

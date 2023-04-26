@@ -16,7 +16,7 @@ import { OptimismMintableERC20 } from "../universal/OptimismMintableERC20.sol";
  */
 contract LegacyERC20ETH is OptimismMintableERC20 {
     /**
-     * @notice Initializes the contract as an Optimism Mintable ERC20.
+     * @notice Initializes the contract as an Pepe Mintable ERC20.
      */
     constructor()
         OptimismMintableERC20(Predeploys.L2_STANDARD_BRIDGE, address(0), "Ether", "ETH")

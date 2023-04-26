@@ -369,7 +369,7 @@ export const deployConfigSpec: {
   },
   governanceTokenName: {
     type: 'string',
-    default: 'Optimism',
+    default: 'Pepe',
   },
   governanceTokenOwner: {
     type: 'string',

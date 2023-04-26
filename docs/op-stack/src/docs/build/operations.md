@@ -36,7 +36,7 @@ To restart the blockchain, use the same order of components you did when you ini
 
    ```sh
    curl -d '{"id":0,"jsonrpc":"2.0","method":"admin_startBatcher","params":[]}' \
-       -H "Content-Type: application/json" http://localhost:8548 | jq   
+       -H "Content-Type: application/json" http://localhost:8548 | jq
    ```
 
 ::: tip Synchronization takes time
@@ -60,24 +60,24 @@ To add nodes to the rollup, you need to initialize `op-node` and `op-geth`, simi
 You should *not* add an `op-bathcer`, there should be only one.
 
 1. Configure the OS and prerequisites as you did for the first node.
-1. Build the Optimism monorepo and `op-geth` as you did for the first node.
+1. Build the Pepe monorepo and `op-geth` as you did for the first node.
 1. Copy from the first node these files:
-    
+
     ```bash
     ~/op-geth/genesis.json
-    ~/optimism/op-node/rollup.json
+    ~/pepe/op-node/rollup.json
     ```
-    
+
 1. Create a new `jwt.txt` file as a shared secret:
-    
+
     ```bash
     cd ~/op-geth
     openssl rand -hex 32 > jwt.txt
-    cp jwt.txt ~/optimism/op-node
+    cp jwt.txt ~/pepe/op-node
     ```
-    
+
 1. Initialize the new op-geth:
-    
+
     ```bash
     cd ~/op-geth
     ./build/bin/geth init --datadir=./datadir ./genesis.json

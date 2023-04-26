@@ -1,10 +1,10 @@
-module github.com/ethereum-optimism/optimism/op-heartbeat
+module github.com/ethereum-pepe/pepe/op-heartbeat
 
 go 1.18
 
 require (
-	github.com/ethereum-optimism/optimism/op-node v0.10.13
-	github.com/ethereum-optimism/optimism/op-service v0.10.13
+	github.com/ethereum-pepe/pepe/op-node v0.10.13
+	github.com/ethereum-pepe/pepe/op-service v0.10.13
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/hashicorp/golang-lru v0.5.5-0.20210104140557-80c98217689d
 	github.com/prometheus/client_golang v1.14.0

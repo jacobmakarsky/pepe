@@ -14,12 +14,12 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/hardhat"
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/immutables"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/state"
-	"github.com/ethereum-optimism/optimism/op-node/eth"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/ethereum-pepe/pepe/op-bindings/hardhat"
+	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/immutables"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/state"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-node/rollup"
 )
 
 var (
@@ -27,7 +27,7 @@ var (
 	ErrInvalidImmutablesConfig = errors.New("invalid immutables config")
 )
 
-// DeployConfig represents the deployment configuration for Optimism
+// DeployConfig represents the deployment configuration for Pepe
 type DeployConfig struct {
 	L1StartingBlockTag *MarshalableRPCBlockNumberOrHash `json:"l1StartingBlockTag"`
 	L1ChainID          uint64                           `json:"l1ChainID"`

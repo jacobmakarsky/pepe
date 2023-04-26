@@ -14,14 +14,14 @@ import (
 	"github.com/libp2p/go-libp2p/core/network"
 	ma "github.com/multiformats/go-multiaddr"
 
-	"github.com/ethereum-optimism/optimism/op-node/eth"
-	"github.com/ethereum-optimism/optimism/op-node/metrics"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-node/metrics"
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/p2p/discover"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/ethereum-pepe/pepe/op-node/rollup"
 )
 
 // NodeP2P is a p2p node, which can be used to gossip messages.

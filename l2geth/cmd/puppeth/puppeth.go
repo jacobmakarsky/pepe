@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/l2geth/log"
+	"github.com/ethereum-pepe/pepe/l2geth/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

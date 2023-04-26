@@ -19,10 +19,10 @@ package core
 import (
 	"context"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/common/hexutil"
-	"github.com/ethereum-optimism/optimism/l2geth/internal/ethapi"
-	"github.com/ethereum-optimism/optimism/l2geth/log"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-pepe/pepe/l2geth/internal/ethapi"
+	"github.com/ethereum-pepe/pepe/l2geth/log"
 )
 
 type AuditLogger struct {

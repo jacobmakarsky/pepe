@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
 	"github.com/stretchr/testify/require"
 )
 

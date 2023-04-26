@@ -1,8 +1,8 @@
 import {
   predeploys,
   getDeployedContractDefinition,
-} from '@eth-optimism/contracts'
-import { predeploys as bedrockPredeploys } from '@eth-optimism/contracts-bedrock'
+} from '@eth-pepe/contracts'
+import { predeploys as bedrockPredeploys } from '@eth-pepe/contracts-bedrock'
 
 import {
   L1ChainID,

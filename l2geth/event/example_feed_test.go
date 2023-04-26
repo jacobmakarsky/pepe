@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/ethereum-optimism/optimism/l2geth/event"
+	"github.com/ethereum-pepe/pepe/l2geth/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

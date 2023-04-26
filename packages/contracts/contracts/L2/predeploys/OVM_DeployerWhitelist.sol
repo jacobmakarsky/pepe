@@ -4,7 +4,7 @@ pragma solidity ^0.8.9;
 /**
  * @title OVM_DeployerWhitelist
  * @dev The Deployer Whitelist is a temporary predeploy used to provide additional safety during the
- * initial phases of our mainnet roll out. It is owned by the Optimism team, and defines accounts
+ * initial phases of our mainnet roll out. It is owned by the Pepe team, and defines accounts
  * which are allowed to deploy contracts on Layer2. The Execution Manager will only allow an
  * ovmCREATE or ovmCREATE2 operation to proceed if the deployer's address whitelisted.
  */

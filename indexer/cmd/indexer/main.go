@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/urfave/cli"
 
-	"github.com/ethereum-optimism/optimism/indexer"
-	"github.com/ethereum-optimism/optimism/indexer/flags"
+	"github.com/ethereum-pepe/pepe/indexer"
+	"github.com/ethereum-pepe/pepe/indexer/flags"
 )
 
 var (

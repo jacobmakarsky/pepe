@@ -20,8 +20,8 @@ git push $BEDROCK_TAGS_REMOTE "op-bindings/$VERSION"
 git push $BEDROCK_TAGS_REMOTE "op-service/$VERSION"
 
 cd op-chain-ops
-go get github.com/ethereum-optimism/optimism/op-bindings@$VERSION
-go get github.com/ethereum-optimism/optimism/op-service@$VERSION
+go get github.com/ethereum-pepe/pepe/op-bindings@$VERSION
+go get github.com/ethereum-pepe/pepe/op-service@$VERSION
 go mod tidy
 
 git add .
@@ -31,9 +31,9 @@ git tag "op-chain-ops/$VERSION"
 git push $BEDROCK_TAGS_REMOTE "op-chain-ops/$VERSION"
 
 cd ../op-node
-go get github.com/ethereum-optimism/optimism/op-bindings@$VERSION
-go get github.com/ethereum-optimism/optimism/op-service@$VERSION
-go get github.com/ethereum-optimism/optimism/op-chain-ops@$VERSION
+go get github.com/ethereum-pepe/pepe/op-bindings@$VERSION
+go get github.com/ethereum-pepe/pepe/op-service@$VERSION
+go get github.com/ethereum-pepe/pepe/op-chain-ops@$VERSION
 go mod tidy
 
 echo Please update the version to ${VERSION} in op-node/version/version.go
@@ -46,9 +46,9 @@ git tag "op-node/$VERSION"
 git push $BEDROCK_TAGS_REMOTE "op-node/$VERSION"
 
 cd ../op-proposer
-go get github.com/ethereum-optimism/optimism/op-bindings@$VERSION
-go get github.com/ethereum-optimism/optimism/op-service@$VERSION
-go get github.com/ethereum-optimism/optimism/op-node@$VERSION
+go get github.com/ethereum-pepe/pepe/op-bindings@$VERSION
+go get github.com/ethereum-pepe/pepe/op-service@$VERSION
+go get github.com/ethereum-pepe/pepe/op-node@$VERSION
 go mod tidy
 
 echo Please update the version to ${VERSION} in op-proposer/cmd/main.go
@@ -61,10 +61,10 @@ git tag "op-proposer/$VERSION"
 git push $BEDROCK_TAGS_REMOTE "op-proposer/$VERSION"
 
 cd ../op-batcher
-go get github.com/ethereum-optimism/optimism/op-bindings@$VERSION
-go get github.com/ethereum-optimism/optimism/op-service@$VERSION
-go get github.com/ethereum-optimism/optimism/op-node@$VERSION
-go get github.com/ethereum-optimism/optimism/op-proposer@$VERSION
+go get github.com/ethereum-pepe/pepe/op-bindings@$VERSION
+go get github.com/ethereum-pepe/pepe/op-service@$VERSION
+go get github.com/ethereum-pepe/pepe/op-node@$VERSION
+go get github.com/ethereum-pepe/pepe/op-proposer@$VERSION
 go mod tidy
 
 echo Please update the version to ${VERSION} in op-batcher/cmd/main.go
@@ -77,11 +77,11 @@ git tag "op-batcher/$VERSION"
 git push $BEDROCK_TAGS_REMOTE "op-batcher/$VERSION"
 
 cd ../op-e2e
-go get github.com/ethereum-optimism/optimism/op-bindings@$VERSION
-go get github.com/ethereum-optimism/optimism/op-service@$VERSION
-go get github.com/ethereum-optimism/optimism/op-node@$VERSION
-go get github.com/ethereum-optimism/optimism/op-proposer@$VERSION
-go get github.com/ethereum-optimism/optimism/op-batcher@$VERSION
+go get github.com/ethereum-pepe/pepe/op-bindings@$VERSION
+go get github.com/ethereum-pepe/pepe/op-service@$VERSION
+go get github.com/ethereum-pepe/pepe/op-node@$VERSION
+go get github.com/ethereum-pepe/pepe/op-proposer@$VERSION
+go get github.com/ethereum-pepe/pepe/op-batcher@$VERSION
 go mod tidy
 
 git add .

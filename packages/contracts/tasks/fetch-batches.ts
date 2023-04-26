@@ -5,7 +5,7 @@ import {
   BatchType,
   SequencerBatch,
   calldataCost,
-} from '@eth-optimism/core-utils'
+} from '@eth-pepe/core-utils'
 
 import { names } from '../src/address-names'
 import { getContractFromArtifact } from '../src/deploy-utils'

@@ -79,13 +79,13 @@
 
 [L1]: glossary.md#layer-1-L1
 
-Refers the Ethereum blockchain, used in contrast to [layer 2][L2], which refers to Optimism.
+Refers the Ethereum blockchain, used in contrast to [layer 2][L2], which refers to Pepe.
 
 ## Layer 2 (L2)
 
 [L2]: glossary.md#layer-2-L2
 
-Refers to the Optimism blockchain (specified in this repository), used in contrast to [layer 1][L1], which
+Refers to the Pepe blockchain (specified in this repository), used in contrast to [layer 1][L1], which
 refers to the Ethereum blockchain.
 
 ## Block
@@ -391,7 +391,7 @@ proof][fault-proof].
  [data-availability]: glossary.md#data-availability
 
 Data availability is the guarantee that some data will be "available" (i.e. *retrievable*) during a reasonably long time
-window. In Optimism's case, the data in question are [sequencer batches][sequencer-batch] that [validators][validator]
+window. In Pepe's case, the data in question are [sequencer batches][sequencer-batch] that [validators][validator]
 needs in order to verify the sequencer's work and validate the L2 chain.
 
 The [finalization period][finalization-period] should be taken as the lower bound on the availability window, since
@@ -802,5 +802,5 @@ In these specifications, "execution engine" always refer to the L2 execution eng
 [merge]: https://ethereum.org/en/eth2/merge/
 [mempool]: https://www.quicknode.com/guides/defi/how-to-access-ethereum-mempool
 [L1 consensus layer]: https://github.com/ethereum/consensus-specs/#readme
-[cannon]: https://github.com/ethereum-optimism/cannon
+[cannon]: https://github.com/ethereum-pepe/cannon
 [eip4844]: https://www.eip4844.com/

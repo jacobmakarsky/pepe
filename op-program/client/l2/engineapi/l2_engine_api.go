@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum-optimism/optimism/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
 	"github.com/ethereum/go-ethereum/beacon/engine"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/consensus"
@@ -225,8 +225,8 @@ func (ea *L2EngineAPI) ForkchoiceUpdatedV1(ctx context.Context, state *eth.Forkc
 		// If the specified head matches with our local head, do nothing and keep
 		// generating the payload. It's a special corner case that a few slots are
 		// missing and we are requested to generate the payload in slot.
-	} else if ea.backend.Config().Optimism == nil { // minor L2Engine API divergence: allow proposers to reorg their own chain
-		panic("engine not configured as optimism engine")
+	} else if ea.backend.Config().Pepe == nil { // minor L2Engine API divergence: allow proposers to reorg their own chain
+		panic("engine not configured as pepe engine")
 	}
 
 	// If the beacon client also advertised a finalized block, mark the local

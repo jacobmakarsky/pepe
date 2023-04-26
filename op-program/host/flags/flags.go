@@ -6,11 +6,11 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/ethereum-optimism/optimism/op-node/chaincfg"
-	nodeflags "github.com/ethereum-optimism/optimism/op-node/flags"
-	"github.com/ethereum-optimism/optimism/op-node/sources"
-	service "github.com/ethereum-optimism/optimism/op-service"
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
+	"github.com/ethereum-pepe/pepe/op-node/chaincfg"
+	nodeflags "github.com/ethereum-pepe/pepe/op-node/flags"
+	"github.com/ethereum-pepe/pepe/op-node/sources"
+	service "github.com/ethereum-pepe/pepe/op-service"
+	oplog "github.com/ethereum-pepe/pepe/op-service/log"
 )
 
 const envVarPrefix = "OP_PROGRAM"

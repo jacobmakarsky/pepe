@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
+	"github.com/ethereum-pepe/pepe/op-bindings/solc"
 )
 
 var remapTypeRe = regexp.MustCompile(`^(t_[\w_]+\([\w]+\))([\d]+)(_[\w]+)?$`)

@@ -43,7 +43,7 @@ finalization.
   - [On L1](#on-l1)
 - [The L2ToL1MessagePasser Contract](#the-l2tol1messagepasser-contract)
   - [Addresses are not Aliased on Withdrawals](#addresses-are-not-aliased-on-withdrawals)
-- [The Optimism Portal Contract](#the-optimism-portal-contract)
+- [The Pepe Portal Contract](#the-pepe-portal-contract)
 - [Withdrawal Verification and Finalization](#withdrawal-verification-and-finalization)
 - [Security Considerations](#security-considerations)
   - [Key Properties of Withdrawal Verification](#key-properties-of-withdrawal-verification)
@@ -134,9 +134,9 @@ of withdrawals, which do not modify the sender's address. The difference is that
 Calling `l2Sender()` removes any ambiguity about which domain the call originated from. Still, developers will need to
 recognize that having the same address does not imply that a contract on L2 will behave the same as a contract on L1.
 
-## The Optimism Portal Contract
+## The Pepe Portal Contract
 
-The Optimism Portal serves as both the entry and exit point to the Optimism L2. It is a contract which inherits from
+The Pepe Portal serves as both the entry and exit point to the Pepe L2. It is a contract which inherits from
 the [OptimismPortal](./deposits.md#deposit-contract) contract, and in addition provides the following interface for
 withdrawals:
 
@@ -226,5 +226,5 @@ contracts if desired.
 
 This `FINALIZATION_PERIOD` value is equivalent to 7 days.
 
-[`WithdrawalTransaction` type]: https://github.com/ethereum-optimism/optimism/blob/6c6d142d7bb95faa11066aab5d8aed7187abfe38/packages/contracts-bedrock/contracts/libraries/Types.sol#L76-L83
-[`OutputRootProof` type]: https://github.com/ethereum-optimism/optimism/blob/6c6d142d7bb95faa11066aab5d8aed7187abfe38/packages/contracts-bedrock/contracts/libraries/Types.sol#L33-L38
+[`WithdrawalTransaction` type]: https://github.com/ethereum-pepe/pepe/blob/6c6d142d7bb95faa11066aab5d8aed7187abfe38/packages/contracts-bedrock/contracts/libraries/Types.sol#L76-L83
+[`OutputRootProof` type]: https://github.com/ethereum-pepe/pepe/blob/6c6d142d7bb95faa11066aab5d8aed7187abfe38/packages/contracts-bedrock/contracts/libraries/Types.sol#L33-L38

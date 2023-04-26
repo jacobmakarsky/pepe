@@ -41,7 +41,7 @@ export const readAttestation = async <TDataType extends DataTypeOption>(
   dataType: TDataType,
   /**
    * Attestation address
-   * defaults to the official Optimism attestation station determistic deploy address
+   * defaults to the official Pepe attestation station determistic deploy address
    *
    * @defaults '0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77'
    */
@@ -75,7 +75,7 @@ export const readAttestationString = (
   key: string,
   /**
    * Attestation address
-   * defaults to the official Optimism attestation station determistic deploy address
+   * defaults to the official Pepe attestation station determistic deploy address
    *
    * @defaults '0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77'
    */
@@ -105,7 +105,7 @@ export const readAttestationBool = (
   key: string,
   /**
    * Attestation address
-   * defaults to the official Optimism attestation station determistic deploy address
+   * defaults to the official Pepe attestation station determistic deploy address
    *
    * @defaults '0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77'
    */
@@ -138,7 +138,7 @@ export const readAttestationNumber = (
   key: string,
   /**
    * Attestation address
-   * defaults to the official Optimism attestation station determistic deploy address
+   * defaults to the official Pepe attestation station determistic deploy address
    *
    * @defaults '0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77'
    */
@@ -168,7 +168,7 @@ export const readAttestationAddress = (
   key: string,
   /**
    * Attestation address
-   * defaults to the official Optimism attestation station determistic deploy address
+   * defaults to the official Pepe attestation station determistic deploy address
    *
    * @defaults '0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77'
    */

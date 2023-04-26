@@ -21,8 +21,8 @@ package geth
 import (
 	"errors"
 
-	ethereum "github.com/ethereum-optimism/optimism/l2geth"
-	"github.com/ethereum-optimism/optimism/l2geth/common"
+	ethereum "github.com/ethereum-pepe/pepe/l2geth"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
 )
 
 // Subscription represents an event subscription where events are

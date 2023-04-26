@@ -9,7 +9,7 @@ import (
 	"github.com/urfave/cli"
 	"golang.org/x/term"
 
-	opservice "github.com/ethereum-optimism/optimism/op-service"
+	opservice "github.com/ethereum-pepe/pepe/op-service"
 )
 
 const (

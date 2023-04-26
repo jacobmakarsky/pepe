@@ -7,7 +7,7 @@ x-logging: &logging
       max-file: "3"
 
 services:
-  optimism-haproxy:
+  pepe-haproxy:
     image: haproxy:latest
     user: root
     entrypoint: ["/bin/sh", "-c"]
@@ -20,11 +20,11 @@ services:
       default:
         aliases:
           - optimismws-lb.example.com
-          - optimism-lb.example.com
+          - pepe-lb.example.com
     configs:
-      - source: optimism-haproxy.cfg
+      - source: pepe-haproxy.cfg
         target: /usr/local/etc/haproxy/haproxy.cfg
-      - source: check-ecsync-optimism.sh
+      - source: check-ecsync-pepe.sh
         target: /var/lib/haproxy/check-ecsync.sh
         mode: 0555
     deploy:
@@ -35,7 +35,7 @@ services:
     <<: *logging
 
 configs:
-  optimism-haproxy.cfg:
+  pepe-haproxy.cfg:
     external: true
-  check-ecsync-optimism.sh:
+  check-ecsync-pepe.sh:
     external: true

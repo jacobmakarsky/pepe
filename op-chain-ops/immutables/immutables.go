@@ -7,9 +7,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/deployer"
+	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
+	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/deployer"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
 	"github.com/ethereum/go-ethereum/common"
@@ -26,7 +26,7 @@ type ImmutableValues map[string]any
 type ImmutableConfig map[string]ImmutableValues
 
 // Check does a sanity check that the specific values that
-// Optimism uses are set inside of the ImmutableConfig.
+// Pepe uses are set inside of the ImmutableConfig.
 func (i ImmutableConfig) Check() error {
 	if _, ok := i["L2CrossDomainMessenger"]["otherMessenger"]; !ok {
 		return errors.New("L2CrossDomainMessenger otherMessenger not set")

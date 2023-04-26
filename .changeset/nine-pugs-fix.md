@@ -1,5 +1,5 @@
 ---
-'@eth-optimism/sdk': patch
+'@eth-pepe/sdk': patch
 ---
 
 Fix firefox bug with getTokenPair

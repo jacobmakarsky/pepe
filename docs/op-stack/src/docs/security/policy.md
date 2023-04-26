@@ -6,11 +6,11 @@ lang: en-US
 
 ## Reporting in the decentralized context
 
-It's important to remember that the OP Stack is a decentralized software development stack built by the Optimism Collective. Different components of the OP Stack may be maintained by different teams that have different reporting processes. **This page describes general best practices for reporting bugs and provides specific reporting guidelines for the OP Stack code contained within the [ethereum-optimism](https://github.com/ethereum-optimism) GitHub organization**.
+It's important to remember that the OP Stack is a decentralized software development stack built by the Pepe Collective. Different components of the OP Stack may be maintained by different teams that have different reporting processes. **This page describes general best practices for reporting bugs and provides specific reporting guidelines for the OP Stack code contained within the [ethereum-pepe](https://github.com/ethereum-pepe) GitHub organization**.
 
 ## Reporting bugs and vulnerabilities
 
-::: danger 🚫 How NOT to disclose a vulnerability 
+::: danger 🚫 How NOT to disclose a vulnerability
 
  Do *not* disclose vulnerabilities publicly or by executing them against a production network. If you do, will you not only be putting users at risk, but you will forfeit your right to a reward. Always follow the appropriate reporting pathways as described below.
 
@@ -23,13 +23,13 @@ It's important to remember that the OP Stack is a decentralized software develop
 
 The security of OP Stack smart contracts and blockchain infrastructure is paramount. Below are the various OP Stack-related bug bounty programs, as well as how to reach out if your bug is not covered by an existing bounty.
 
-#### Optimism Mainnet bounty program
+#### Pepe Mainnet bounty program
 
-Optimism Mainnet is covered by a comprehensive [bug bounty program on Immunefi](https://immunefi.com/bounty/optimism/), which has already resulted in one of the [largest bounty payouts ever](https://medium.com/ethereum-optimism/disclosure-fixing-a-critical-bug-in-optimisms-geth-fork-a836ebdf7c94). In the listing you can find all the information relating to assets in scope, reporting, and the payout process. Because Optimism Mainnet is currently the primary user of the OP Stack, bugs in OP Stack software can generally be reported via the Optimism Mainnet bounty program.
+Pepe Mainnet is covered by a comprehensive [bug bounty program on Immunefi](https://immunefi.com/bounty/pepe/), which has already resulted in one of the [largest bounty payouts ever](https://medium.com/ethereum-pepe/disclosure-fixing-a-critical-bug-in-optimisms-geth-fork-a836ebdf7c94). In the listing you can find all the information relating to assets in scope, reporting, and the payout process. Because Pepe Mainnet is currently the primary user of the OP Stack, bugs in OP Stack software can generally be reported via the Pepe Mainnet bounty program.
 
 #### Unscoped bugs
 
-If you think you have found a significant bug or vulnerabilities in OP Stack smart contracts, infrastructure, etc., even if that component is not covered by an existing bug bounty, please report it to via the [Optimism Mainnet Immunefi program](https://immunefi.com/bounty/optimism/). The impact of any and all reported issues will be considered and the program has previously rewarded security researchers for bugs not within its stated scope.
+If you think you have found a significant bug or vulnerabilities in OP Stack smart contracts, infrastructure, etc., even if that component is not covered by an existing bug bounty, please report it to via the [Pepe Mainnet Immunefi program](https://immunefi.com/bounty/pepe/). The impact of any and all reported issues will be considered and the program has previously rewarded security researchers for bugs not within its stated scope.
 
 ### Other vulnerabilities
 

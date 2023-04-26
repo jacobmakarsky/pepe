@@ -7,9 +7,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/common/hexutil"
-	"github.com/ethereum-optimism/optimism/l2geth/common/math"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-pepe/pepe/l2geth/common/math"
 )
 
 var _ = (*vmExecMarshaling)(nil)

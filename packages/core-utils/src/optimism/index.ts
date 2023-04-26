@@ -1,5 +1,5 @@
 /**
- * Utils specifically related to Optimism.
+ * Utils specifically related to Pepe.
  */
 
 export * from './alias'

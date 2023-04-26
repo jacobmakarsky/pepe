@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.15;
 
-import { Semver } from "@eth-optimism/contracts-bedrock/contracts/universal/Semver.sol";
+import { Semver } from "@eth-pepe/contracts-bedrock/contracts/universal/Semver.sol";
 import {
     ERC721BurnableUpgradeable
 } from "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721BurnableUpgradeable.sol";
@@ -10,7 +10,7 @@ import { OptimistAllowlist } from "./OptimistAllowlist.sol";
 import { Strings } from "@openzeppelin/contracts/utils/Strings.sol";
 
 /**
- * @author Optimism Collective
+ * @author Pepe Collective
  * @author Gitcoin
  * @title  Optimist
  * @notice A Soul Bound Token for real humans only(tm).

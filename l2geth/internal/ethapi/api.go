@@ -26,27 +26,27 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum-optimism/optimism/l2geth/accounts"
-	"github.com/ethereum-optimism/optimism/l2geth/accounts/abi"
-	"github.com/ethereum-optimism/optimism/l2geth/accounts/keystore"
-	"github.com/ethereum-optimism/optimism/l2geth/accounts/scwallet"
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/common/hexutil"
-	"github.com/ethereum-optimism/optimism/l2geth/common/math"
-	"github.com/ethereum-optimism/optimism/l2geth/consensus/clique"
-	"github.com/ethereum-optimism/optimism/l2geth/consensus/ethash"
-	"github.com/ethereum-optimism/optimism/l2geth/core"
-	"github.com/ethereum-optimism/optimism/l2geth/core/rawdb"
-	"github.com/ethereum-optimism/optimism/l2geth/core/types"
-	"github.com/ethereum-optimism/optimism/l2geth/core/vm"
-	"github.com/ethereum-optimism/optimism/l2geth/crypto"
-	"github.com/ethereum-optimism/optimism/l2geth/ethclient"
-	"github.com/ethereum-optimism/optimism/l2geth/log"
-	"github.com/ethereum-optimism/optimism/l2geth/p2p"
-	"github.com/ethereum-optimism/optimism/l2geth/params"
-	"github.com/ethereum-optimism/optimism/l2geth/rlp"
-	"github.com/ethereum-optimism/optimism/l2geth/rollup/rcfg"
-	"github.com/ethereum-optimism/optimism/l2geth/rpc"
+	"github.com/ethereum-pepe/pepe/l2geth/accounts"
+	"github.com/ethereum-pepe/pepe/l2geth/accounts/abi"
+	"github.com/ethereum-pepe/pepe/l2geth/accounts/keystore"
+	"github.com/ethereum-pepe/pepe/l2geth/accounts/scwallet"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-pepe/pepe/l2geth/common/math"
+	"github.com/ethereum-pepe/pepe/l2geth/consensus/clique"
+	"github.com/ethereum-pepe/pepe/l2geth/consensus/ethash"
+	"github.com/ethereum-pepe/pepe/l2geth/core"
+	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-pepe/pepe/l2geth/core/vm"
+	"github.com/ethereum-pepe/pepe/l2geth/crypto"
+	"github.com/ethereum-pepe/pepe/l2geth/ethclient"
+	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-pepe/pepe/l2geth/p2p"
+	"github.com/ethereum-pepe/pepe/l2geth/params"
+	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-pepe/pepe/l2geth/rollup/rcfg"
+	"github.com/ethereum-pepe/pepe/l2geth/rpc"
 	"github.com/tyler-smith/go-bip39"
 )
 
@@ -978,7 +978,7 @@ func (s *PublicBlockChainAPI) Call(ctx context.Context, args CallArgs, blockNrOr
 	return (hexutil.Bytes)(result), err
 }
 
-// Optimism note: The gasPrice in Optimism is modified to always return 1 gwei. We
+// Pepe note: The gasPrice in Pepe is modified to always return 1 gwei. We
 // use the gasLimit field to communicate the entire user fee. This is done for
 // for compatibility reasons with the existing Ethereum toolchain, so that the user
 // fees can compensate for the additional costs the sequencer pays for publishing the

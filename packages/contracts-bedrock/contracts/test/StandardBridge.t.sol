@@ -51,7 +51,7 @@ contract LegacyMintable is ERC20, ILegacyMintableERC20 {
 
     /**
      * @notice Implements ERC165. This implementation should not be changed as
-     *         it is how the actual legacy optimism mintable token does the
+     *         it is how the actual legacy pepe mintable token does the
      *         check. Allows for testing against code that is has been deployed,
      *         assuming different compiler version is no problem.
      */

@@ -10,7 +10,7 @@ import { CrossChainMessenger } from '../src'
 /*******
 Cast results from runnning cast tx and cast receipt on the l2 tx hash
 
-cast tx 0xd66fda632b51a8b25a9d260d70da8be57b9930c4616370861526335c3e8eef81 --rpc-url https://goerli.optimism.io
+cast tx 0xd66fda632b51a8b25a9d260d70da8be57b9930c4616370861526335c3e8eef81 --rpc-url https://goerli.pepe.io
 
 blockHash            0x67956cee3de38d49206d34b77f560c4c371d77b36584047ade8bf7b67bf210c0
 blockNumber          2337599
@@ -32,7 +32,7 @@ l1Timestamp          1666982083
 queueOrigin          sequencer
 rawTransaction       0xf901070a018301cdae94420000000000000000000000000000000000001080b8a432b7006d000000000000000000000000deaddeaddeaddeaddeaddeaddeaddeaddead000000000000000000000000000000000000000000000000000000005af3107a400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000082036ba07e58c5dbb37f57303d936562d89a75a20be2a45f54c5d44dc73119453adf2e08a01bc952bd048dd38668a0c3b4bac202945c5a150465b551dd2a768e54a746e2c4
 
-cast tx 0xd66fda632b51a8b25a9d260d70da8be57b9930c4616370861526335c3e8eef81 --rpc-url https://goerli.optimism.io
+cast tx 0xd66fda632b51a8b25a9d260d70da8be57b9930c4616370861526335c3e8eef81 --rpc-url https://goerli.pepe.io
 
 blockHash               0x67956cee3de38d49206d34b77f560c4c371d77b36584047ade8bf7b67bf210c0
 blockNumber             2337599
@@ -63,7 +63,7 @@ const E2E_PRIVATE_KEY = z
   .describe('Private key')
   .parse(import.meta.env.VITE_E2E_PRIVATE_KEY)
 
-const jsonRpcHeaders = { 'User-Agent': 'eth-optimism/@gateway/backend' }
+const jsonRpcHeaders = { 'User-Agent': 'eth-pepe/@gateway/backend' }
 /**
  * Initialize the signer, prover, and cross chain messenger
  */
@@ -90,7 +90,7 @@ describe('prove message', () => {
     /**
      * Tx hash of legacy withdrawal
      *
-     * @see https://goerli-optimism.etherscan.io/tx/0xd66fda632b51a8b25a9d260d70da8be57b9930c4616370861526335c3e8eef81
+     * @see https://goerli-pepe.etherscan.io/tx/0xd66fda632b51a8b25a9d260d70da8be57b9930c4616370861526335c3e8eef81
      */
     const txWithdrawalHash =
       '0xd66fda632b51a8b25a9d260d70da8be57b9930c4616370861526335c3e8eef81'

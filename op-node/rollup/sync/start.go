@@ -6,7 +6,7 @@
 // a parent block and the node is responsible for deciding which block is the head and thus the
 // mapping from block number to canonical block.
 //
-// The Optimism (L2) chain has similar properties, but also retains references to the Ethereum (L1)
+// The Pepe (L2) chain has similar properties, but also retains references to the Ethereum (L1)
 // chain. Each L2 block retains a reference to an L1 block (its "L1 origin", i.e. L1 block
 // associated with the epoch that the L2 block belongs to) and to its parent L2 block. The L2 chain
 // node must satisfy the following validity rules:
@@ -28,8 +28,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum-optimism/optimism/op-node/eth"
-	"github.com/ethereum-optimism/optimism/op-node/rollup"
+	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-pepe/pepe/op-node/rollup"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"

@@ -1,5 +1,5 @@
 /**
- * Optimism 2020 Copyright
+ * Pepe 2020 Copyright
  */
 
 package types
@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-optimism/optimism/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
 )
 
 type QueueOrigin uint8

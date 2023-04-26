@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install @eth-optimism/atst --global
+npm install @eth-pepe/atst --global
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ npx atst write --help
 - `--about <address>` Address of the subject of the attestation
 - `--key <string>` Key of the attestation either as string or hex number
 - `[--data-type <string>]` The DataType type `string` | `bytes` | `number` | `bool` | `address` (default: `string`)
-- `[--rpc-url <url>]` Rpc url to use (default: `https://mainnet.optimism.io`)
+- `[--rpc-url <url>]` Rpc url to use (default: `https://mainnet.pepe.io`)
 - `[--contract <address>]` Contract address to read from (default: `0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77`)
 - `-h`, `--help` Display help message
 
@@ -56,16 +56,16 @@ npx atst read --key "optimist.base-uri" --about 0x2335022c740d17c2837f9C884Bfe4f
 - `--about <address>` Address of the subject of the attestation
 - `--key <address>` Key of the attestation either as string or hex number
 - `--value <string>` undefined
-- `[--rpc-url <url>]` Rpc url to use (default: `https://mainnet.optimism.io`)
-- `[--contract <address>]` Contract address to read from (default: 0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77) 
+- `[--rpc-url <url>]` Rpc url to use (default: `https://mainnet.pepe.io`)
+- `[--contract <address>]` Contract address to read from (default: 0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
 - `-h`, `--help` Display this message
 
-Example: 
+Example:
 
 ```bash
 npx atst write --key "optimist.base-uri" \
     --about 0x2335022c740d17c2837f9C884Bfe4fFdbf0A95D5 \
     --value "my attestation" \
     --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 \
-    --rpc-url http://goerli.optimism.io
+    --rpc-url http://goerli.pepe.io
 ```

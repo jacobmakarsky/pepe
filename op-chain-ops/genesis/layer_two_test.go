@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/bindings"
+	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
 
 	"github.com/ethereum/go-ethereum/common"
 
@@ -16,8 +16,8 @@ import (
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/predeploys"
-	"github.com/ethereum-optimism/optimism/op-chain-ops/genesis"
+	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
+	"github.com/ethereum-pepe/pepe/op-chain-ops/genesis"
 	"github.com/stretchr/testify/require"
 )
 

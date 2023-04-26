@@ -9,8 +9,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	oplog "github.com/ethereum-optimism/optimism/op-service/log"
-	wheel "github.com/ethereum-optimism/optimism/op-wheel"
+	oplog "github.com/ethereum-pepe/pepe/op-service/log"
+	wheel "github.com/ethereum-pepe/pepe/op-wheel"
 )
 
 var (
@@ -23,8 +23,8 @@ func main() {
 	app := cli.NewApp()
 	app.Version = fmt.Sprintf("%s-%s-%s", Version, GitCommit, GitDate)
 	app.Name = "op-wheel"
-	app.Usage = "Optimism Wheel is a CLI tool for the execution engine"
-	app.Description = "Optimism Wheel is a CLI tool to direct the engine one way or the other with DB cheats and Engine API routines."
+	app.Usage = "Pepe Wheel is a CLI tool for the execution engine"
+	app.Description = "Pepe Wheel is a CLI tool to direct the engine one way or the other with DB cheats and Engine API routines."
 	app.Flags = []cli.Flag{wheel.GlobalGethLogLvlFlag}
 	app.Before = func(c *cli.Context) error {
 		log.Root().SetHandler(

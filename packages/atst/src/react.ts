@@ -24,8 +24,8 @@ import {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export const attestationStationABI = [
@@ -101,8 +101,8 @@ export const attestationStationABI = [
 ] as const
 
 /**
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export const attestationStationAddress = {
@@ -112,8 +112,8 @@ export const attestationStationAddress = {
 } as const
 
 /**
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export const attestationStationConfig = {
@@ -128,8 +128,8 @@ export const attestationStationConfig = {
 /**
  * Wraps __{@link useContract}__ with `abi` set to __{@link attestationStationABI}__.
  *
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export function useAttestationStation(
@@ -152,8 +152,8 @@ export function useAttestationStation(
 /**
  * Wraps __{@link useContractRead}__ with `abi` set to __{@link attestationStationABI}__.
  *
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export function useAttestationStationRead<
@@ -184,8 +184,8 @@ export function useAttestationStationRead<
 /**
  * Wraps __{@link useContractRead}__ with `abi` set to __{@link attestationStationABI}__ and `functionName` set to `"attestations"`.
  *
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export function useAttestationStationAttestations<
@@ -216,8 +216,8 @@ export function useAttestationStationAttestations<
 /**
  * Wraps __{@link useContractRead}__ with `abi` set to __{@link attestationStationABI}__ and `functionName` set to `"version"`.
  *
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export function useAttestationStationVersion<
@@ -244,8 +244,8 @@ export function useAttestationStationVersion<
 /**
  * Wraps __{@link useContractWrite}__ with `abi` set to __{@link attestationStationABI}__.
  *
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export function useAttestationStationWrite<
@@ -284,8 +284,8 @@ export function useAttestationStationWrite<
 /**
  * Wraps __{@link useContractWrite}__ with `abi` set to __{@link attestationStationABI}__ and `functionName` set to `"attest"`.
  *
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export function useAttestationStationAttest<
@@ -328,8 +328,8 @@ export function useAttestationStationAttest<
 /**
  * Wraps __{@link usePrepareContractWrite}__ with `abi` set to __{@link attestationStationABI}__.
  *
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export function usePrepareAttestationStationWrite<TFunctionName extends string>(
@@ -353,8 +353,8 @@ export function usePrepareAttestationStationWrite<TFunctionName extends string>(
 /**
  * Wraps __{@link usePrepareContractWrite}__ with `abi` set to __{@link attestationStationABI}__ and `functionName` set to `"attest"`.
  *
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export function usePrepareAttestationStationAttest(
@@ -379,8 +379,8 @@ export function usePrepareAttestationStationAttest(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link attestationStationABI}__.
  *
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export function useAttestationStationEvent<TEventName extends string>(
@@ -404,8 +404,8 @@ export function useAttestationStationEvent<TEventName extends string>(
 /**
  * Wraps __{@link useContractEvent}__ with `abi` set to __{@link attestationStationABI}__ and `eventName` set to `"AttestationCreated"`.
  *
- * - [__View Contract on Optimism Optimism Explorer__](https://explorer.optimism.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
- * - [__View Contract on Optimism Goerli Etherscan__](https://goerli-optimism.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Pepe Explorer__](https://explorer.pepe.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
+ * - [__View Contract on Pepe Goerli Etherscan__](https://goerli-pepe.etherscan.io/address/0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77)
  * -
  */
 export function useAttestationStationAttestationCreatedEvent(

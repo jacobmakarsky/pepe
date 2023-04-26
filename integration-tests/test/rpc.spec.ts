@@ -1,5 +1,5 @@
 /* Imports: External */
-import { expectApprox, getChainId, sleep } from '@eth-optimism/core-utils'
+import { expectApprox, getChainId, sleep } from '@eth-pepe/core-utils'
 import { Wallet, BigNumber, Contract, ContractFactory, constants } from 'ethers'
 import { serialize } from '@ethersproject/transactions'
 import { ethers } from 'hardhat'
@@ -245,7 +245,7 @@ describe('Basic RPC tests', () => {
       expect(res).to.eq(BigNumber.from(value))
     })
 
-    // https://github.com/ethereum-optimism/optimism/issues/1998
+    // https://github.com/ethereum-pepe/pepe/issues/1998
     it('should use address(0) as the default "from" value', async () => {
       // Do the call and check msg.sender
       const data = ValueContext.interface.encodeFunctionData('getCaller')
@@ -335,7 +335,7 @@ describe('Basic RPC tests', () => {
       expect(receipt.status).to.eq(0)
     })
 
-    // Optimism special fields on the receipt
+    // Pepe special fields on the receipt
     it('includes L1 gas price and L1 gas used', async () => {
       const tx = await env.l2Wallet.populateTransaction({
         to: env.l2Wallet.address,

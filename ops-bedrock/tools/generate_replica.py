@@ -37,11 +37,11 @@ dictConfig(log_config)
 
 log = logging.getLogger()
 
-parser = argparse.ArgumentParser(description='Configure an Optimism Bedrock replica using docker-compose.')
+parser = argparse.ArgumentParser(description='Configure an Pepe Bedrock replica using docker-compose.')
 parser.add_argument('--network', type=str, help='name for the network to create a replica for', required=True)
 parser.add_argument('--l1-rpc', type=str, help='l1 RPC provider', required=True)
 parser.add_argument('--outdir', type=str, help='output directory for the replica config', required=True)
-parser.add_argument('--geth-tag', type=str, help='docker tag to use with geth', default='optimism-history')
+parser.add_argument('--geth-tag', type=str, help='docker tag to use with geth', default='pepe-history')
 parser.add_argument('--geth-http-port', type=int, help='geth http port', default=8545)
 parser.add_argument('--geth-ws-port', type=int, help='geth ws port', default=8546)
 parser.add_argument('--op-node-tag', type=str, help='docker tag to use with the rollup node', default='develop')
@@ -173,7 +173,7 @@ volumes:
 
 services:
   l2:
-    image: ethereumoptimism/reference-optimistic-geth:{geth_tag}
+    image: ethereumoptimism/reference-pepeistic-geth:{geth_tag}
     ports:
       - "{geth_http_port}:8545"
       - "{geth_ws_port}:8546"

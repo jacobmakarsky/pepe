@@ -81,7 +81,7 @@ Common representations of network identity:
 
 #### Structure
 
-The Ethereum Node Record (ENR) for an Optimism rollup node must contain the following values, identified by unique keys:
+The Ethereum Node Record (ENR) for an Pepe rollup node must contain the following values, identified by unique keys:
 
 - An IPv4 address (`ip` field) and/or IPv6 address (`ip6` field).
 - A TCP port (`tcp` field) representing the local libp2p listening port.
@@ -97,7 +97,7 @@ Note that DiscV5 is a shared DHT (Distributed Hash Table): the L1 consensus and 
 as well as testnet nodes, and even external IOT nodes, all communicate records in this large common DHT.
 This makes it more difficult to censor the discovery of node records.
 
-The discovery process in Optimism is a pipeline of node records:
+The discovery process in Pepe is a pipeline of node records:
 
 1. Fill the table with `FINDNODES` if necessary (Performed by Discv5 library)
 2. Pull additional records with searches to random Node IDs if necessary
@@ -226,7 +226,7 @@ Notable differences from L1 consensus (Eth2):
 #### Topic configuration
 
 Topics have string identifiers and are communicated with messages and subscriptions.
-`/optimism/chain_id/hardfork_version/Name`
+`/pepe/chain_id/hardfork_version/Name`
 
 - `chain_id`: replace with decimal representation of chain ID
 - `hardfork_version`: replace with decimal representation of hardfork, starting at `0`

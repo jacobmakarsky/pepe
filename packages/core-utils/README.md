@@ -1,10 +1,10 @@
-# @eth-optimism/core-utils
+# @eth-pepe/core-utils
 
-[![codecov](https://codecov.io/gh/ethereum-optimism/optimism/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=core-utils-tests)](https://codecov.io/gh/ethereum-optimism/optimism)
+[![codecov](https://codecov.io/gh/ethereum-pepe/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=core-utils-tests)](https://codecov.io/gh/ethereum-pepe/pepe)
 
 ## What is this?
 
-`@eth-optimism/core-utils` contains the Optimistic Virtual Machine core utilities.
+`@eth-pepe/core-utils` contains the Pepeistic Virtual Machine core utilities.
 
 ## Getting started
 
@@ -31,10 +31,10 @@ $ yarn lint
 locally.
 
 ```typescript
-import { TxGasLimit } from '@eth-optimism/core-utils'
+import { TxGasLimit } from '@eth-pepe/core-utils'
 import { JsonRpcProvider } from 'ethers'
 
-const L2Provider = new JsonRpcProvider('https://mainnet.optimism.io')
+const L2Provider = new JsonRpcProvider('https://mainnet.pepe.io')
 const L1Provider = new JsonRpcProvider('http://127.0.0.1:8545')
 
 const l2GasLimit = await L2Provider.send('eth_estimateExecutionGas', [tx])

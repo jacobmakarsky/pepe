@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"math/big"
 
-	ethereum "github.com/ethereum-optimism/optimism/l2geth"
-	"github.com/ethereum-optimism/optimism/l2geth/common"
-	"github.com/ethereum-optimism/optimism/l2geth/common/hexutil"
-	"github.com/ethereum-optimism/optimism/l2geth/core/types"
-	"github.com/ethereum-optimism/optimism/l2geth/rlp"
-	"github.com/ethereum-optimism/optimism/l2geth/rpc"
+	ethereum "github.com/ethereum-pepe/pepe/l2geth"
+	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-pepe/pepe/l2geth/rpc"
 )
 
 // Client defines typed wrappers for the Ethereum RPC API.

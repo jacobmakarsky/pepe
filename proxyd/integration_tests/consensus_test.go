@@ -8,8 +8,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/ethereum-optimism/optimism/proxyd"
-	ms "github.com/ethereum-optimism/optimism/proxyd/tools/mockserver/handler"
+	"github.com/ethereum-pepe/pepe/proxyd"
+	ms "github.com/ethereum-pepe/pepe/proxyd/tools/mockserver/handler"
 	"github.com/stretchr/testify/require"
 )
 

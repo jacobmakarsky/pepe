@@ -1,4 +1,4 @@
-# @eth-optimism/endpoint-monitor
+# @eth-pepe/endpoint-monitor
 
 ## 1.0.1
 

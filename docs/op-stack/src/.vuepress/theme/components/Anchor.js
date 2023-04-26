@@ -57,7 +57,7 @@ export default Vue.extend({
                             "Support"
                         ]),
                         h("div", { class: "anchor-support-links" }, [
-                            h("a", { attrs: { href: "https://discord.gg/optimism", target: "_blank" } }, [
+                            h("a", { attrs: { href: "https://discord.gg/pepe", target: "_blank" } }, [
                                 h("div", [
                                     h("i", { attrs: { class: "fab fa-discord" } }),
                                     " Discord community "
@@ -69,16 +69,16 @@ export default Vue.extend({
                                     " Join the Superchain "
                                 ])
                             ]),
-                            h("a", { attrs: { href: "https://github.com/ethereum-optimism/optimism/issues", target: "_blank" } }, [
+                            h("a", { attrs: { href: "https://github.com/ethereum-pepe/pepe/issues", target: "_blank" } }, [
                                 h("div", [
                                     h("i", { attrs: { class: "fab fa-github" } }),
                                     " Make an issue on GitHub"
                                 ])
                             ]),
-                            h("a", { attrs: { href: "https://github.com/ethereum-optimism/optimism/contribute", target: "_blank" } }, [
+                            h("a", { attrs: { href: "https://github.com/ethereum-pepe/pepe/contribute", target: "_blank" } }, [
                                 h("div", [
                                     h("i", { attrs: { class: "far fa-hands-helping" } }),
-                                    " Contribute to Optimism"
+                                    " Contribute to Pepe"
                                 ])
                             ]),
                         ])

@@ -51,7 +51,7 @@ describe(readAttestation.name, () => {
     expect(result).toMatchInlineSnapshot(
       `
       [
-        "https://assets.optimism.io/4a609661-6774-441f-9fdb-453fdbb89931-bucket/optimist-nft/attributes",
+        "https://assets.pepe.io/4a609661-6774-441f-9fdb-453fdbb89931-bucket/optimist-nft/attributes",
         true,
         "0x68747470733a2f2f6173736574732e6f7074696d69736d2e696f2f34613630393636312d363737342d343431662d396664622d3435336664626238393933312d6275636b65742f6f7074696d6973742d6e66742f61747472696275746573",
         {

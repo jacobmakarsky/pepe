@@ -1,6 +1,6 @@
 # op-replica infra
 
-Deployment examples and resources for running an Optimism replica.
+Deployment examples and resources for running an Pepe replica.
 
 [./envs](./envs) contains working example environmenatal files to configure a replica for different networks.
 
