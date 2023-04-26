@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	ophttp "github.com/ethereum-pepe/pepe/op-node/http"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	ophttp "github.com/ethereum-optimism/pepe/op-node/http"
 	"github.com/ethereum/go-ethereum/log"
 )
 

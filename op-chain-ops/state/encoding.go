@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/solc"
+	"github.com/ethereum-optimism/pepe/op-bindings/solc"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"

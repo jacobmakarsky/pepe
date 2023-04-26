@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/ethereum-pepe/pepe/indexer/bindings/legacy/scc"
-	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
+	"github.com/ethereum-optimism/pepe/indexer/bindings/legacy/scc"
+	"github.com/ethereum-optimism/pepe/op-bindings/bindings"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 )

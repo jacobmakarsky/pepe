@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

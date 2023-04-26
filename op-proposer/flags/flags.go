@@ -6,12 +6,12 @@ import (
 
 	"github.com/urfave/cli"
 
-	opservice "github.com/ethereum-pepe/pepe/op-service"
-	oplog "github.com/ethereum-pepe/pepe/op-service/log"
-	opmetrics "github.com/ethereum-pepe/pepe/op-service/metrics"
-	oppprof "github.com/ethereum-pepe/pepe/op-service/pprof"
-	oprpc "github.com/ethereum-pepe/pepe/op-service/rpc"
-	"github.com/ethereum-pepe/pepe/op-service/txmgr"
+	opservice "github.com/ethereum-optimism/pepe/op-service"
+	oplog "github.com/ethereum-optimism/pepe/op-service/log"
+	opmetrics "github.com/ethereum-optimism/pepe/op-service/metrics"
+	oppprof "github.com/ethereum-optimism/pepe/op-service/pprof"
+	oprpc "github.com/ethereum-optimism/pepe/op-service/rpc"
+	"github.com/ethereum-optimism/pepe/op-service/txmgr"
 )
 
 const envVarPrefix = "OP_PROPOSER"

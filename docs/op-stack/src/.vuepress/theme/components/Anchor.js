@@ -69,13 +69,13 @@ export default Vue.extend({
                                     " Join the Superchain "
                                 ])
                             ]),
-                            h("a", { attrs: { href: "https://github.com/ethereum-pepe/pepe/issues", target: "_blank" } }, [
+                            h("a", { attrs: { href: "https://github.com/ethereum-optimism/pepe/issues", target: "_blank" } }, [
                                 h("div", [
                                     h("i", { attrs: { class: "fab fa-github" } }),
                                     " Make an issue on GitHub"
                                 ])
                             ]),
-                            h("a", { attrs: { href: "https://github.com/ethereum-pepe/pepe/contribute", target: "_blank" } }, [
+                            h("a", { attrs: { href: "https://github.com/ethereum-optimism/pepe/contribute", target: "_blank" } }, [
                                 h("div", [
                                     h("i", { attrs: { class: "far fa-hands-helping" } }),
                                     " Contribute to Pepe"

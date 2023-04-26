@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum-pepe/pepe/l2geth/metrics"
+	"github.com/ethereum-optimism/pepe/l2geth/metrics"
 )
 
 var (

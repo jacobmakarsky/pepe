@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/mclock"
+	"github.com/ethereum-optimism/pepe/l2geth/common/mclock"
 )
 
 const (

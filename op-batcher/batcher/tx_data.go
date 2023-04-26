@@ -3,7 +3,7 @@ package batcher
 import (
 	"fmt"
 
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
 )
 
 // txData represents the data for a single transaction.

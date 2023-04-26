@@ -1,9 +1,9 @@
 import { DeployFunction } from 'hardhat-deploy/dist/types'
 import { HardhatRuntimeEnvironment } from 'hardhat/types'
-import '@eth-pepe/hardhat-deploy-config'
+import '@eth-optimism/hardhat-deploy-config'
 import '@nomiclabs/hardhat-ethers'
 import 'hardhat-deploy'
-import { assertContractVariable } from '@eth-pepe/contracts-bedrock/src/deploy-utils'
+import { assertContractVariable } from '@eth-optimism/contracts-bedrock/src/deploy-utils'
 import { ethers, utils } from 'ethers'
 
 import type { DeployConfig } from '../../src'

@@ -1,4 +1,4 @@
-module github.com/ethereum-pepe/pepe
+module github.com/ethereum-optimism/optimism
 
 go 1.19
 
@@ -8,7 +8,7 @@ require (
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0
 	github.com/docker/docker v20.10.24+incompatible
 	github.com/docker/go-connections v0.4.0
-	github.com/ethereum-pepe/go-ethereum-hdwallet v0.1.3
+	github.com/ethereum-optimism/go-ethereum-hdwallet v0.1.3
 	github.com/ethereum/go-ethereum v1.11.5
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/golang/snappy v0.0.4
@@ -189,6 +189,6 @@ require (
 	nhooyr.io/websocket v1.8.7 // indirect
 )
 
-replace github.com/ethereum/go-ethereum v1.11.5 => github.com/ethereum-pepe/op-geth v1.101105.1-0.20230420183214-24ae687be390
+replace github.com/ethereum/go-ethereum v1.11.5 => github.com/ethereum-optimism/op-geth v1.101105.1-0.20230420183214-24ae687be390
 
 //replace github.com/ethereum/go-ethereum v1.11.5 => ../go-ethereum

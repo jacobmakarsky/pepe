@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
-	"github.com/ethereum-pepe/pepe/op-chain-ops/crossdomain"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
+	"github.com/ethereum-optimism/pepe/op-bindings/bindings"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/crossdomain"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 )

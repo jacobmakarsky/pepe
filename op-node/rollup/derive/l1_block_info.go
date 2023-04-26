@@ -10,9 +10,9 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-service/solabi"
+	"github.com/ethereum-optimism/pepe/op-bindings/predeploys"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-service/solabi"
 )
 
 const (

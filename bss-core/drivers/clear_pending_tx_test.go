@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/bss-core/drivers"
-	"github.com/ethereum-pepe/pepe/bss-core/mock"
-	"github.com/ethereum-pepe/pepe/bss-core/txmgr"
+	"github.com/ethereum-optimism/pepe/bss-core/drivers"
+	"github.com/ethereum-optimism/pepe/bss-core/mock"
+	"github.com/ethereum-optimism/pepe/bss-core/txmgr"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"

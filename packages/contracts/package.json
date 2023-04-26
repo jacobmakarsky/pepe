@@ -1,5 +1,5 @@
 {
-  "name": "@eth-pepe/contracts",
+  "name": "@eth-optimism/contracts",
   "version": "0.5.40",
   "description": "[Pepe] L1 and L2 smart contracts for Pepe",
   "main": "dist/index",
@@ -50,22 +50,22 @@
     "contracts",
     "solidity"
   ],
-  "homepage": "https://github.com/ethereum-pepe/pepe/tree/develop/packages/contracts#readme",
+  "homepage": "https://github.com/ethereum-optimism/pepe/tree/develop/packages/contracts#readme",
   "license": "MIT",
   "author": "Pepe PBC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum-pepe/pepe.git"
+    "url": "https://github.com/ethereum-optimism/pepe.git"
   },
   "dependencies": {
-    "@eth-pepe/core-utils": "0.12.0",
+    "@eth-optimism/core-utils": "0.12.0",
     "@ethersproject/abstract-provider": "^5.7.0",
     "@ethersproject/abstract-signer": "^5.7.0"
   },
   "devDependencies": {
     "@codechecks/client": "^0.1.11",
     "@defi-wonderland/smock": "^2.0.2",
-    "@eth-pepe/hardhat-deploy-config": "^0.2.5",
+    "@eth-optimism/hardhat-deploy-config": "^0.2.5",
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/bytes": "^5.7.0",
     "@ethersproject/hardware-wallets": "^5.7.0",

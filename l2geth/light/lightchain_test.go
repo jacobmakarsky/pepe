@@ -21,13 +21,13 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/consensus/ethash"
-	"github.com/ethereum-pepe/pepe/l2geth/core"
-	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
-	"github.com/ethereum-pepe/pepe/l2geth/params"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/consensus/ethash"
+	"github.com/ethereum-optimism/pepe/l2geth/core"
+	"github.com/ethereum-optimism/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/ethdb"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
 )
 
 // So we can deterministically seed different blockchains

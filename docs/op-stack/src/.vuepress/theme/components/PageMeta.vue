@@ -17,7 +17,7 @@
             </a>
           </li>
           <li>
-            <a href="https://github.com/ethereum-pepe/pepe/contribute" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/ethereum-optimism/pepe/contribute" target="_blank" rel="noopener noreferrer">
               <i class="far fa-hands-helping"></i> Contribute to Pepe
             </a>
           </li>

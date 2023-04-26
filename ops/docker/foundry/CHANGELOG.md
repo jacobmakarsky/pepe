@@ -1,4 +1,4 @@
-# @eth-pepe/foundry
+# @eth-optimism/foundry
 
 ## 0.2.0
 

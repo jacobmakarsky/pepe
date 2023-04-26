@@ -6,15 +6,15 @@ import (
 	"strings"
 	"time"
 
-	oplog "github.com/ethereum-pepe/pepe/op-service/log"
-	opmetrics "github.com/ethereum-pepe/pepe/op-service/metrics"
+	oplog "github.com/ethereum-optimism/pepe/op-service/log"
+	opmetrics "github.com/ethereum-optimism/pepe/op-service/metrics"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/urfave/cli"
 
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	"github.com/ethereum-pepe/pepe/l2geth/ethclient"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/ethclient"
 )
 
 var (

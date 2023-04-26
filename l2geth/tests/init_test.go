@@ -31,7 +31,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/l2geth/params"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
 )
 
 // Command line flags to configure the interpreters.

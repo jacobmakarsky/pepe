@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
+	"github.com/ethereum-optimism/pepe/op-bindings/predeploys"
 	"github.com/ethereum/go-ethereum/common"
 )
 

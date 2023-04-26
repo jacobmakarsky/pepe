@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/accounts"
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/event"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/event"
 )
 
 var testSigData = make([]byte, 32)

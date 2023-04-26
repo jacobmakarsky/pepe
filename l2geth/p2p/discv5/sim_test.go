@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

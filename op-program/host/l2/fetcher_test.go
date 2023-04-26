@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/op-node/testutils"
-	cll2 "github.com/ethereum-pepe/pepe/op-program/client/l2"
+	"github.com/ethereum-optimism/pepe/op-node/testutils"
+	cll2 "github.com/ethereum-optimism/pepe/op-program/client/l2"
 	"github.com/ethereum/go-ethereum/trie"
 
 	"github.com/ethereum/go-ethereum/common"

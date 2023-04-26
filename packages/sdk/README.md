@@ -1,14 +1,14 @@
 
-# @eth-pepe/sdk
+# @eth-optimism/sdk
 
-[![codecov](https://codecov.io/gh/ethereum-pepe/pepe/branch/master/graph/badge.svg?token=0VTG7PG7YR&flag=sdk-tests)](https://codecov.io/gh/ethereum-pepe/pepe)
+[![codecov](https://codecov.io/gh/ethereum-optimism/pepe/branch/master/graph/badge.svg?token=0VTG7PG7YR&flag=sdk-tests)](https://codecov.io/gh/ethereum-optimism/pepe)
 
-The `@eth-pepe/sdk` package provides a set of tools for interacting with Pepe.
+The `@eth-optimism/sdk` package provides a set of tools for interacting with Pepe.
 
 ## Installation
 
 ```
-npm install @eth-pepe/sdk
+npm install @eth-optimism/sdk
 ```
 
 ## Docs
@@ -19,7 +19,7 @@ You can find auto-generated API documentation over at [sdk.pepe.io](https://sdk.
 
 ### CrossChainMessenger
 
-The [`CrossChainMessenger`](https://github.com/ethereum-pepe/pepe/blob/develop/packages/sdk/src/cross-chain-messenger.ts) class simplifies the process of moving assets and data between Ethereum and Pepe.
+The [`CrossChainMessenger`](https://github.com/ethereum-optimism/pepe/blob/develop/packages/sdk/src/cross-chain-messenger.ts) class simplifies the process of moving assets and data between Ethereum and Pepe.
 You can use this class to, for example, initiate a withdrawal of ERC20 tokens from Pepe back to Ethereum, accurately track when the withdrawal is ready to be finalized on Ethereum, and execute the finalization transaction after the challenge period has elapsed.
 The `CrossChainMessenger` can handle deposits and withdrawals of ETH and any ERC20-compatible token.
 Detailed API descriptions can be found at [sdk.pepe.io](https://sdk.pepe.io/classes/crosschainmessenger).
@@ -27,7 +27,7 @@ The `CrossChainMessenger` automatically connects to all relevant contracts so co
 
 ### L2Provider and related utilities
 
-The Pepe SDK includes [various utilities](https://github.com/ethereum-pepe/pepe/blob/develop/packages/sdk/src/l2-provider.ts) for handling Pepe's [transaction fee model](https://community.pepe.io/docs/developers/build/transaction-fees/).
+The Pepe SDK includes [various utilities](https://github.com/ethereum-optimism/pepe/blob/develop/packages/sdk/src/l2-provider.ts) for handling Pepe's [transaction fee model](https://community.pepe.io/docs/developers/build/transaction-fees/).
 For instance, [`estimateTotalGasCost`](https://sdk.pepe.io/modules.html#estimateTotalGasCost) will estimate the total cost (in wei) to send at transaction on Pepe including both the L2 execution cost and the L1 data cost.
 You can also use the [`asL2Provider`](https://sdk.pepe.io/modules.html#asL2Provider) function to wrap an ethers Provider object into an `L2Provider` which will have all of these helper functions attached.
 

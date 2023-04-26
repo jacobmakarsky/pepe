@@ -22,7 +22,7 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/discover"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 
-	"github.com/ethereum-pepe/pepe/op-node/metrics"
+	"github.com/ethereum-optimism/pepe/op-node/metrics"
 )
 
 // TODO: dynamic peering

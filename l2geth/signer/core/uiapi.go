@@ -24,11 +24,11 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/ethereum-pepe/pepe/l2geth/accounts"
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/keystore"
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/common/math"
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/keystore"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common/math"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
 )
 
 // SignerUIAPI implements methods Clef provides for a UI to query, in the bidirectional communication

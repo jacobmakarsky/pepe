@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
-	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
-	"github.com/ethereum-pepe/pepe/l2geth/light"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/ethdb"
+	"github.com/ethereum-optimism/pepe/l2geth/light"
 )
 
 var testBankSecureTrieKey = secAddr(bankAddr)

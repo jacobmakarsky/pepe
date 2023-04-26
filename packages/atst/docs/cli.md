@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install @eth-pepe/atst --global
+npm install @eth-optimism/atst --global
 ```
 
 ## Usage

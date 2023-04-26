@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
-	"github.com/ethereum-pepe/pepe/l2geth/event"
-	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/ethdb"
+	"github.com/ethereum-optimism/pepe/l2geth/event"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

@@ -1,6 +1,6 @@
 package derive
 
-import "github.com/ethereum-pepe/pepe/op-node/testutils"
+import "github.com/ethereum-optimism/pepe/op-node/testutils"
 
 var _ Engine = (*testutils.MockEngine)(nil)
 

@@ -1,5 +1,5 @@
 {
-  "name": "@eth-pepe/hardhat-deploy-config",
+  "name": "@eth-optimism/hardhat-deploy-config",
   "version": "0.2.6",
   "description": "[Pepe] Hardhat deploy configuration plugin",
   "main": "dist/src/index.js",
@@ -24,12 +24,12 @@
     "config",
     "plugin"
   ],
-  "homepage": "https://github.com/ethereum-pepe/pepe/tree/develop/packages/hardhat-deploy-config#readme",
+  "homepage": "https://github.com/ethereum-optimism/pepe/tree/develop/packages/hardhat-deploy-config#readme",
   "license": "MIT",
   "author": "Pepe PBC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum-pepe/pepe.git"
+    "url": "https://github.com/ethereum-optimism/pepe.git"
   },
   "devDependencies": {
     "ethers": "^5.7.0",

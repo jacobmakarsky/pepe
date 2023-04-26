@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/ethereum-pepe/pepe/l2geth/core"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/core"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

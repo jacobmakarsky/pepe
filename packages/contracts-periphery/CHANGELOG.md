@@ -1,4 +1,4 @@
-# @eth-pepe/contracts-periphery
+# @eth-optimism/contracts-periphery
 
 ## 1.0.7
 
@@ -167,4 +167,4 @@
 
 - d18ae135: Updates all ethers versions in response to BN.js bug
 - Updated dependencies [d18ae135]
-  - @eth-pepe/core-utils@0.8.5
+  - @eth-optimism/core-utils@0.8.5

@@ -23,9 +23,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
-	"github.com/ethereum-pepe/pepe/l2geth/params"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

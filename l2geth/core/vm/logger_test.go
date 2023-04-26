@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core/state"
-	"github.com/ethereum-pepe/pepe/l2geth/params"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core/state"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
 )
 
 type dummyContractRef struct {

@@ -3,15 +3,15 @@ package metrics
 import (
 	"context"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/prometheus/client_golang/prometheus"
 
-	opmetrics "github.com/ethereum-pepe/pepe/op-service/metrics"
-	txmetrics "github.com/ethereum-pepe/pepe/op-service/txmgr/metrics"
+	opmetrics "github.com/ethereum-optimism/pepe/op-service/metrics"
+	txmetrics "github.com/ethereum-optimism/pepe/op-service/txmgr/metrics"
 )
 
 const Namespace = "op_proposer"

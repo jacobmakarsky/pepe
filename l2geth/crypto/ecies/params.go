@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/ethereum-pepe/pepe/l2geth/crypto"
+	ethcrypto "github.com/ethereum-optimism/pepe/l2geth/crypto"
 )
 
 var (

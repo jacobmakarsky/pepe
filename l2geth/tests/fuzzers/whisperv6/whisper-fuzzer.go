@@ -19,9 +19,9 @@ package whisperv6
 import (
 	"bytes"
 
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
-	"github.com/ethereum-pepe/pepe/l2geth/whisper/whisperv6"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/whisper/whisperv6"
 )
 
 type MessageParams struct {

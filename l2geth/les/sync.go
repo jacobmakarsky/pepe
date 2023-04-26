@@ -21,11 +21,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
-	"github.com/ethereum-pepe/pepe/l2geth/eth/downloader"
-	"github.com/ethereum-pepe/pepe/l2geth/light"
-	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-optimism/pepe/l2geth/eth/downloader"
+	"github.com/ethereum-optimism/pepe/l2geth/light"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

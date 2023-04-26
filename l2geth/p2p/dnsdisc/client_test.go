@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum-pepe/pepe/l2geth/common/mclock"
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
-	"github.com/ethereum-pepe/pepe/l2geth/internal/testlog"
-	"github.com/ethereum-pepe/pepe/l2geth/log"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/enode"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/enr"
+	"github.com/ethereum-optimism/pepe/l2geth/common/mclock"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/internal/testlog"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/enode"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/enr"
 )
 
 const (

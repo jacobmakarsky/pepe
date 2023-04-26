@@ -17,10 +17,10 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/ethereum/go-ethereum/trie"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
-	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
-	"github.com/ethereum-pepe/pepe/op-chain-ops/deployer"
-	"github.com/ethereum-pepe/pepe/op-chain-ops/state"
+	"github.com/ethereum-optimism/pepe/op-bindings/bindings"
+	"github.com/ethereum-optimism/pepe/op-bindings/predeploys"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/deployer"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/state"
 )
 
 var (

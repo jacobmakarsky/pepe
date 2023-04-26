@@ -25,11 +25,11 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/metrics"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
-	"github.com/ethereum-pepe/pepe/op-node/testlog"
-	"github.com/ethereum-pepe/pepe/op-node/testutils"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/metrics"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/testlog"
+	"github.com/ethereum-optimism/pepe/op-node/testutils"
 )
 
 func TestingConfig(t *testing.T) *Config {

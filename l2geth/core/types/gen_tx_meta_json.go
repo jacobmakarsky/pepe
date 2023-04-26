@@ -7,7 +7,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
 )
 
 // MarshalJSON marshals as JSON.

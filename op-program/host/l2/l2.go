@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	cll2 "github.com/ethereum-pepe/pepe/op-program/client/l2"
-	"github.com/ethereum-pepe/pepe/op-program/host/config"
-	"github.com/ethereum-pepe/pepe/op-program/preimage"
+	cll2 "github.com/ethereum-optimism/pepe/op-program/client/l2"
+	"github.com/ethereum-optimism/pepe/op-program/host/config"
+	"github.com/ethereum-optimism/pepe/op-program/preimage"
 	"github.com/ethereum/go-ethereum/log"
 )
 

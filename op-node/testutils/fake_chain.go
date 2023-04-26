@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"

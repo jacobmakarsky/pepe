@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/abi/bind"
-	"github.com/ethereum-pepe/pepe/l2geth/core"
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
-	"github.com/ethereum-pepe/pepe/l2geth/light"
-	"github.com/ethereum-pepe/pepe/l2geth/params"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/abi/bind"
+	"github.com/ethereum-optimism/pepe/l2geth/core"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/light"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
 )
 
 // Test light syncing which will download all headers from genesis.

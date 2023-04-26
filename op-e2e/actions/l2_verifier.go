@@ -11,14 +11,14 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-pepe/pepe/op-node/client"
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/node"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/driver"
-	"github.com/ethereum-pepe/pepe/op-node/sources"
-	"github.com/ethereum-pepe/pepe/op-node/testutils"
+	"github.com/ethereum-optimism/pepe/op-node/client"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/node"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/driver"
+	"github.com/ethereum-optimism/pepe/op-node/sources"
+	"github.com/ethereum-optimism/pepe/op-node/testutils"
 )
 
 // L2Verifier is an actor that functions like a rollup node,

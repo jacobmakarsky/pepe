@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
 )
 
 type ltrInfo struct {

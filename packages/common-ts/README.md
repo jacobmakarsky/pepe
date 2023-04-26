@@ -1,8 +1,8 @@
-# @eth-pepe/common-ts
+# @eth-optimism/common-ts
 
-[![codecov](https://codecov.io/gh/ethereum-pepe/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=common-ts-tests)](https://codecov.io/gh/ethereum-pepe/pepe)
+[![codecov](https://codecov.io/gh/ethereum-optimism/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=common-ts-tests)](https://codecov.io/gh/ethereum-optimism/pepe)
 
 ## What is this?
 
-`@eth-pepe/common-ts` contains useful tools for logging, metrics, and other Node stuff.
+`@eth-optimism/common-ts` contains useful tools for logging, metrics, and other Node stuff.
 

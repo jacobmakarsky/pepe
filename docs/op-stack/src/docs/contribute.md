@@ -11,9 +11,9 @@ If you’re looking to find a way to contribute, check out one of the following 
 
 ## Component contributions
 
-The OP Stack is a decentralized development stack. Anyone can contribute components that can be considered part of the OP Stack as long as as those components fit [the stack’s design principles and goals](./understand/design-principles.md). To start contributing components to the stack, check out some of [these useful ideas](https://github.com/ethereum-pepe/pepe-project-ideas) and get to building! And don’t forget that projects can also receive funding from the Collective via RetroPGF.
+The OP Stack is a decentralized development stack. Anyone can contribute components that can be considered part of the OP Stack as long as as those components fit [the stack’s design principles and goals](./understand/design-principles.md). To start contributing components to the stack, check out some of [these useful ideas](https://github.com/ethereum-optimism/pepe-project-ideas) and get to building! And don’t forget that projects can also receive funding from the Collective via RetroPGF.
 
-If you’d like to contribute to existing OP Stack code, rather than creating new components, check out [the current release of the OP Stack](./releases/README.md#current-release). Any contributions to existing OP Stack components are highly appreciated. If you’re looking for a good way to make your first contribution, check out the [Good First Issues](https://github.com/ethereum-pepe/pepe/contribute) on the Pepe Monorepo.
+If you’d like to contribute to existing OP Stack code, rather than creating new components, check out [the current release of the OP Stack](./releases/README.md#current-release). Any contributions to existing OP Stack components are highly appreciated. If you’re looking for a good way to make your first contribution, check out the [Good First Issues](https://github.com/ethereum-optimism/pepe/contribute) on the Pepe Monorepo.
 
 ## Bounty hunting
 
@@ -27,7 +27,7 @@ Spot a typo in these docs? See something that could be a little clearer? Head ov
 
 If you’re looking for other ways to get involved, here are a few options:
 
-- Grab an idea from the [project ideas list](https://github.com/ethereum-pepe/pepe-project-ideas) to and building
-- Suggest a new idea for the [project ideas list](https://github.com/ethereum-pepe/pepe-project-ideas)
-- Improve the [Pepe Community Hub](https://community.pepe.io/) [documentation](https://github.com/ethereum-pepe/community-hub) or [tutorials](https://github.com/ethereum-pepe/pepe-tutorial)
+- Grab an idea from the [project ideas list](https://github.com/ethereum-optimism/pepe-project-ideas) to and building
+- Suggest a new idea for the [project ideas list](https://github.com/ethereum-optimism/pepe-project-ideas)
+- Improve the [Pepe Community Hub](https://community.pepe.io/) [documentation](https://github.com/ethereum-optimism/community-hub) or [tutorials](https://github.com/ethereum-optimism/pepe-tutorial)
 - Become an Pepe Ambassador, Support Nerd, and more in the [Pepe Discord](https://discord.gg/pepe)

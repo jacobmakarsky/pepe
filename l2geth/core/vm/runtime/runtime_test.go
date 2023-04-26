@@ -23,13 +23,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/abi"
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core/asm"
-	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
-	"github.com/ethereum-pepe/pepe/l2geth/core/state"
-	"github.com/ethereum-pepe/pepe/l2geth/core/vm"
-	"github.com/ethereum-pepe/pepe/l2geth/params"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/abi"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core/asm"
+	"github.com/ethereum-optimism/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-optimism/pepe/l2geth/core/state"
+	"github.com/ethereum-optimism/pepe/l2geth/core/vm"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
 )
 
 func TestDefaults(t *testing.T) {

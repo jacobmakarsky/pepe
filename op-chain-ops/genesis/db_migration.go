@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
-	"github.com/ethereum-pepe/pepe/op-chain-ops/crossdomain"
-	"github.com/ethereum-pepe/pepe/op-chain-ops/ether"
+	"github.com/ethereum-optimism/pepe/op-bindings/predeploys"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/crossdomain"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/ether"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/core/state"

@@ -23,9 +23,9 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
 )
 
 func generateMessageParams() (*MessageParams, error) {

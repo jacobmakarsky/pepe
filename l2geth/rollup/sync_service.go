@@ -10,19 +10,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core"
-	"github.com/ethereum-pepe/pepe/l2geth/core/state"
-	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
-	"github.com/ethereum-pepe/pepe/l2geth/event"
-	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core"
+	"github.com/ethereum-optimism/pepe/l2geth/core/state"
+	"github.com/ethereum-optimism/pepe/l2geth/ethdb"
+	"github.com/ethereum-optimism/pepe/l2geth/event"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
 
-	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
 
-	"github.com/ethereum-pepe/pepe/l2geth/eth/gasprice"
-	"github.com/ethereum-pepe/pepe/l2geth/rollup/fees"
-	"github.com/ethereum-pepe/pepe/l2geth/rollup/rcfg"
+	"github.com/ethereum-optimism/pepe/l2geth/eth/gasprice"
+	"github.com/ethereum-optimism/pepe/l2geth/rollup/fees"
+	"github.com/ethereum-optimism/pepe/l2geth/rollup/rcfg"
 )
 
 var (

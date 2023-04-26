@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/enr"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

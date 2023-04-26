@@ -29,12 +29,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
-	"github.com/ethereum-pepe/pepe/l2geth/log"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/enode"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/enr"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/netutil"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/enode"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/enr"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/netutil"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
 )
 
 // Errors

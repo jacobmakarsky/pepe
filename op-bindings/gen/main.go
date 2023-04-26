@@ -9,8 +9,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/ast"
-	"github.com/ethereum-pepe/pepe/op-bindings/hardhat"
+	"github.com/ethereum-optimism/pepe/op-bindings/ast"
+	"github.com/ethereum-optimism/pepe/op-bindings/hardhat"
 )
 
 type flags struct {
@@ -104,7 +104,7 @@ package {{.Package}}
 import (
 	"encoding/json"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/solc"
+	"github.com/ethereum-optimism/pepe/op-bindings/solc"
 )
 
 const {{.Name}}StorageLayoutJSON = "{{.StorageLayout}}"

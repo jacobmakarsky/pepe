@@ -1,6 +1,6 @@
 # Pepe Smart Contracts (Bedrock)
 
-[![codecov](https://codecov.io/gh/ethereum-pepe/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=contracts-bedrock-tests)](https://codecov.io/gh/ethereum-pepe/pepe)
+[![codecov](https://codecov.io/gh/ethereum-optimism/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=contracts-bedrock-tests)](https://codecov.io/gh/ethereum-optimism/pepe)
 
 This package contains the smart contracts that compose the on-chain component of Pepe's upcoming Bedrock upgrade.
 We've tried to maintain 100% backwards compatibility with the existing system while also introducing new useful features.
@@ -45,7 +45,7 @@ You can find detailed specifications for the contracts contained within this pac
 We export contract ABIs, contract source code, and contract deployment information for this package via `npm`:
 
 ```shell
-npm install @eth-pepe/contracts-bedrock
+npm install @eth-optimism/contracts-bedrock
 ```
 
 ## Development
@@ -151,7 +151,7 @@ We also have the following custom tags:
 #### Errors
 
 - Use `require` statements when making simple assertions.
-- Use `revert` if throwing an error where an assertion is not being made (no custom errors). See [here](https://github.com/ethereum-pepe/pepe/blob/861ae315a6db698a8c0adb1f8eab8311fd96be4c/packages/contracts-bedrock/contracts/L2/OVM_ETH.sol#L31) for an example of this in practice.
+- Use `revert` if throwing an error where an assertion is not being made (no custom errors). See [here](https://github.com/ethereum-optimism/pepe/blob/861ae315a6db698a8c0adb1f8eab8311fd96be4c/packages/contracts-bedrock/contracts/L2/OVM_ETH.sol#L31) for an example of this in practice.
 - Error strings MUST have the format `"{ContractName}: {message}"` where `message` is a lower case string.
 
 #### Function Parameters

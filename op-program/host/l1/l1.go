@@ -3,12 +3,12 @@ package l1
 import (
 	"context"
 
-	"github.com/ethereum-pepe/pepe/op-node/client"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
-	"github.com/ethereum-pepe/pepe/op-node/sources"
-	cll1 "github.com/ethereum-pepe/pepe/op-program/client/l1"
-	"github.com/ethereum-pepe/pepe/op-program/host/config"
-	"github.com/ethereum-pepe/pepe/op-program/preimage"
+	"github.com/ethereum-optimism/pepe/op-node/client"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
+	"github.com/ethereum-optimism/pepe/op-node/sources"
+	cll1 "github.com/ethereum-optimism/pepe/op-program/client/l1"
+	"github.com/ethereum-optimism/pepe/op-program/host/config"
+	"github.com/ethereum-optimism/pepe/op-program/preimage"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

@@ -1,4 +1,4 @@
-module github.com/ethereum-pepe/pepe/gas-oracle
+module github.com/ethereum-optimism/pepe/gas-oracle
 
 go 1.18
 

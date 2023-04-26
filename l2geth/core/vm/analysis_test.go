@@ -19,7 +19,7 @@ package vm
 import (
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {

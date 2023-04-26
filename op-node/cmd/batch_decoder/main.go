@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/op-node/cmd/batch_decoder/fetch"
-	"github.com/ethereum-pepe/pepe/op-node/cmd/batch_decoder/reassemble"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
+	"github.com/ethereum-optimism/pepe/op-node/cmd/batch_decoder/fetch"
+	"github.com/ethereum-optimism/pepe/op-node/cmd/batch_decoder/reassemble"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/urfave/cli"

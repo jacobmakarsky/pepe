@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
 )
 
 // Strings represents s slice of strs.

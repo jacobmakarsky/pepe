@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/ethereum-pepe/pepe/l2geth/accounts"
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/abi/bind"
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/external"
-	"github.com/ethereum-pepe/pepe/l2geth/cmd/utils"
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/contracts/checkpointoracle"
-	"github.com/ethereum-pepe/pepe/l2geth/ethclient"
-	"github.com/ethereum-pepe/pepe/l2geth/params"
-	"github.com/ethereum-pepe/pepe/l2geth/rpc"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/abi/bind"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/external"
+	"github.com/ethereum-optimism/pepe/l2geth/cmd/utils"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/contracts/checkpointoracle"
+	"github.com/ethereum-optimism/pepe/l2geth/ethclient"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
+	"github.com/ethereum-optimism/pepe/l2geth/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

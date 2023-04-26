@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	l2types "github.com/ethereum-pepe/pepe/l2geth/core/types"
+	l2types "github.com/ethereum-optimism/pepe/l2geth/core/types"
 )
 
 var (

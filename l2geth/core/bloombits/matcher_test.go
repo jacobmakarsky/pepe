@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
 )
 
 const testSectionSize = 4096

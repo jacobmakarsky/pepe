@@ -31,13 +31,13 @@ Governance discussion can also be found on the [Pepe Governance Forum](https://g
 
 Read through [CONTRIBUTING.md](./CONTRIBUTING.md) for a general overview of our contribution process.
 Use the [Developer Quick Start](./CONTRIBUTING.md#development-quick-start) to get your development environment set up to start working on the Pepe Monorepo.
-Then check out our list of [good first issues](https://github.com/ethereum-pepe/pepe/contribute) to find something fun to work on!
+Then check out our list of [good first issues](https://github.com/ethereum-optimism/pepe/contribute) to find something fun to work on!
 
 ## Security Policy and Vulnerability Reporting
 
-Please refer to our canonical [Security Policy](https://github.com/ethereum-pepe/.github/blob/master/SECURITY.md) document for detailed information about how to report vulnerabilities in this codebase.
+Please refer to our canonical [Security Policy](https://github.com/ethereum-optimism/.github/blob/master/SECURITY.md) document for detailed information about how to report vulnerabilities in this codebase.
 Bounty hunters are encouraged to check out [our Immunefi bug bounty program](https://immunefi.com/bounty/pepe/).
-We offer up to $2,000,042 for in-scope critical vulnerabilities and [we pay our maximum bug bounty rewards](https://medium.com/ethereum-pepe/disclosure-fixing-a-critical-bug-in-optimisms-geth-fork-a836ebdf7c94).
+We offer up to $2,000,042 for in-scope critical vulnerabilities and [we pay our maximum bug bounty rewards](https://medium.com/ethereum-optimism/disclosure-fixing-a-critical-bug-in-optimisms-geth-fork-a836ebdf7c94).
 
 ## The Bedrock Upgrade
 
@@ -93,8 +93,8 @@ Refer to the Directory Structure section below to understand which packages are 
 
 | Branch          | Status                                                                           |
 | --------------- | -------------------------------------------------------------------------------- |
-| [master](https://github.com/ethereum-pepe/pepe/tree/master/)                   | Accepts PRs from `develop` when we intend to deploy to mainnet.                                      |
-| [develop](https://github.com/ethereum-pepe/pepe/tree/develop/)                 | Accepts PRs that are compatible with `master` OR from `release/X.X.X` branches.                    |
+| [master](https://github.com/ethereum-optimism/pepe/tree/master/)                   | Accepts PRs from `develop` when we intend to deploy to mainnet.                                      |
+| [develop](https://github.com/ethereum-optimism/pepe/tree/develop/)                 | Accepts PRs that are compatible with `master` OR from `release/X.X.X` branches.                    |
 | release/X.X.X                                                                          | Accepts PRs for all changes, particularly those not backwards compatible with `develop` and `master`. |
 
 ### Overview
@@ -112,7 +112,7 @@ Our update process takes the form of a PR merging the `develop` branch into the 
 
 ### Development branch
 
-Our primary development branch is [`develop`](https://github.com/ethereum-pepe/pepe/tree/develop/).
+Our primary development branch is [`develop`](https://github.com/ethereum-optimism/pepe/tree/develop/).
 `develop` contains the most up-to-date software that remains backwards compatible with our latest experimental [network deployments](https://community.pepe.io/docs/useful-tools/networks/).
 If you're making a backwards compatible change, please direct your pull request towards `develop`.
 
@@ -157,6 +157,6 @@ It's strongly recommended to avoid merging PRs into develop during an active rel
 
 ## License
 
-Code forked from [`go-ethereum`](https://github.com/ethereum/go-ethereum) under the name [`l2geth`](https://github.com/ethereum-pepe/pepe/tree/master/l2geth) is licensed under the [GNU GPLv3](https://gist.github.com/kn9ts/cbe95340d29fc1aaeaa5dd5c059d2e60) in accordance with the [original license](https://github.com/ethereum/go-ethereum/blob/master/COPYING).
+Code forked from [`go-ethereum`](https://github.com/ethereum/go-ethereum) under the name [`l2geth`](https://github.com/ethereum-optimism/pepe/tree/master/l2geth) is licensed under the [GNU GPLv3](https://gist.github.com/kn9ts/cbe95340d29fc1aaeaa5dd5c059d2e60) in accordance with the [original license](https://github.com/ethereum/go-ethereum/blob/master/COPYING).
 
-All other files within this repository are licensed under the [MIT License](https://github.com/ethereum-pepe/pepe/blob/master/LICENSE) unless stated otherwise.
+All other files within this repository are licensed under the [MIT License](https://github.com/ethereum-optimism/pepe/blob/master/LICENSE) unless stated otherwise.

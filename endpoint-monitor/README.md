@@ -1,4 +1,4 @@
-# @eth-pepe/endpoint-monitor
+# @eth-optimism/endpoint-monitor
 
 The endpoint-monitor runs websocket checks on edge-proxyd endpoints and downstream infra provider endpoints.
 

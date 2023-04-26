@@ -19,9 +19,9 @@ package ethash
 import (
 	"errors"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
 )
 
 var errEthashStopped = errors.New("ethash stopped")

@@ -1,5 +1,5 @@
 {
-  "name": "@eth-pepe/common-ts",
+  "name": "@eth-optimism/common-ts",
   "version": "0.8.1",
   "description": "[Pepe] Advanced typescript tooling used by various services",
   "main": "dist/index",
@@ -25,15 +25,15 @@
     "common",
     "typescript"
   ],
-  "homepage": "https://github.com/ethereum-pepe/pepe/tree/develop/packages/common-ts#readme",
+  "homepage": "https://github.com/ethereum-optimism/pepe/tree/develop/packages/common-ts#readme",
   "license": "MIT",
   "author": "Pepe PBC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum-pepe/pepe.git"
+    "url": "https://github.com/ethereum-optimism/pepe.git"
   },
   "dependencies": {
-    "@eth-pepe/core-utils": "0.12.0",
+    "@eth-optimism/core-utils": "0.12.0",
     "@sentry/node": "^6.3.1",
     "bcfg": "^0.1.7",
     "body-parser": "^1.20.0",

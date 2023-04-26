@@ -27,11 +27,11 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum-pepe/pepe/l2geth/cmd/utils"
-	"github.com/ethereum-pepe/pepe/l2geth/eth"
-	"github.com/ethereum-pepe/pepe/l2geth/node"
-	"github.com/ethereum-pepe/pepe/l2geth/params"
-	whisper "github.com/ethereum-pepe/pepe/l2geth/whisper/whisperv6"
+	"github.com/ethereum-optimism/pepe/l2geth/cmd/utils"
+	"github.com/ethereum-optimism/pepe/l2geth/eth"
+	"github.com/ethereum-optimism/pepe/l2geth/node"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
+	whisper "github.com/ethereum-optimism/pepe/l2geth/whisper/whisperv6"
 	"github.com/naoina/toml"
 )
 

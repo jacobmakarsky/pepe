@@ -1,12 +1,12 @@
 /* Imports: External */
 import { Contract, ContractFactory } from 'ethers'
 import { ethers } from 'hardhat'
-import { MessageDirection, MessageStatus } from '@eth-pepe/sdk'
+import { MessageDirection, MessageStatus } from '@eth-optimism/sdk'
 import {
   applyL1ToL2Alias,
   awaitCondition,
   sleep,
-} from '@eth-pepe/core-utils'
+} from '@eth-optimism/core-utils'
 
 /* Imports: Internal */
 import { expect } from './shared/setup'

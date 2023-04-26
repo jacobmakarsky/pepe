@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/event"
-	"github.com/ethereum-pepe/pepe/l2geth/log"
-	"github.com/ethereum-pepe/pepe/l2geth/node"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/enode"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/simulations/adapters"
-	"github.com/ethereum-pepe/pepe/l2geth/rpc"
+	"github.com/ethereum-optimism/pepe/l2geth/event"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/node"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/enode"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/simulations/adapters"
+	"github.com/ethereum-optimism/pepe/l2geth/rpc"
 	"github.com/mattn/go-colorable"
 )
 

@@ -1,4 +1,4 @@
-# @eth-pepe/batch-submitter-service
+# @eth-optimism/batch-submitter-service
 
 ## 0.1.16
 

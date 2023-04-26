@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@eth-pepe/replica-healthcheck",
+  "name": "@eth-optimism/replica-healthcheck",
   "version": "1.2.4",
   "description": "[Pepe] Service for monitoring the health of replica nodes",
   "main": "dist/index",
@@ -24,16 +24,16 @@
     "replica",
     "healthcheck"
   ],
-  "homepage": "https://github.com/ethereum-pepe/pepe/tree/develop/packages/replica-healthcheck#readme",
+  "homepage": "https://github.com/ethereum-optimism/pepe/tree/develop/packages/replica-healthcheck#readme",
   "license": "MIT",
   "author": "Pepe PBC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum-pepe/pepe.git"
+    "url": "https://github.com/ethereum-optimism/pepe.git"
   },
   "dependencies": {
-    "@eth-pepe/common-ts": "0.8.1",
-    "@eth-pepe/core-utils": "0.12.0",
+    "@eth-optimism/common-ts": "0.8.1",
+    "@eth-optimism/core-utils": "0.12.0",
     "@ethersproject/abstract-provider": "^5.7.0"
   },
   "devDependencies": {

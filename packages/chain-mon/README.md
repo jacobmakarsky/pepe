@@ -1,6 +1,6 @@
-# @eth-pepe/chain-mon
+# @eth-optimism/chain-mon
 
-[![codecov](https://codecov.io/gh/ethereum-pepe/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=chain-mon-tests)](https://codecov.io/gh/ethereum-pepe/pepe)
+[![codecov](https://codecov.io/gh/ethereum-optimism/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=chain-mon-tests)](https://codecov.io/gh/ethereum-optimism/pepe)
 
 `chain-mon` is a collection of chain monitoring services.
 
@@ -9,7 +9,7 @@
 Clone, install, and build the Pepe monorepo:
 
 ```
-git clone https://github.com/ethereum-pepe/pepe.git
+git clone https://github.com/ethereum-optimism/pepe.git
 yarn install
 yarn build
 ```

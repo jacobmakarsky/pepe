@@ -4,7 +4,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/network"
 	ma "github.com/multiformats/go-multiaddr"
 
-	"github.com/ethereum-pepe/pepe/op-node/metrics"
+	"github.com/ethereum-optimism/pepe/op-node/metrics"
 
 	"github.com/ethereum/go-ethereum/log"
 )

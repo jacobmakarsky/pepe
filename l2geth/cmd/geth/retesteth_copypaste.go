@@ -19,9 +19,9 @@ package main
 import (
 	"math/big"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
 )
 
 // RPCTransaction represents a transaction that will serialize to the RPC representation of a transaction

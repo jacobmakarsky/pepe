@@ -4,7 +4,7 @@ title: The Pepe Monorepo
 authors:
 - name: The Pepe Collective
 version: 1.0.0
-year: 2020
-url: https://github.com/ethereum-pepe/pepe
-repository: https://github.com/ethereum-pepe/pepe
+year: 2023
+url: https://github.com/ethereum-optimism/pepe
+repository: https://github.com/ethereum-optimism/pepe
 license: MIT

@@ -744,7 +744,7 @@ jobs:
           name: run tests
           command: |
             gotestsum --format=standard-verbose --junitfile=/tmp/test-results/<<parameters.module>>.xml \
-            -- -parallel=8 -coverpkg=github.com/ethereum-pepe/pepe/... -coverprofile=coverage.out ./...
+            -- -parallel=8 -coverpkg=github.com/ethereum-optimism/optimism/... -coverprofile=coverage.out ./...
           working_directory: <<parameters.module>>
       - run:
           name: upload coverage
@@ -1077,7 +1077,7 @@ jobs:
             docker load -i /tmp/docker_images/op-proposer_<<parameters.version>>.tar
             docker load -i /tmp/docker_images/op-node_<<parameters.version>>.tar
       - run:
-          command: git clone https://github.com/ethereum-pepe/hive.git .
+          command: git clone https://github.com/ethereum-optimism/hive.git .
       - go/load-cache
       - go/mod-download
       - go/save-cache
@@ -1426,7 +1426,7 @@ workflows:
       - hive-test:
           name: hive-test-rpc
           version: <<pipeline.git.revision>>
-          sim: pepe/rpc
+          sim: optimism/rpc
           requires:
             - op-node-docker-build
             - op-batcher-docker-build
@@ -1434,7 +1434,7 @@ workflows:
       - hive-test:
           name: hive-test-p2p
           version: <<pipeline.git.revision>>
-          sim: pepe/p2p
+          sim: optimism/p2p
           requires:
             - op-node-docker-build
             - op-batcher-docker-build
@@ -1442,7 +1442,7 @@ workflows:
       - hive-test:
           name: hive-test-l1ops
           version: <<pipeline.git.revision>>
-          sim: pepe/l1ops
+          sim: optimism/l1ops
           requires:
             - op-node-docker-build
             - op-batcher-docker-build

@@ -45,7 +45,7 @@ is a dispute, you don't execute transactions on on-chain unless there is an erro
 
 ### What is EVM Equivalence?
 
-[EVM Equivalence](https://medium.com/ethereum-pepe/introducing-evm-equivalence-5c2021deb306) is complete compliance
+[EVM Equivalence](https://medium.com/ethereum-optimism/introducing-evm-equivalence-5c2021deb306) is complete compliance
 with the state transition function described in the Ethereum yellow paper, the formal definition of the protocol. By
 conforming to the Ethereum standard across EVM equivalent rollups, smart contract developers can write once and deploy
 anywhere.

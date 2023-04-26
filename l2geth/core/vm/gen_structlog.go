@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
-	"github.com/ethereum-pepe/pepe/l2geth/common/math"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-optimism/pepe/l2geth/common/math"
 )
 
 var _ = (*structLogMarshaling)(nil)

@@ -1,7 +1,7 @@
 package statedumper
 
 import (
-	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
 	"io"
 	"os"
 	"testing"

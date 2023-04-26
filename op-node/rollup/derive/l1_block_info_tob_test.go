@@ -3,9 +3,9 @@ package derive
 import (
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/testutils"
-	"github.com/ethereum-pepe/pepe/op-node/testutils/fuzzerutils"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/testutils"
+	"github.com/ethereum-optimism/pepe/op-node/testutils/fuzzerutils"
 	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/require"
 )

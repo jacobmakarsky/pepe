@@ -26,19 +26,19 @@ Install atst and its peer dependencies.
 npm
 
 ```bash
-npm i @eth-pepe/atst @wagmi/core ethers@5.7.0
+npm i @eth-optimism/atst @wagmi/core ethers@5.7.0
 ```
 
 pnpm
 
 ```bash
-pnpm i @eth-pepe/atst @wagmi/core ethers@5.7.0
+pnpm i @eth-optimism/atst @wagmi/core ethers@5.7.0
 ```
 
 yarn
 
 ```bash
-yarn add @eth-pepe/atst @wagmi/core ethers@5.7.0
+yarn add @eth-optimism/atst @wagmi/core ethers@5.7.0
 ```
 
 **Note:** As ethers v6 is not yet stable we only support ethers v5 at this time
@@ -74,7 +74,7 @@ wagmiCore.createClient({
 Here is an example of reading an attestation used by the optimist nft
 
 ```javascript
-import { readAttestation } from '@eth-pepe/atst'
+import { readAttestation } from '@eth-optimism/atst'
 
 const creator = '0x60c5C9c98bcBd0b0F2fD89B24c16e533BaA8CdA3'
 const about = '0x2335022c740d17c2837f9C884Bfe4fFdbf0A95D5'
@@ -95,7 +95,7 @@ To write to an attestation you must [connect](https://wagmi.sh/core/connectors/m
 If using Node.js use the [mock connector](https://wagmi.sh/core/connectors/mock).
 
 ```typescript
-import { prepareWriteAttestation, writeAttestation } from '@eth-pepe/atst'
+import { prepareWriteAttestation, writeAttestation } from '@eth-optimism/atst'
 
 const preparedTx = await prepareWriteAttestation(about, key, 'hello world')
 console.log(preparedTx.gasLimit)
@@ -108,7 +108,7 @@ await writeAttestation(preparedTx)
 ### High level API
 
 These functions are the easiest way to interact with the AttestationStation contract.
-For a more detailed explanation, [see the tutorial](https://github.com/ethereum-pepe/pepe-tutorial/tree/main/ecosystem/attestation-station/using-sdk).
+For a more detailed explanation, [see the tutorial](https://github.com/ethereum-optimism/pepe-tutorial/tree/main/ecosystem/attestation-station/using-sdk).
 
 #### `getEvents`
 
@@ -196,7 +196,7 @@ These definitions allow you to communicate with AttestationStation, but are not 
 The deployment address for AttestationStation currently deployed with create2 on Pepe and Pepe Goerli `0xEE36eaaD94d1Cc1d0eccaDb55C38bFfB6Be06C77`.
 
 ```typescript
-import { ATTESTATION_STATION_ADDRESS } from '@eth-pepe/atst'
+import { ATTESTATION_STATION_ADDRESS } from '@eth-optimism/atst'
 ```
 
 #### `abi`
@@ -204,7 +204,7 @@ import { ATTESTATION_STATION_ADDRESS } from '@eth-pepe/atst'
 The abi of the AttestationStation contract
 
 ```typescript
-import { abi } from '@eth-pepe/atst'
+import { abi } from '@eth-optimism/atst'
 ```
 
 #### `createKey`
@@ -285,6 +285,6 @@ For convenience we also [export the hooks here](../src/react.ts):
 
 ## Tutorial
 
-- [General atst tutorial](https://github.com/ethereum-pepe/pepe-tutorial/tree/main/ecosystem/attestation-station).
-- [React atst starter](https://github.com/ethereum-pepe/pepe-starter).
+- [General atst tutorial](https://github.com/ethereum-optimism/pepe-tutorial/tree/main/ecosystem/attestation-station).
+- [React atst starter](https://github.com/ethereum-optimism/pepe-starter).
 

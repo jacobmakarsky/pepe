@@ -3,7 +3,7 @@ package bindings
 import (
 	"fmt"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/solc"
+	"github.com/ethereum-optimism/pepe/op-bindings/solc"
 	"github.com/ethereum/go-ethereum/common"
 )
 

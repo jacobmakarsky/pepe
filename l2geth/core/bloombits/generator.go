@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
 )
 
 var (

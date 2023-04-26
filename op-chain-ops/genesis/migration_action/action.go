@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"path/filepath"
 
-	"github.com/ethereum-pepe/pepe/op-chain-ops/crossdomain"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/crossdomain"
 
-	"github.com/ethereum-pepe/pepe/op-chain-ops/genesis"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/genesis"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/ethclient"
 )

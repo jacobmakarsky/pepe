@@ -24,9 +24,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
-	"github.com/ethereum-pepe/pepe/l2geth/internal/ethapi"
-	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-optimism/pepe/l2geth/internal/ethapi"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

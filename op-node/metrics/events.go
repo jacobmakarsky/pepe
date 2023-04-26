@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/op-service/metrics"
+	"github.com/ethereum-optimism/pepe/op-service/metrics"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

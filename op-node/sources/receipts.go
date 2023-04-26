@@ -12,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/ethereum/go-ethereum/trie"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
 )
 
 // validateReceipts validates that the receipt contents are valid.

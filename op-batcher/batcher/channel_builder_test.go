@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
-	dtest "github.com/ethereum-pepe/pepe/op-node/rollup/derive/test"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
+	dtest "github.com/ethereum-optimism/pepe/op-node/rollup/derive/test"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"

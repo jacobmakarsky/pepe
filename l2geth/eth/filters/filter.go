@@ -21,13 +21,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core"
-	"github.com/ethereum-pepe/pepe/l2geth/core/bloombits"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
-	"github.com/ethereum-pepe/pepe/l2geth/event"
-	"github.com/ethereum-pepe/pepe/l2geth/rpc"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core"
+	"github.com/ethereum-optimism/pepe/l2geth/core/bloombits"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/ethdb"
+	"github.com/ethereum-optimism/pepe/l2geth/event"
+	"github.com/ethereum-optimism/pepe/l2geth/rpc"
 )
 
 type Backend interface {

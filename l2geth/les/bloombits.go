@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/bitutil"
-	"github.com/ethereum-pepe/pepe/l2geth/light"
+	"github.com/ethereum-optimism/pepe/l2geth/common/bitutil"
+	"github.com/ethereum-optimism/pepe/l2geth/light"
 )
 
 const (

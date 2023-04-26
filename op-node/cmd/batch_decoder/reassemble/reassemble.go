@@ -9,9 +9,9 @@ import (
 	"path"
 	"sort"
 
-	"github.com/ethereum-pepe/pepe/op-node/cmd/batch_decoder/fetch"
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
+	"github.com/ethereum-optimism/pepe/op-node/cmd/batch_decoder/fetch"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
 	"github.com/ethereum/go-ethereum/common"
 )
 

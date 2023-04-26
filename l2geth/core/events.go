@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum-pepe/pepe/proxyd"
+	"github.com/ethereum-optimism/pepe/proxyd"
 	"github.com/gorilla/websocket"
 )
 

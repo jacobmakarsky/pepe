@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum-pepe/pepe/op-program/client/driver"
-	"github.com/ethereum-pepe/pepe/op-program/host"
-	"github.com/ethereum-pepe/pepe/op-program/host/config"
-	"github.com/ethereum-pepe/pepe/op-program/host/flags"
-	"github.com/ethereum-pepe/pepe/op-program/host/version"
-	oplog "github.com/ethereum-pepe/pepe/op-service/log"
+	"github.com/ethereum-optimism/pepe/op-program/client/driver"
+	"github.com/ethereum-optimism/pepe/op-program/host"
+	"github.com/ethereum-optimism/pepe/op-program/host/config"
+	"github.com/ethereum-optimism/pepe/op-program/host/flags"
+	"github.com/ethereum-optimism/pepe/op-program/host/version"
+	oplog "github.com/ethereum-optimism/pepe/op-service/log"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli"
 )

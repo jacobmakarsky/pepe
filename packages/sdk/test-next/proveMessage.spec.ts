@@ -63,7 +63,7 @@ const E2E_PRIVATE_KEY = z
   .describe('Private key')
   .parse(import.meta.env.VITE_E2E_PRIVATE_KEY)
 
-const jsonRpcHeaders = { 'User-Agent': 'eth-pepe/@gateway/backend' }
+const jsonRpcHeaders = { 'User-Agent': 'eth-optimism/@gateway/backend' }
 /**
  * Initialize the signer, prover, and cross chain messenger
  */

@@ -3,7 +3,7 @@ package hardhat
 import (
 	"encoding/json"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/solc"
+	"github.com/ethereum-optimism/pepe/op-bindings/solc"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"

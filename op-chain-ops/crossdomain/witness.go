@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
+	"github.com/ethereum-optimism/pepe/op-bindings/bindings"
 	"github.com/ethereum/go-ethereum/log"
 
 	"github.com/ethereum/go-ethereum/common"

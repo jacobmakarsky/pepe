@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/abi"
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/abi/bind"
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/keystore"
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/abi"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/abi/bind"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/keystore"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
 )
 
 // Signer is an interface defining the callback when a contract requires a

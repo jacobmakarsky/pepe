@@ -6,8 +6,8 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/urfave/cli"
 
-	"github.com/ethereum-pepe/pepe/op-node/flags"
-	"github.com/ethereum-pepe/pepe/op-node/p2p"
+	"github.com/ethereum-optimism/pepe/op-node/flags"
+	"github.com/ethereum-optimism/pepe/op-node/p2p"
 )
 
 // TODO: implement remote signer setup (config to authenticated endpoint)

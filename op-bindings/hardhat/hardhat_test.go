@@ -3,7 +3,7 @@ package hardhat_test
 import (
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/hardhat"
+	"github.com/ethereum-optimism/pepe/op-bindings/hardhat"
 
 	"github.com/stretchr/testify/require"
 )

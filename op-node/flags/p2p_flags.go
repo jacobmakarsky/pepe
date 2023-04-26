@@ -5,7 +5,7 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/ethereum-pepe/pepe/op-node/p2p"
+	"github.com/ethereum-optimism/pepe/op-node/p2p"
 )
 
 func p2pEnv(v string) string {

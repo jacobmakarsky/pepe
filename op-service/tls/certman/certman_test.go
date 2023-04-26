@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/op-service/tls/certman"
+	"github.com/ethereum-optimism/pepe/op-service/tls/certman"
 	"github.com/ethereum/go-ethereum/log"
 )
 

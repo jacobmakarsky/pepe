@@ -7,15 +7,15 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli"
 
-	"github.com/ethereum-pepe/pepe/op-batcher/flags"
-	"github.com/ethereum-pepe/pepe/op-batcher/metrics"
-	"github.com/ethereum-pepe/pepe/op-batcher/rpc"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
-	"github.com/ethereum-pepe/pepe/op-node/sources"
-	oplog "github.com/ethereum-pepe/pepe/op-service/log"
-	opmetrics "github.com/ethereum-pepe/pepe/op-service/metrics"
-	oppprof "github.com/ethereum-pepe/pepe/op-service/pprof"
-	"github.com/ethereum-pepe/pepe/op-service/txmgr"
+	"github.com/ethereum-optimism/pepe/op-batcher/flags"
+	"github.com/ethereum-optimism/pepe/op-batcher/metrics"
+	"github.com/ethereum-optimism/pepe/op-batcher/rpc"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/sources"
+	oplog "github.com/ethereum-optimism/pepe/op-service/log"
+	opmetrics "github.com/ethereum-optimism/pepe/op-service/metrics"
+	oppprof "github.com/ethereum-optimism/pepe/op-service/pprof"
+	"github.com/ethereum-optimism/pepe/op-service/txmgr"
 )
 
 type Config struct {

@@ -6,7 +6,7 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/indexer/metrics"
+	"github.com/ethereum-optimism/pepe/indexer/metrics"
 
 	"github.com/ethereum/go-ethereum/log"
 )

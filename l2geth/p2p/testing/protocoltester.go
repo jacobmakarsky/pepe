@@ -32,14 +32,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum-pepe/pepe/l2geth/log"
-	"github.com/ethereum-pepe/pepe/l2geth/node"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/enode"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/simulations"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/simulations/adapters"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
-	"github.com/ethereum-pepe/pepe/l2geth/rpc"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/node"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/enode"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/simulations"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/simulations/adapters"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/rpc"
 )
 
 // ProtocolTester is the tester environment used for unit testing protocol

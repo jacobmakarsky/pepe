@@ -21,16 +21,16 @@ import (
 	"math/big"
 	"sync"
 
-	ethereum "github.com/ethereum-pepe/pepe/l2geth"
-	"github.com/ethereum-pepe/pepe/l2geth/accounts"
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	"github.com/ethereum-pepe/pepe/l2geth/event"
-	"github.com/ethereum-pepe/pepe/l2geth/internal/ethapi"
-	"github.com/ethereum-pepe/pepe/l2geth/log"
-	"github.com/ethereum-pepe/pepe/l2geth/rpc"
-	"github.com/ethereum-pepe/pepe/l2geth/signer/core"
+	ethereum "github.com/ethereum-optimism/pepe/l2geth"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/event"
+	"github.com/ethereum-optimism/pepe/l2geth/internal/ethapi"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/rpc"
+	"github.com/ethereum-optimism/pepe/l2geth/signer/core"
 )
 
 type ExternalBackend struct {

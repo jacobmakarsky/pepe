@@ -1,9 +1,9 @@
 package flags
 
 import (
-	opservice "github.com/ethereum-pepe/pepe/op-service"
-	oplog "github.com/ethereum-pepe/pepe/op-service/log"
-	opmetrics "github.com/ethereum-pepe/pepe/op-service/metrics"
+	opservice "github.com/ethereum-optimism/pepe/op-service"
+	oplog "github.com/ethereum-optimism/pepe/op-service/log"
+	opmetrics "github.com/ethereum-optimism/pepe/op-service/metrics"
 	"github.com/urfave/cli"
 )
 

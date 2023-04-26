@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/proxyd"
+	"github.com/ethereum-optimism/pepe/proxyd"
 	"github.com/stretchr/testify/require"
 )
 

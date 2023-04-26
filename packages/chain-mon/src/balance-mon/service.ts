@@ -4,7 +4,7 @@ import {
   Gauge,
   Counter,
   validators,
-} from '@eth-pepe/common-ts'
+} from '@eth-optimism/common-ts'
 import { Provider } from '@ethersproject/abstract-provider'
 import { ethers } from 'ethers'
 

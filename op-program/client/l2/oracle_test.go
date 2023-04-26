@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/testutils"
-	"github.com/ethereum-pepe/pepe/op-program/client/mpt"
-	"github.com/ethereum-pepe/pepe/op-program/preimage"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/testutils"
+	"github.com/ethereum-optimism/pepe/op-program/client/mpt"
+	"github.com/ethereum-optimism/pepe/op-program/preimage"
 )
 
 func mockPreimageOracle(t *testing.T) (po *PreimageOracle, hintsMock *mock.Mock, preimages map[common.Hash][]byte) {

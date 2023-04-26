@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/ethereum-pepe/pepe/l2geth/cmd/utils"
-	"github.com/ethereum-pepe/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/cmd/utils"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

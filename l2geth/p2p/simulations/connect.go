@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/enode"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/enode"
 )
 
 var (

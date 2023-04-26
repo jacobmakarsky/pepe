@@ -1,4 +1,4 @@
-module github.com/ethereum-pepe/pepe/proxyd
+module github.com/ethereum-optimism/pepe/proxyd
 
 go 1.18
 

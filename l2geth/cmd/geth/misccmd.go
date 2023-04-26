@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum-pepe/pepe/l2geth/cmd/utils"
-	"github.com/ethereum-pepe/pepe/l2geth/consensus/ethash"
-	"github.com/ethereum-pepe/pepe/l2geth/eth"
-	"github.com/ethereum-pepe/pepe/l2geth/params"
+	"github.com/ethereum-optimism/pepe/l2geth/cmd/utils"
+	"github.com/ethereum-optimism/pepe/l2geth/consensus/ethash"
+	"github.com/ethereum-optimism/pepe/l2geth/eth"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -7,14 +7,14 @@ import (
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/urfave/cli"
 
-	"github.com/ethereum-pepe/pepe/op-node/sources"
-	"github.com/ethereum-pepe/pepe/op-proposer/flags"
+	"github.com/ethereum-optimism/pepe/op-node/sources"
+	"github.com/ethereum-optimism/pepe/op-proposer/flags"
 
-	oplog "github.com/ethereum-pepe/pepe/op-service/log"
-	opmetrics "github.com/ethereum-pepe/pepe/op-service/metrics"
-	oppprof "github.com/ethereum-pepe/pepe/op-service/pprof"
-	oprpc "github.com/ethereum-pepe/pepe/op-service/rpc"
-	"github.com/ethereum-pepe/pepe/op-service/txmgr"
+	oplog "github.com/ethereum-optimism/pepe/op-service/log"
+	opmetrics "github.com/ethereum-optimism/pepe/op-service/metrics"
+	oppprof "github.com/ethereum-optimism/pepe/op-service/pprof"
+	oprpc "github.com/ethereum-optimism/pepe/op-service/rpc"
+	"github.com/ethereum-optimism/pepe/op-service/txmgr"
 )
 
 // Config contains the well typed fields that are used to initialize the output submitter.

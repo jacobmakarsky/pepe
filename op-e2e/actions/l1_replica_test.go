@@ -12,10 +12,10 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-pepe/pepe/op-e2e/e2eutils"
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/sources"
-	"github.com/ethereum-pepe/pepe/op-node/testlog"
+	"github.com/ethereum-optimism/pepe/op-e2e/e2eutils"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/sources"
+	"github.com/ethereum-optimism/pepe/op-node/testlog"
 )
 
 var defaultRollupTestParams = &e2eutils.TestParams{

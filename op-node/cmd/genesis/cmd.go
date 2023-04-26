@@ -13,8 +13,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/hardhat"
-	"github.com/ethereum-pepe/pepe/op-chain-ops/genesis"
+	"github.com/ethereum-optimism/pepe/op-bindings/hardhat"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/genesis"
 )
 
 var Subcommands = cli.Commands{

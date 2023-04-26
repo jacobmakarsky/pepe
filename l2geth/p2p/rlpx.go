@@ -35,11 +35,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/bitutil"
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
-	"github.com/ethereum-pepe/pepe/l2geth/crypto/ecies"
-	"github.com/ethereum-pepe/pepe/l2geth/metrics"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/common/bitutil"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto/ecies"
+	"github.com/ethereum-optimism/pepe/l2geth/metrics"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
 	"github.com/golang/snappy"
 	"golang.org/x/crypto/sha3"
 )

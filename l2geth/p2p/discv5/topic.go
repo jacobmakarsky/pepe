@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/mclock"
-	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/common/mclock"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
 )
 
 const (

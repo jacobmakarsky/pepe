@@ -44,7 +44,7 @@ In general:
 - Example: [Rollup Node Specification source][rollup-node]
 
 [glossary]: ../glossary.md
-[rollup-node]: https://raw.githubusercontent.com/ethereum-pepe/pepeistic-specs/main/specs/rollup-node.md
+[rollup-node]: https://raw.githubusercontent.com/ethereum-optimism/pepeistic-specs/main/specs/rollup-node.md
 
 ## Internal (In-File) Links
 

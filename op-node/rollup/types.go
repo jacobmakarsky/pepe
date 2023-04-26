@@ -12,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
 )
 
 var (

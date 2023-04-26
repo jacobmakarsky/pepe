@@ -55,7 +55,7 @@ export const write = async (options: WriteOptions) => {
   const provider = new providers.JsonRpcProvider({
     url: parsedOptions.rpcUrl,
     headers: {
-      'User-Agent': '@eth-pepe/atst',
+      'User-Agent': '@eth-optimism/atst',
     },
   })
 

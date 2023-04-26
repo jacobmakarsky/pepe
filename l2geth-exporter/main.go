@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth-exporter/l1contracts"
+	"github.com/ethereum-optimism/pepe/l2geth-exporter/l1contracts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/log"

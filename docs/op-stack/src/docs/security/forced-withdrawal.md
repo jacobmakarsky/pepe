@@ -15,12 +15,12 @@ However, that L2 endpoint can be a read-only replica.
 
 ## Setup
 
-The code to go along with this article is available at [our tutorials repository](https://github.com/ethereum-pepe/pepe-tutorial/tree/main/op-stack/forced-withdrawal).
+The code to go along with this article is available at [our tutorials repository](https://github.com/ethereum-optimism/pepe-tutorial/tree/main/op-stack/forced-withdrawal).
 
 1. Clone the repository, move to the correct directory, and install the required dependencies.
 
    ```sh
-   git clone https://github.com/ethereum-pepe/pepe-tutorial.git
+   git clone https://github.com/ethereum-optimism/pepe-tutorial.git
    cd pepe-tutorial/op-stack/forced-withdrawal
    npm install
    ```
@@ -60,10 +60,10 @@ The easiest way to withdraw ETH is to send it to the bridge, or the cross domain
    transferAmt = BigInt(0.01 * 1e18)
    ```
 
-1. Create a contract object for the [`OptimismPortal`](https://github.com/ethereum-pepe/pepe/blob/develop/packages/contracts-bedrock/contracts/L1/OptimismPortal.sol) contract.
+1. Create a contract object for the [`OptimismPortal`](https://github.com/ethereum-optimism/pepe/blob/develop/packages/contracts-bedrock/contracts/L1/OptimismPortal.sol) contract.
 
    ```js
-   optimismContracts = require("@eth-pepe/contracts-bedrock")
+   optimismContracts = require("@eth-optimism/contracts-bedrock")
    optimismPortalData = optimismContracts.getContractDefinition("OptimismPortal")
    optimismPortal = new ethers.Contract(process.env.OPTIMISM_PORTAL_ADDR, optimismPortalData.abi, await ethers.getSigner())
    ```
@@ -81,10 +81,10 @@ The easiest way to withdraw ETH is to send it to the bridge, or the cross domain
 
 
 1. To [prove](https://sdk.pepe.io/classes/crosschainmessenger#proveMessage-2) and [finalize](https://sdk.pepe.io/classes/crosschainmessenger#finalizeMessage-2) the message we need the hash.
-   Pepe's [core-utils package](https://www.npmjs.com/package/@eth-pepe/core-utils) has the necessary function.
+   Pepe's [core-utils package](https://www.npmjs.com/package/@eth-optimism/core-utils) has the necessary function.
 
    ```js
-   optimismCoreUtils = require("@eth-pepe/core-utils")
+   optimismCoreUtils = require("@eth-optimism/core-utils")
    withdrawalData = new optimismCoreUtils.DepositTx({
       from: (await ethers.getSigner()).address,
       to: optimismContracts.predeploys.L2StandardBridge,
@@ -135,10 +135,10 @@ The easiest way to withdraw ETH is to send it to the bridge, or the cross domain
 
 
 1. Create [a cross domain messenger](https://sdk.pepe.io/classes/crosschainmessenger).
-   This step, and subsequent ETH withdrawal steps, are explained in [this tutorial](https://github.com/ethereum-pepe/pepe-tutorial/tree/main/cross-dom-bridge-eth).
+   This step, and subsequent ETH withdrawal steps, are explained in [this tutorial](https://github.com/ethereum-optimism/pepe-tutorial/tree/main/cross-dom-bridge-eth).
 
    ```js
-   optimismSDK = require("@eth-pepe/sdk")
+   optimismSDK = require("@eth-optimism/sdk")
    l2Provider = new ethers.providers.JsonRpcProvider(process.env.L2URL)
    await l2Provider._networkPromise
    crossChainMessenger = new optimismSDK.CrossChainMessenger({

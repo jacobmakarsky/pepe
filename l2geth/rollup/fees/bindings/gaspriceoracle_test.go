@@ -8,16 +8,16 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/abi/bind"
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/abi/bind/backends"
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core"
-	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
-	"github.com/ethereum-pepe/pepe/l2geth/eth/gasprice"
-	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
-	"github.com/ethereum-pepe/pepe/l2geth/rollup/fees"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/abi/bind"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/abi/bind/backends"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core"
+	"github.com/ethereum-optimism/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/eth/gasprice"
+	"github.com/ethereum-optimism/pepe/l2geth/ethdb"
+	"github.com/ethereum-optimism/pepe/l2geth/rollup/fees"
 )
 
 // Test that the fee calculation is the same in both go and solidity

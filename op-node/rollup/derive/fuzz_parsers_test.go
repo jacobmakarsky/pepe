@@ -17,9 +17,9 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm/runtime"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/testutils"
+	"github.com/ethereum-optimism/pepe/op-bindings/bindings"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/testutils"
 )
 
 var (

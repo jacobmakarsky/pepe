@@ -177,7 +177,7 @@
 ### Patch Changes
 
 - d4bf299f: Add support to fully unmarshal Receipts with Pepe fields
-- 8be69ca7: Add changeset for https://github.com/ethereum-pepe/pepe/pull/2011 - replicas forward write requests to the sequencer via a configured parameter `--sequencer.clienthttp` or `SEQUENCER_CLIENT_HTTP`
+- 8be69ca7: Add changeset for https://github.com/ethereum-optimism/pepe/pull/2011 - replicas forward write requests to the sequencer via a configured parameter `--sequencer.clienthttp` or `SEQUENCER_CLIENT_HTTP`
 - c9fd6ec2: Correctly parse fee enforcement via config to allow turning off L2 fees for development
 
 ## 0.5.6
@@ -204,7 +204,7 @@
 ### Patch Changes
 
 - 5febe10f: fixes empty block detection and removes empty worker tasks
-- 272d20d6: renames l2geth package name to github.com/ethereum-pepe/pepe/l2geth
+- 272d20d6: renames l2geth package name to github.com/ethereum-optimism/pepe/l2geth
 
 ## 0.5.2
 

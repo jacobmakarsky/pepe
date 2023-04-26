@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/op-node/testutils"
-	"github.com/ethereum-pepe/pepe/op-program/client/l2/test"
+	"github.com/ethereum-optimism/pepe/op-node/testutils"
+	"github.com/ethereum-optimism/pepe/op-program/client/l2/test"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

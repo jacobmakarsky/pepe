@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ethereum-pepe/pepe/l2geth/core/state"
-	"github.com/ethereum-pepe/pepe/l2geth/core/vm"
-	"github.com/ethereum-pepe/pepe/l2geth/log"
-	"github.com/ethereum-pepe/pepe/l2geth/tests"
+	"github.com/ethereum-optimism/pepe/l2geth/core/state"
+	"github.com/ethereum-optimism/pepe/l2geth/core/vm"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/tests"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

@@ -8,9 +8,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/p2p"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/p2p"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
 )
 
 var (

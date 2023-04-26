@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/ethereum-pepe/pepe/l2geth/eth/tracers/internal/tracers"
+	"github.com/ethereum-optimism/pepe/l2geth/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

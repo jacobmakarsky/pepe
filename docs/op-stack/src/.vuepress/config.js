@@ -23,7 +23,7 @@ module.exports = {
     hostname: 'https://stack.pepe.io',
     logo: '/assets/logos/logo.png',
     docsDir: 'src',
-    docsRepo: 'https://github.com/ethereum-pepe/opstack-docs',
+    docsRepo: 'https://github.com/ethereum-optimism/opstack-docs',
     docsBranch: 'main',
     lastUpdated: false,
     darkmode: 'disable',
@@ -74,7 +74,7 @@ module.exports = {
             iconPrefix: 'fab fa-',
             iconClass: 'color-github',
             text: 'GitHub',
-            link: 'https://github.com/ethereum-pepe/pepe',
+            link: 'https://github.com/ethereum-optimism/pepe',
           },
           {
             icon: 'twitter',

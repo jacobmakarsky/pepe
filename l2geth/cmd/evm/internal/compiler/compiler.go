@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum-pepe/pepe/l2geth/core/asm"
+	"github.com/ethereum-optimism/pepe/l2geth/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

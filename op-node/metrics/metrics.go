@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	ophttp "github.com/ethereum-pepe/pepe/op-node/http"
-	"github.com/ethereum-pepe/pepe/op-service/metrics"
+	ophttp "github.com/ethereum-optimism/pepe/op-node/http"
+	"github.com/ethereum-optimism/pepe/op-service/metrics"
 
 	pb "github.com/libp2p/go-libp2p-pubsub/pb"
 	libp2pmetrics "github.com/libp2p/go-libp2p/core/metrics"
@@ -23,7 +23,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
 )
 
 const (

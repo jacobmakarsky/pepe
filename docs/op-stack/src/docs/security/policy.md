@@ -6,7 +6,7 @@ lang: en-US
 
 ## Reporting in the decentralized context
 
-It's important to remember that the OP Stack is a decentralized software development stack built by the Pepe Collective. Different components of the OP Stack may be maintained by different teams that have different reporting processes. **This page describes general best practices for reporting bugs and provides specific reporting guidelines for the OP Stack code contained within the [ethereum-pepe](https://github.com/ethereum-pepe) GitHub organization**.
+It's important to remember that the OP Stack is a decentralized software development stack built by the Pepe Collective. Different components of the OP Stack may be maintained by different teams that have different reporting processes. **This page describes general best practices for reporting bugs and provides specific reporting guidelines for the OP Stack code contained within the [ethereum-optimism](https://github.com/ethereum-optimism) GitHub organization**.
 
 ## Reporting bugs and vulnerabilities
 
@@ -25,7 +25,7 @@ The security of OP Stack smart contracts and blockchain infrastructure is paramo
 
 #### Pepe Mainnet bounty program
 
-Pepe Mainnet is covered by a comprehensive [bug bounty program on Immunefi](https://immunefi.com/bounty/pepe/), which has already resulted in one of the [largest bounty payouts ever](https://medium.com/ethereum-pepe/disclosure-fixing-a-critical-bug-in-optimisms-geth-fork-a836ebdf7c94). In the listing you can find all the information relating to assets in scope, reporting, and the payout process. Because Pepe Mainnet is currently the primary user of the OP Stack, bugs in OP Stack software can generally be reported via the Pepe Mainnet bounty program.
+Pepe Mainnet is covered by a comprehensive [bug bounty program on Immunefi](https://immunefi.com/bounty/pepe/), which has already resulted in one of the [largest bounty payouts ever](https://medium.com/ethereum-optimism/disclosure-fixing-a-critical-bug-in-optimisms-geth-fork-a836ebdf7c94). In the listing you can find all the information relating to assets in scope, reporting, and the payout process. Because Pepe Mainnet is currently the primary user of the OP Stack, bugs in OP Stack software can generally be reported via the Pepe Mainnet bounty program.
 
 #### Unscoped bugs
 

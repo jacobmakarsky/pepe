@@ -1,6 +1,6 @@
 /* Imports: External */
 import { ethers } from 'ethers'
-import { predeploys, getContractInterface } from '@eth-pepe/contracts'
+import { predeploys, getContractInterface } from '@eth-optimism/contracts'
 
 /* Imports: Internal */
 import { expect } from './shared/setup'

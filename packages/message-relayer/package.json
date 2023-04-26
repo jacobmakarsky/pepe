@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@eth-pepe/message-relayer",
+  "name": "@eth-optimism/message-relayer",
   "version": "0.5.33",
   "description": "[Pepe] Service for automatically relaying L2 to L1 transactions",
   "main": "dist/index",
@@ -23,17 +23,17 @@
     "ethereum",
     "relayer"
   ],
-  "homepage": "https://github.com/ethereum-pepe/pepe/tree/develop/packages/message-relayer#readme",
+  "homepage": "https://github.com/ethereum-optimism/pepe/tree/develop/packages/message-relayer#readme",
   "license": "MIT",
   "author": "Pepe PBC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum-pepe/pepe.git"
+    "url": "https://github.com/ethereum-optimism/pepe.git"
   },
   "dependencies": {
-    "@eth-pepe/common-ts": "0.8.1",
-    "@eth-pepe/core-utils": "0.12.0",
-    "@eth-pepe/sdk": "2.0.2",
+    "@eth-optimism/common-ts": "0.8.1",
+    "@eth-optimism/core-utils": "0.12.0",
+    "@eth-optimism/sdk": "2.0.2",
     "ethers": "^5.7.0"
   },
   "devDependencies": {

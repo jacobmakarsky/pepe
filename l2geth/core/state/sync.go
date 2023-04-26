@@ -19,10 +19,10 @@ package state
 import (
 	"bytes"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
-	"github.com/ethereum-pepe/pepe/l2geth/trie"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/ethdb"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

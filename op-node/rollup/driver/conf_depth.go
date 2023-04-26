@@ -3,8 +3,8 @@ package driver
 import (
 	"context"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
 	"github.com/ethereum/go-ethereum"
 )
 

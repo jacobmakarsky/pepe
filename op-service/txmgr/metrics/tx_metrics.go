@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"github.com/ethereum-pepe/pepe/op-service/metrics"
+	"github.com/ethereum-optimism/pepe/op-service/metrics"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/params"
 

@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/ethereum-pepe/pepe/l2geth/consensus"
-	"github.com/ethereum-pepe/pepe/l2geth/core/state"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	"github.com/ethereum-pepe/pepe/l2geth/params"
+	"github.com/ethereum-optimism/pepe/l2geth/consensus"
+	"github.com/ethereum-optimism/pepe/l2geth/core/state"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

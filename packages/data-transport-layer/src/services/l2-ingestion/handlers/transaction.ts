@@ -1,7 +1,7 @@
 /* Imports: External */
 import { BigNumber, ethers } from 'ethers'
 import { serialize } from '@ethersproject/transactions'
-import { padHexString } from '@eth-pepe/core-utils'
+import { padHexString } from '@eth-optimism/core-utils'
 
 /* Imports: Internal */
 import { TransportDB } from '../../../db/transport-db'

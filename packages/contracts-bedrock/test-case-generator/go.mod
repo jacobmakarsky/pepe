@@ -1,4 +1,4 @@
-module github.com/ethereum-pepe/pepe/packages/contracts-bedrock/ctb-test-case-generator
+module github.com/ethereum-optimism/pepe/packages/contracts-bedrock/ctb-test-case-generator
 
 go 1.19
 

@@ -1,4 +1,4 @@
-# @eth-pepe/indexer
+# @eth-optimism/indexer
 
 ## 0.7.0
 

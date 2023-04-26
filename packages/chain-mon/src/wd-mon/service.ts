@@ -5,9 +5,9 @@ import {
   Gauge,
   validators,
   waitForProvider,
-} from '@eth-pepe/common-ts'
-import { CrossChainMessenger } from '@eth-pepe/sdk'
-import { getChainId, sleep } from '@eth-pepe/core-utils'
+} from '@eth-optimism/common-ts'
+import { CrossChainMessenger } from '@eth-optimism/sdk'
+import { getChainId, sleep } from '@eth-optimism/core-utils'
 import { Provider } from '@ethersproject/abstract-provider'
 import { Event } from 'ethers'
 import dateformat from 'dateformat'

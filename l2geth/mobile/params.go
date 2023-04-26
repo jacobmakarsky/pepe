@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/ethereum-pepe/pepe/l2geth/core"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/discv5"
-	"github.com/ethereum-pepe/pepe/l2geth/params"
+	"github.com/ethereum-optimism/pepe/l2geth/core"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/discv5"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

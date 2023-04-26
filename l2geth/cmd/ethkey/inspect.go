@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/keystore"
-	"github.com/ethereum-pepe/pepe/l2geth/cmd/utils"
-	"github.com/ethereum-pepe/pepe/l2geth/crypto"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/keystore"
+	"github.com/ethereum-optimism/pepe/l2geth/cmd/utils"
+	"github.com/ethereum-optimism/pepe/l2geth/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

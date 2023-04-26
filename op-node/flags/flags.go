@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/op-node/chaincfg"
-	"github.com/ethereum-pepe/pepe/op-node/sources"
-	oplog "github.com/ethereum-pepe/pepe/op-service/log"
+	"github.com/ethereum-optimism/pepe/op-node/chaincfg"
+	"github.com/ethereum-optimism/pepe/op-node/sources"
+	oplog "github.com/ethereum-optimism/pepe/op-service/log"
 
 	"github.com/urfave/cli"
 )

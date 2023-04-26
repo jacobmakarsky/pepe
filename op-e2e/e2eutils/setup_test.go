@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
+	"github.com/ethereum-optimism/pepe/op-bindings/predeploys"
 )
 
 func TestWriteDefaultJWT(t *testing.T) {

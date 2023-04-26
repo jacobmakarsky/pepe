@@ -27,8 +27,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/enr"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/enr"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

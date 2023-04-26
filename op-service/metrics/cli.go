@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math"
 
-	opservice "github.com/ethereum-pepe/pepe/op-service"
+	opservice "github.com/ethereum-optimism/pepe/op-service"
 
 	"github.com/urfave/cli"
 )

@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/metrics"
+	"github.com/ethereum-optimism/pepe/l2geth/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String

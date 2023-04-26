@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/l2geth/accounts"
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	"github.com/ethereum-pepe/pepe/l2geth/internal/ethapi"
-	"github.com/ethereum-pepe/pepe/l2geth/signer/core"
-	"github.com/ethereum-pepe/pepe/l2geth/signer/storage"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/internal/ethapi"
+	"github.com/ethereum-optimism/pepe/l2geth/signer/core"
+	"github.com/ethereum-optimism/pepe/l2geth/signer/storage"
 )
 
 const JS = `

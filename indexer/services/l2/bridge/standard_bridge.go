@@ -3,10 +3,10 @@ package bridge
 import (
 	"context"
 
-	"github.com/ethereum-pepe/pepe/indexer/db"
-	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
-	"github.com/ethereum-pepe/pepe/op-node/withdrawals"
-	"github.com/ethereum-pepe/pepe/op-service/backoff"
+	"github.com/ethereum-optimism/pepe/indexer/db"
+	"github.com/ethereum-optimism/pepe/op-bindings/bindings"
+	"github.com/ethereum-optimism/pepe/op-node/withdrawals"
+	"github.com/ethereum-optimism/pepe/op-service/backoff"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
 

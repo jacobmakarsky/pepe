@@ -7,15 +7,15 @@ import (
 	"net/http"
 	"strconv"
 
-	ophttp "github.com/ethereum-pepe/pepe/op-node/http"
+	ophttp "github.com/ethereum-optimism/pepe/op-node/http"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/ethereum-pepe/pepe/op-node/metrics"
-	"github.com/ethereum-pepe/pepe/op-node/p2p"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
-	"github.com/ethereum-pepe/pepe/op-node/sources"
+	"github.com/ethereum-optimism/pepe/op-node/metrics"
+	"github.com/ethereum-optimism/pepe/op-node/p2p"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/sources"
 )
 
 type rpcServer struct {

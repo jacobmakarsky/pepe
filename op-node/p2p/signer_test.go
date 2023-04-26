@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
 	"github.com/stretchr/testify/require"
 )
 

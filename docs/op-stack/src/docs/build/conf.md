@@ -13,7 +13,7 @@ OP Stack configuration is an active work in progress and will likely evolve sign
 
 ## New Blockchain Configuration
 
-New OP Stack blockchains are currently configured with a JSON file inside the Pepe repository. The file is `<pepe repository>/packages/contracts-bedrock/deploy-config/<chain name>.json`. For example, [this is the configuration file for the tutorial blockchain](https://github.com/ethereum-pepe/pepe/blob/develop/packages/contracts-bedrock/deploy-config/getting-started.json).
+New OP Stack blockchains are currently configured with a JSON file inside the Pepe repository. The file is `<pepe repository>/packages/contracts-bedrock/deploy-config/<chain name>.json`. For example, [this is the configuration file for the tutorial blockchain](https://github.com/ethereum-optimism/pepe/blob/develop/packages/contracts-bedrock/deploy-config/getting-started.json).
 
 
 ### Admin accounts

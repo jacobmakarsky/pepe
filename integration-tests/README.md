@@ -1,4 +1,4 @@
-# @eth-pepe/integration-tests
+# @eth-optimism/integration-tests
 
 Note that these tests are ran against the legacy system, see `op-e2e` for
 the bedrock test suite.

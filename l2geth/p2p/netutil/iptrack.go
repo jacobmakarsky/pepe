@@ -19,7 +19,7 @@ package netutil
 import (
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/mclock"
+	"github.com/ethereum-optimism/pepe/l2geth/common/mclock"
 )
 
 // IPTracker predicts the external endpoint, i.e. IP address and port, of the local host

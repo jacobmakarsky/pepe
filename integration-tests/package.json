@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@eth-pepe/integration-tests",
+  "name": "@eth-optimism/integration-tests",
   "version": "0.5.22",
   "description": "[Pepe] Integration tests",
   "scripts": {
@@ -20,20 +20,20 @@
     "integration",
     "tests"
   ],
-  "homepage": "https://github.com/ethereum-pepe/pepe/tree/develop/packages/integration-tests#readme",
+  "homepage": "https://github.com/ethereum-optimism/pepe/tree/develop/packages/integration-tests#readme",
   "license": "MIT",
   "author": "Pepe PBC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum-pepe/pepe.git"
+    "url": "https://github.com/ethereum-optimism/pepe.git"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.5.4",
-    "@eth-pepe/contracts": "^0.5.40",
-    "@eth-pepe/contracts-bedrock": "0.13.2",
-    "@eth-pepe/contracts-periphery": "^1.0.7",
-    "@eth-pepe/core-utils": "0.12.0",
-    "@eth-pepe/sdk": "2.0.2",
+    "@eth-optimism/contracts": "^0.5.40",
+    "@eth-optimism/contracts-bedrock": "0.13.2",
+    "@eth-optimism/contracts-periphery": "^1.0.7",
+    "@eth-optimism/core-utils": "0.12.0",
+    "@eth-optimism/sdk": "2.0.2",
     "@ethersproject/abstract-provider": "^5.7.0",
     "@ethersproject/providers": "^5.7.0",
     "@ethersproject/transactions": "^5.7.0",

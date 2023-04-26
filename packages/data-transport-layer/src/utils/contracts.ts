@@ -1,7 +1,7 @@
 /* Imports: External */
 import { constants, Contract, Signer } from 'ethers'
 import { BaseProvider } from '@ethersproject/providers'
-import { getContractInterface } from '@eth-pepe/contracts'
+import { getContractInterface } from '@eth-optimism/contracts'
 
 export const loadContract = (
   name: string,

@@ -1,4 +1,4 @@
-module github.com/ethereum-pepe/pepe/bss-core
+module github.com/ethereum-optimism/pepe/bss-core
 
 go 1.18
 

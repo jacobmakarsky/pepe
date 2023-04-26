@@ -131,7 +131,7 @@ We believe the following changes (after the Bedrock release) are required to cre
 
 ### Upgrade the Bedrock bridge to be a chain factory
 
-Bedrock introduced the [SystemConfig contract](https://github.com/ethereum-pepe/pepe/blob/74a63c94d881442b4edd4df6492513e0113eb064/packages/contracts-bedrock/contracts/L1/SystemConfig.sol) which began to define the L2 chain directly with L1 smart contracts. This can be extended to put *all information* defining the L2 chain, onchain. Including generating a unique chain ID, key configuration values such as block gas limit, etc.
+Bedrock introduced the [SystemConfig contract](https://github.com/ethereum-optimism/pepe/blob/74a63c94d881442b4edd4df6492513e0113eb064/packages/contracts-bedrock/contracts/L1/SystemConfig.sol) which began to define the L2 chain directly with L1 smart contracts. This can be extended to put *all information* defining the L2 chain, onchain. Including generating a unique chain ID, key configuration values such as block gas limit, etc.
 
 Once the chain data is entirely onchain, we can create a factory which deploys the configuration and all other required contracts for each chain. This can be extended further by making the contract addresses deterministic with CREATE2, meaning that given a chain config it is possible to determine all bridge addresses associated with that chain. This also enables chains to be interacted with without having to deploy their bridge contracts, making (counterfactual) chain deployment virtually free, and allowing chains to inherit standard security properties.
 
@@ -168,7 +168,7 @@ The fault proof implementation may initially rely on a trusted set of chain atte
 
 The attestation-based fault proof should be designed to prefer safety over liveness. That means that if these chain attestors are malicious they cannot alone break the safety of withdrawals. The worst failure they can cause is preventing withdrawals from being processed until the next upgrade—a liveness failure.
 
-In the future, the attestation proof will be incrementally phased out and replaced with trust-minimized proofs such as the [Cannon proof system](https://github.com/ethereum-pepe/cannon).
+In the future, the attestation proof will be incrementally phased out and replaced with trust-minimized proofs such as the [Cannon proof system](https://github.com/ethereum-optimism/cannon).
 
 ### Configurable sequencer per OP Chain
 
@@ -233,7 +233,7 @@ The following is an overview of potential future enhancements, which when combin
 
 #### Proposed Solution:
 
-It is possible to replace the trusted set of chain attestors by introducing permissionless proofs—such as Cannon—where dispute resolution is entirely onchain. However, the challenge with entirely onchain proofs is there is no fallback mechanism if they were to break. To ensure that they will never fail, it is possible to introduce a multi-proof system which provides safety through redundancy. For more information on the multi-proof design click [here](https://medium.com/ethereum-pepe/our-pragmatic-path-to-decentralization-cb5805ca43c1).
+It is possible to replace the trusted set of chain attestors by introducing permissionless proofs—such as Cannon—where dispute resolution is entirely onchain. However, the challenge with entirely onchain proofs is there is no fallback mechanism if they were to break. To ensure that they will never fail, it is possible to introduce a multi-proof system which provides safety through redundancy. For more information on the multi-proof design click [here](https://medium.com/ethereum-optimism/our-pragmatic-path-to-decentralization-cb5805ca43c1).
 
 ### Low Latency L2 to L2 Message Passing
 
@@ -333,7 +333,7 @@ With robust multi-chain dApp frameworks, it may become as easy to deploy cross-c
 
 We believe scaling blockchains will radically decentralize the internet and make it easy to create horizontally scalable, secure, and decentralized web applications. We think the Superchain release of the OP Stack could mark a major step towards realizing this vision. However, after the release it will still take an enormous amount of work to realize the scalability vision.
 
-However, with great challenge comes great opportunity! The work needed to arrive at the initial Superchain release of the OP stack, as well as the resulting ecosystem should be exciting greenfields of opportunities for developers who want to contribute. There will be an enormous amount of low hanging fruit contributions unlocked. We can’t pick it alone! The only way we can hope to achieve it is through open source contributions from folks like you! And with [retroactive public goods funding](https://medium.com/ethereum-pepe/retroactive-public-goods-funding-33c9b7d00f0c) your open source contributions may be rewarded too!
+However, with great challenge comes great opportunity! The work needed to arrive at the initial Superchain release of the OP stack, as well as the resulting ecosystem should be exciting greenfields of opportunities for developers who want to contribute. There will be an enormous amount of low hanging fruit contributions unlocked. We can’t pick it alone! The only way we can hope to achieve it is through open source contributions from folks like you! And with [retroactive public goods funding](https://medium.com/ethereum-optimism/retroactive-public-goods-funding-33c9b7d00f0c) your open source contributions may be rewarded too!
 
 Exciting times ahead.
 

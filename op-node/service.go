@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum-pepe/pepe/op-node/chaincfg"
-	"github.com/ethereum-pepe/pepe/op-node/sources"
-	oppprof "github.com/ethereum-pepe/pepe/op-service/pprof"
+	"github.com/ethereum-optimism/pepe/op-node/chaincfg"
+	"github.com/ethereum-optimism/pepe/op-node/sources"
+	oppprof "github.com/ethereum-optimism/pepe/op-service/pprof"
 
 	"github.com/urfave/cli"
 
@@ -18,11 +18,11 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-pepe/pepe/op-node/flags"
-	"github.com/ethereum-pepe/pepe/op-node/node"
-	p2pcli "github.com/ethereum-pepe/pepe/op-node/p2p/cli"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/driver"
+	"github.com/ethereum-optimism/pepe/op-node/flags"
+	"github.com/ethereum-optimism/pepe/op-node/node"
+	p2pcli "github.com/ethereum-optimism/pepe/op-node/p2p/cli"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/driver"
 )
 
 // NewConfig creates a Config from the provided flags or environment variables.

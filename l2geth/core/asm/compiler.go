@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/math"
-	"github.com/ethereum-pepe/pepe/l2geth/core/vm"
+	"github.com/ethereum-optimism/pepe/l2geth/common/math"
+	"github.com/ethereum-optimism/pepe/l2geth/core/vm"
 )
 
 // Compiler contains information about the parsed source

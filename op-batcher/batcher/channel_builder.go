@@ -7,7 +7,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
 	"github.com/ethereum/go-ethereum/core/types"
 )
 

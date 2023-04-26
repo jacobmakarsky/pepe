@@ -1,7 +1,7 @@
 /* Imports: External */
 import { ethers } from 'hardhat'
-import { expectApprox } from '@eth-pepe/core-utils'
-import { predeploys } from '@eth-pepe/contracts'
+import { expectApprox } from '@eth-optimism/core-utils'
+import { predeploys } from '@eth-optimism/contracts'
 import { Contract, BigNumber } from 'ethers'
 
 /* Imports: Internal */

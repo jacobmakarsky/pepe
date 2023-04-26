@@ -1,6 +1,6 @@
-# @eth-pepe/message-relayer
+# @eth-optimism/message-relayer
 
-[![codecov](https://codecov.io/gh/ethereum-pepe/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=message-relayer-tests)](https://codecov.io/gh/ethereum-pepe/pepe)
+[![codecov](https://codecov.io/gh/ethereum-optimism/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=message-relayer-tests)](https://codecov.io/gh/ethereum-optimism/pepe)
 
 `message-relayer` is a service that automatically finalizes ("relays") messages sent from Pepe to Ethereum.
 This package is meant to be used during local development and should NOT be used on a production network.
@@ -10,7 +10,7 @@ This package is meant to be used during local development and should NOT be used
 Clone, install, and build the Pepe monorepo:
 
 ```
-git clone https://github.com/ethereum-pepe/pepe.git
+git clone https://github.com/ethereum-optimism/pepe.git
 yarn install
 yarn build
 ```
@@ -18,7 +18,7 @@ yarn build
 ## Running the relayer (Docker)
 
 The `message-relayer` can be included as part of the [local Pepe development environment](https://community.pepe.io/docs/developers/build/dev-node/).
-Although the `message-relayer` is not turned on by default, it can be enabled by [changing this line in docker-compose.yml](https://github.com/ethereum-pepe/pepe/blob/51a527b8e3fe69940fb8c0f5e4aa2e0ae8ee294c/ops/docker-compose.yml#L129) to:
+Although the `message-relayer` is not turned on by default, it can be enabled by [changing this line in docker-compose.yml](https://github.com/ethereum-optimism/pepe/blob/51a527b8e3fe69940fb8c0f5e4aa2e0ae8ee294c/ops/docker-compose.yml#L129) to:
 
 ```
 replicas: 1

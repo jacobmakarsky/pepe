@@ -4,10 +4,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/batch-submitter/drivers/sequencer"
-	l2common "github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	l2types "github.com/ethereum-pepe/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/batch-submitter/drivers/sequencer"
+	l2common "github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	l2types "github.com/ethereum-optimism/pepe/l2geth/core/types"
 	"github.com/stretchr/testify/require"
 )
 

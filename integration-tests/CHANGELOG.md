@@ -1,4 +1,4 @@
-# @eth-pepe/integration-tests
+# @eth-optimism/integration-tests
 
 ## 0.5.22
 

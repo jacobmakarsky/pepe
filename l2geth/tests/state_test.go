@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/l2geth/core/vm"
+	"github.com/ethereum-optimism/pepe/l2geth/core/vm"
 )
 
 func TestState(t *testing.T) {

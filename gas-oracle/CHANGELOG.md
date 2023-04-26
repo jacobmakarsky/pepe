@@ -1,4 +1,4 @@
-# @eth-pepe/gas-oracle
+# @eth-optimism/gas-oracle
 
 ## 0.1.13
 

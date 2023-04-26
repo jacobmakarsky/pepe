@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-optimism/pepe/l2geth/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

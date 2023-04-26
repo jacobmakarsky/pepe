@@ -13,10 +13,10 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
-	"github.com/ethereum-pepe/pepe/op-chain-ops/genesis"
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-bindings/predeploys"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/genesis"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
 )
 
 var testingJWTSecret = [32]byte{123}

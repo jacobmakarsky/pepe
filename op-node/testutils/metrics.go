@@ -1,7 +1,7 @@
 package testutils
 
 import (
-	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
 )
 
 // TestDerivationMetrics implements the metrics used in the derivation pipeline as no-op operations.

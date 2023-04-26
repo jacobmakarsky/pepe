@@ -6,7 +6,7 @@ package bindings
 import (
 	"encoding/json"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/solc"
+	"github.com/ethereum-optimism/pepe/op-bindings/solc"
 )
 
 const L1BlockNumberStorageLayoutJSON = "{\"storage\":null,\"types\":{}}"

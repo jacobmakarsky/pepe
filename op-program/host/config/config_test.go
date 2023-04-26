@@ -3,8 +3,8 @@ package config
 import (
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/op-node/chaincfg"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/chaincfg"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/stretchr/testify/require"

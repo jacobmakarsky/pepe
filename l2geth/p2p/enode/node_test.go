@@ -24,8 +24,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/enr"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/enr"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

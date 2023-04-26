@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/gas-oracle/bindings"
-	ometrics "github.com/ethereum-pepe/pepe/gas-oracle/metrics"
+	"github.com/ethereum-optimism/pepe/gas-oracle/bindings"
+	ometrics "github.com/ethereum-optimism/pepe/gas-oracle/metrics"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common/hexutil"

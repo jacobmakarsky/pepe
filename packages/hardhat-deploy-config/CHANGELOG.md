@@ -1,4 +1,4 @@
-# @eth-pepe/hardhat-deploy-config
+# @eth-optimism/hardhat-deploy-config
 
 ## 0.2.6
 

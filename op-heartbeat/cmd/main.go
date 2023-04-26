@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	heartbeat "github.com/ethereum-pepe/pepe/op-heartbeat"
-	"github.com/ethereum-pepe/pepe/op-heartbeat/flags"
-	oplog "github.com/ethereum-pepe/pepe/op-service/log"
+	heartbeat "github.com/ethereum-optimism/pepe/op-heartbeat"
+	"github.com/ethereum-optimism/pepe/op-heartbeat/flags"
+	oplog "github.com/ethereum-optimism/pepe/op-service/log"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli"
 )

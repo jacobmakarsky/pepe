@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/indexer/services/util"
+	"github.com/ethereum-optimism/pepe/indexer/services/util"
 
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"

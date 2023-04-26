@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	oplog "github.com/ethereum-pepe/pepe/op-service/log"
+	oplog "github.com/ethereum-optimism/pepe/op-service/log"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli"
 
-	endpointMonitor "github.com/ethereum-pepe/pepe/endpoint-monitor"
+	endpointMonitor "github.com/ethereum-optimism/pepe/endpoint-monitor"
 )
 
 var (

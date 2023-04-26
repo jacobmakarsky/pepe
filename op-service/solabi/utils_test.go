@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/op-service/solabi"
+	"github.com/ethereum-optimism/pepe/op-service/solabi"
 	"github.com/stretchr/testify/require"
 )
 

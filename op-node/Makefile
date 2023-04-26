@@ -4,8 +4,8 @@ VERSION := v0.0.0
 
 LDFLAGSSTRING +=-X main.GitCommit=$(GITCOMMIT)
 LDFLAGSSTRING +=-X main.GitDate=$(GITDATE)
-LDFLAGSSTRING +=-X github.com/ethereum-pepe/pepe/op-node/version.Version=$(VERSION)
-LDFLAGSSTRING +=-X github.com/ethereum-pepe/pepe/op-node/version.Meta=$(VERSION_META)
+LDFLAGSSTRING +=-X github.com/ethereum-optimism/pepe/op-node/version.Version=$(VERSION)
+LDFLAGSSTRING +=-X github.com/ethereum-optimism/pepe/op-node/version.Meta=$(VERSION_META)
 LDFLAGS := -ldflags "$(LDFLAGSSTRING)"
 
 op-node:

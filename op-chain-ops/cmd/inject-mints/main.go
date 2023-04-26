@@ -6,8 +6,8 @@ import (
 
 	"github.com/mattn/go-isatty"
 
-	"github.com/ethereum-pepe/pepe/op-chain-ops/db"
-	"github.com/ethereum-pepe/pepe/op-chain-ops/ether"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/db"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/ether"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/log"

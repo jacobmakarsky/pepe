@@ -1,7 +1,7 @@
 package genesis
 
 import (
-	"github.com/ethereum-pepe/pepe/op-chain-ops/state"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/state"
 	"github.com/ethereum/go-ethereum/core/types"
 
 	"github.com/ethereum/go-ethereum/core"

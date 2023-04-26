@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ethereum-pepe/pepe/op-batcher/batcher"
+	"github.com/ethereum-optimism/pepe/op-batcher/batcher"
 	"github.com/stretchr/testify/require"
 )
 

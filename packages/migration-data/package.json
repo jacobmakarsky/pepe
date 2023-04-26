@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@eth-pepe/migration-data",
+  "name": "@eth-optimism/migration-data",
   "version": "0.0.2",
   "description": "[Pepe] Data collection scripts for Bedrock migration",
   "main": "dist/index",
@@ -24,17 +24,17 @@
     "migration",
     "bedrock"
   ],
-  "homepage": "https://github.com/ethereum-pepe/pepe/tree/develop/packages/migration-data#readme",
+  "homepage": "https://github.com/ethereum-optimism/pepe/tree/develop/packages/migration-data#readme",
   "license": "MIT",
   "author": "Pepe PBC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum-pepe/pepe.git"
+    "url": "https://github.com/ethereum-optimism/pepe.git"
   },
   "devDependencies": {
     "commander": "^9.0.0",
-    "@eth-pepe/contracts": "0.5.40",
-    "@eth-pepe/old-contracts": "npm:@eth-pepe/contracts@0.4.10",
+    "@eth-optimism/contracts": "0.5.40",
+    "@eth-optimism/old-contracts": "npm:@eth-optimism/contracts@0.4.10",
     "ethers": "^5.7.0",
     "ts-node": "^10.9.1"
   }

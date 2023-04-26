@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	batchsubmitter "github.com/ethereum-pepe/pepe/batch-submitter"
+	batchsubmitter "github.com/ethereum-optimism/optimism/batch-submitter"
 	"github.com/stretchr/testify/require"
 )
 

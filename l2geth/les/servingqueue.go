@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/mclock"
-	"github.com/ethereum-pepe/pepe/l2geth/common/prque"
+	"github.com/ethereum-optimism/pepe/l2geth/common/mclock"
+	"github.com/ethereum-optimism/pepe/l2geth/common/prque"
 )
 
 // servingQueue allows running tasks in a limited number of threads and puts the

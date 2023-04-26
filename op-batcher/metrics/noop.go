@@ -1,10 +1,10 @@
 package metrics
 
 import (
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
-	opmetrics "github.com/ethereum-pepe/pepe/op-service/metrics"
-	txmetrics "github.com/ethereum-pepe/pepe/op-service/txmgr/metrics"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
+	opmetrics "github.com/ethereum-optimism/pepe/op-service/metrics"
+	txmetrics "github.com/ethereum-optimism/pepe/op-service/txmgr/metrics"
 )
 
 type noopMetrics struct {

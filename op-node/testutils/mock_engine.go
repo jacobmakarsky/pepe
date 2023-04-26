@@ -3,7 +3,7 @@ package testutils
 import (
 	"context"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
 )
 
 type MockEngine struct {

@@ -8,23 +8,23 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/ethereum-pepe/pepe/op-node/chaincfg"
-	"github.com/ethereum-pepe/pepe/op-node/cmd/doc"
+	"github.com/ethereum-optimism/pepe/op-node/chaincfg"
+	"github.com/ethereum-optimism/pepe/op-node/cmd/doc"
 
 	"github.com/urfave/cli"
 
 	"github.com/ethereum/go-ethereum/log"
 
-	opnode "github.com/ethereum-pepe/pepe/op-node"
-	"github.com/ethereum-pepe/pepe/op-node/cmd/genesis"
-	"github.com/ethereum-pepe/pepe/op-node/cmd/p2p"
-	"github.com/ethereum-pepe/pepe/op-node/flags"
-	"github.com/ethereum-pepe/pepe/op-node/heartbeat"
-	"github.com/ethereum-pepe/pepe/op-node/metrics"
-	"github.com/ethereum-pepe/pepe/op-node/node"
-	"github.com/ethereum-pepe/pepe/op-node/version"
-	oplog "github.com/ethereum-pepe/pepe/op-service/log"
-	oppprof "github.com/ethereum-pepe/pepe/op-service/pprof"
+	opnode "github.com/ethereum-optimism/pepe/op-node"
+	"github.com/ethereum-optimism/pepe/op-node/cmd/genesis"
+	"github.com/ethereum-optimism/pepe/op-node/cmd/p2p"
+	"github.com/ethereum-optimism/pepe/op-node/flags"
+	"github.com/ethereum-optimism/pepe/op-node/heartbeat"
+	"github.com/ethereum-optimism/pepe/op-node/metrics"
+	"github.com/ethereum-optimism/pepe/op-node/node"
+	"github.com/ethereum-optimism/pepe/op-node/version"
+	oplog "github.com/ethereum-optimism/pepe/op-service/log"
+	oppprof "github.com/ethereum-optimism/pepe/op-service/pprof"
 )
 
 var (

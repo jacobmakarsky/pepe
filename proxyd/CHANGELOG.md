@@ -1,4 +1,4 @@
-# @eth-pepe/proxyd
+# @eth-optimism/proxyd
 
 ## 3.14.1
 

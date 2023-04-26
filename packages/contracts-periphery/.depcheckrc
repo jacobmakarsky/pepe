@@ -1,5 +1,5 @@
 ignores: [
-  "@eth-pepe/contracts-bedrock",
+  "@eth-optimism/contracts-bedrock",
   "@openzeppelin/contracts",
   "@openzeppelin/contracts-upgradeable",
   "@ethersproject/providers",

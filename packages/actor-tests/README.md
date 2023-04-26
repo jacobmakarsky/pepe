@@ -1,6 +1,6 @@
 # Actor Tests
 
-[![codecov](https://codecov.io/gh/ethereum-pepe/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=actor-tests-tests)](https://codecov.io/gh/ethereum-pepe/pepe)
+[![codecov](https://codecov.io/gh/ethereum-optimism/pepe/branch/develop/graph/badge.svg?token=0VTG7PG7YR&flag=actor-tests-tests)](https://codecov.io/gh/ethereum-optimism/pepe)
 
 This README describes how to use the actor testing library to write new tests. If you're just looking for how to run test cases, check out the README [in the root of the repo](../README.md).
 

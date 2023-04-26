@@ -7,9 +7,9 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ethereum-pepe/pepe/op-e2e/e2eutils"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
-	"github.com/ethereum-pepe/pepe/op-node/testlog"
+	"github.com/ethereum-optimism/pepe/op-e2e/e2eutils"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
+	"github.com/ethereum-optimism/pepe/op-node/testlog"
 )
 
 func setupVerifier(t Testing, sd *e2eutils.SetupData, log log.Logger, l1F derive.L1Fetcher) (*L2Engine, *L2Verifier) {

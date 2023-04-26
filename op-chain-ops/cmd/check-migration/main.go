@@ -7,22 +7,22 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum-pepe/pepe/op-chain-ops/crossdomain"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/crossdomain"
 
-	"github.com/ethereum-pepe/pepe/op-chain-ops/db"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/db"
 	"github.com/mattn/go-isatty"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/rollup/derive"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/rollup/derive"
 	"github.com/ethereum/go-ethereum/common"
 
 	"github.com/ethereum/go-ethereum/core/types"
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/hardhat"
+	"github.com/ethereum-optimism/pepe/op-bindings/hardhat"
 
-	"github.com/ethereum-pepe/pepe/op-chain-ops/genesis"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/genesis"
 	"github.com/ethereum/go-ethereum/ethclient"
 
 	"github.com/urfave/cli"

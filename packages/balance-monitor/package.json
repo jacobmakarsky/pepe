@@ -1,5 +1,5 @@
 {
-  "name": "@eth-pepe/balance-monitor",
+  "name": "@eth-optimism/balance-monitor",
   "version": "0.0.4",
   "description": "[Pepe] Forta Agent that reports whether certain accounts have fallen below some balance",
   "main": "dist/index",
@@ -29,12 +29,12 @@
     "forta",
     "monitoring"
   ],
-  "homepage": "https://github.com/ethereum-pepe/pepe/tree/develop/packages/balance-monitor#readme",
+  "homepage": "https://github.com/ethereum-optimism/pepe/tree/develop/packages/balance-monitor#readme",
   "license": "MIT",
   "author": "Pepe PBC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum-pepe/pepe.git"
+    "url": "https://github.com/ethereum-optimism/pepe.git"
   },
   "dependencies": {
     "ethers": "^5.7.2",

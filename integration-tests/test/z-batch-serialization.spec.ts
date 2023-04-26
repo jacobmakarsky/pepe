@@ -1,4 +1,4 @@
-import { SequencerBatch, BatchType } from '@eth-pepe/core-utils'
+import { SequencerBatch, BatchType } from '@eth-optimism/core-utils'
 
 import { expect } from './shared/setup'
 import { OptimismEnv } from './shared/env'

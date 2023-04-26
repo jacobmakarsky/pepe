@@ -50,7 +50,7 @@ mod-tidy:
 	# can take a while to index new versions.
 	#
 	# See https://proxy.golang.org/ for more info.
-	export GOPRIVATE="github.com/ethereum-pepe" && go mod tidy
+	export GOPRIVATE="github.com/ethereum-optimism" && go mod tidy
 .PHONY: mod-tidy
 
 clean:
@@ -101,7 +101,7 @@ test-integration:
 # Remove the baseline-commit to generate a base reading & show all issues
 semgrep:
 	$(eval DEV_REF := $(shell git rev-parse develop))
-	SEMGREP_REPO_NAME=ethereum-pepe/pepe semgrep ci --baseline-commit=$(DEV_REF)
+	SEMGREP_REPO_NAME=ethereum-optimism/optimism semgrep ci --baseline-commit=$(DEV_REF)
 .PHONY: semgrep
 
 clean-node-modules:

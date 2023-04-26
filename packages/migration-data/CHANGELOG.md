@@ -1,4 +1,4 @@
-# @eth-pepe/migration-data
+# @eth-optimism/migration-data
 
 ## 0.0.2
 ### Patch Changes

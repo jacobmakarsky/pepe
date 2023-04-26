@@ -21,7 +21,7 @@ package metrics
 import (
 	"syscall"
 
-	"github.com/ethereum-pepe/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

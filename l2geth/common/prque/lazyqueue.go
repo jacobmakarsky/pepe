@@ -20,7 +20,7 @@ import (
 	"container/heap"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/mclock"
+	"github.com/ethereum-optimism/pepe/l2geth/common/mclock"
 )
 
 // LazyQueue is a priority queue data structure where priorities can change over

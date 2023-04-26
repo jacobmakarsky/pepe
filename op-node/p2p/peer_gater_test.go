@@ -3,9 +3,9 @@ package p2p_test
 import (
 	"testing"
 
-	p2p "github.com/ethereum-pepe/pepe/op-node/p2p"
-	p2pMocks "github.com/ethereum-pepe/pepe/op-node/p2p/mocks"
-	testlog "github.com/ethereum-pepe/pepe/op-node/testlog"
+	p2p "github.com/ethereum-optimism/pepe/op-node/p2p"
+	p2pMocks "github.com/ethereum-optimism/pepe/op-node/p2p/mocks"
+	testlog "github.com/ethereum-optimism/pepe/op-node/testlog"
 	log "github.com/ethereum/go-ethereum/log"
 	peer "github.com/libp2p/go-libp2p/core/peer"
 	suite "github.com/stretchr/testify/suite"

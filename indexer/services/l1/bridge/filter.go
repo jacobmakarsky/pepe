@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/indexer/bindings/legacy/scc"
+	"github.com/ethereum-optimism/pepe/indexer/bindings/legacy/scc"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 )
 

@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/op-service/httputil"
+	"github.com/ethereum-optimism/pepe/op-service/httputil"
 	"github.com/ethereum/go-ethereum/log"
 )
 

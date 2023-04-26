@@ -19,7 +19,7 @@ package keystore
 import (
 	"os"
 
-	"github.com/ethereum-pepe/pepe/l2geth/accounts/keystore"
+	"github.com/ethereum-optimism/pepe/l2geth/accounts/keystore"
 )
 
 func Fuzz(input []byte) int {

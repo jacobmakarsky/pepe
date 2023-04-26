@@ -1,4 +1,4 @@
-# @eth-pepe/l2geth-exporter
+# @eth-optimism/l2geth-exporter
 
 ## 0.0.8
 

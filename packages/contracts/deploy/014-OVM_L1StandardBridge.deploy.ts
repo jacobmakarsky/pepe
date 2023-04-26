@@ -1,7 +1,7 @@
 /* Imports: External */
 import { DeployFunction } from 'hardhat-deploy/dist/types'
 import { ethers } from 'ethers'
-import { hexStringEquals, awaitCondition } from '@eth-pepe/core-utils'
+import { hexStringEquals, awaitCondition } from '@eth-optimism/core-utils'
 
 /* Imports: Internal */
 import { getContractDefinition } from '../src/contract-defs'

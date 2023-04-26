@@ -1,6 +1,6 @@
 /* Imports: External */
 import * as dotenv from 'dotenv'
-import { Bcfg } from '@eth-pepe/core-utils'
+import { Bcfg } from '@eth-optimism/core-utils'
 import Config from 'bcfg'
 
 /* Imports: Internal */

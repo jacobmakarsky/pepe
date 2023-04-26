@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	p2p "github.com/ethereum-pepe/pepe/op-node/p2p"
-	p2pMocks "github.com/ethereum-pepe/pepe/op-node/p2p/mocks"
-	testlog "github.com/ethereum-pepe/pepe/op-node/testlog"
+	p2p "github.com/ethereum-optimism/pepe/op-node/p2p"
+	p2pMocks "github.com/ethereum-optimism/pepe/op-node/p2p/mocks"
+	testlog "github.com/ethereum-optimism/pepe/op-node/testlog"
 
 	"github.com/stretchr/testify/mock"
 	suite "github.com/stretchr/testify/suite"

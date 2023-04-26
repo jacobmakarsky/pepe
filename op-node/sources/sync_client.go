@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/op-node/client"
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
-	"github.com/ethereum-pepe/pepe/op-node/sources/caching"
-	"github.com/ethereum-pepe/pepe/op-service/backoff"
+	"github.com/ethereum-optimism/pepe/op-node/client"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/sources/caching"
+	"github.com/ethereum-optimism/pepe/op-service/backoff"
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/libp2p/go-libp2p/core/peer"

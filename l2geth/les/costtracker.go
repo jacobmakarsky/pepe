@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common/mclock"
-	"github.com/ethereum-pepe/pepe/l2geth/eth"
-	"github.com/ethereum-pepe/pepe/l2geth/ethdb"
-	"github.com/ethereum-pepe/pepe/l2geth/les/flowcontrol"
-	"github.com/ethereum-pepe/pepe/l2geth/log"
-	"github.com/ethereum-pepe/pepe/l2geth/metrics"
+	"github.com/ethereum-optimism/pepe/l2geth/common/mclock"
+	"github.com/ethereum-optimism/pepe/l2geth/eth"
+	"github.com/ethereum-optimism/pepe/l2geth/ethdb"
+	"github.com/ethereum-optimism/pepe/l2geth/les/flowcontrol"
+	"github.com/ethereum-optimism/pepe/l2geth/log"
+	"github.com/ethereum-optimism/pepe/l2geth/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

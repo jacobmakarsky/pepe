@@ -11,18 +11,18 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	rpcclient "github.com/ethereum-pepe/pepe/op-node/client"
+	rpcclient "github.com/ethereum-optimism/pepe/op-node/client"
 
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/metrics"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
-	"github.com/ethereum-pepe/pepe/op-node/testlog"
-	"github.com/ethereum-pepe/pepe/op-node/testutils"
-	"github.com/ethereum-pepe/pepe/op-node/version"
+	"github.com/ethereum-optimism/pepe/op-bindings/predeploys"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/metrics"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/testlog"
+	"github.com/ethereum-optimism/pepe/op-node/testutils"
+	"github.com/ethereum-optimism/pepe/op-node/version"
 )
 
 func TestOutputAtBlock(t *testing.T) {

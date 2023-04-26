@@ -26,14 +26,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/consensus/ethash"
-	"github.com/ethereum-pepe/pepe/l2geth/core"
-	"github.com/ethereum-pepe/pepe/l2geth/eth"
-	"github.com/ethereum-pepe/pepe/l2geth/internal/jsre"
-	"github.com/ethereum-pepe/pepe/l2geth/miner"
-	"github.com/ethereum-pepe/pepe/l2geth/node"
-	"github.com/ethereum-pepe/pepe/l2geth/rollup"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/consensus/ethash"
+	"github.com/ethereum-optimism/pepe/l2geth/core"
+	"github.com/ethereum-optimism/pepe/l2geth/eth"
+	"github.com/ethereum-optimism/pepe/l2geth/internal/jsre"
+	"github.com/ethereum-optimism/pepe/l2geth/miner"
+	"github.com/ethereum-optimism/pepe/l2geth/node"
+	"github.com/ethereum-optimism/pepe/l2geth/rollup"
 )
 
 const (

@@ -1,4 +1,4 @@
-# @eth-pepe/hardhat-node
+# @eth-optimism/hardhat-node
 
 ## 0.2.4
 

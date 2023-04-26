@@ -11,13 +11,13 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
-	cldr "github.com/ethereum-pepe/pepe/op-program/client/driver"
-	"github.com/ethereum-pepe/pepe/op-program/client/l1"
-	"github.com/ethereum-pepe/pepe/op-program/client/l2"
-	oppio "github.com/ethereum-pepe/pepe/op-program/io"
-	"github.com/ethereum-pepe/pepe/op-program/preimage"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
+	cldr "github.com/ethereum-optimism/pepe/op-program/client/driver"
+	"github.com/ethereum-optimism/pepe/op-program/client/l1"
+	"github.com/ethereum-optimism/pepe/op-program/client/l2"
+	oppio "github.com/ethereum-optimism/pepe/op-program/io"
+	"github.com/ethereum-optimism/pepe/op-program/preimage"
 )
 
 // Main executes the client program in a detached context and exits the current process.

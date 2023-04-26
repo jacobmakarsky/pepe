@@ -1,4 +1,4 @@
-# @eth-pepe/balance-monitor
+# @eth-optimism/balance-monitor
 
 ## 0.0.4
 

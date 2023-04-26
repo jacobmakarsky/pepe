@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/ethereum-pepe/pepe/op-e2e/e2eutils"
+	"github.com/ethereum-optimism/pepe/op-e2e/e2eutils"
 )
 
 var enableParallelTesting bool = true

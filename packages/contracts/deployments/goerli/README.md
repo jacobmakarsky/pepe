@@ -5,7 +5,7 @@
 - **Block Explorer**: https://goerli-pepe.etherscan.io/
 
 **Note:** This list is out of date, now that Goerli is on bedrock.
-[The valid list is here](https://github.com/ethereum-pepe/pepe/tree/develop/packages/contracts-bedrock/deployments/goerli).
+[The valid list is here](https://github.com/ethereum-optimism/pepe/tree/develop/packages/contracts-bedrock/deployments/goerli).
 
 ## Layer 1 Contracts
 <table>

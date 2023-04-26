@@ -226,5 +226,5 @@ contracts if desired.
 
 This `FINALIZATION_PERIOD` value is equivalent to 7 days.
 
-[`WithdrawalTransaction` type]: https://github.com/ethereum-pepe/pepe/blob/6c6d142d7bb95faa11066aab5d8aed7187abfe38/packages/contracts-bedrock/contracts/libraries/Types.sol#L76-L83
-[`OutputRootProof` type]: https://github.com/ethereum-pepe/pepe/blob/6c6d142d7bb95faa11066aab5d8aed7187abfe38/packages/contracts-bedrock/contracts/libraries/Types.sol#L33-L38
+[`WithdrawalTransaction` type]: https://github.com/ethereum-optimism/pepe/blob/6c6d142d7bb95faa11066aab5d8aed7187abfe38/packages/contracts-bedrock/contracts/libraries/Types.sol#L76-L83
+[`OutputRootProof` type]: https://github.com/ethereum-optimism/pepe/blob/6c6d142d7bb95faa11066aab5d8aed7187abfe38/packages/contracts-bedrock/contracts/libraries/Types.sol#L33-L38

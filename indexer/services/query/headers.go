@@ -3,7 +3,7 @@ package query
 import (
 	"context"
 
-	"github.com/ethereum-pepe/pepe/op-service/backoff"
+	"github.com/ethereum-optimism/pepe/op-service/backoff"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
 )

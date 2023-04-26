@@ -6,7 +6,7 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/ethereum-pepe/pepe/proxyd/tools/mockserver/handler"
+	"github.com/ethereum-optimism/pepe/proxyd/tools/mockserver/handler"
 )
 
 func main() {

@@ -1,8 +1,8 @@
 package query
 
 import (
-	"github.com/ethereum-pepe/pepe/indexer/db"
-	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
+	"github.com/ethereum-optimism/pepe/indexer/db"
+	"github.com/ethereum-optimism/pepe/op-bindings/bindings"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"

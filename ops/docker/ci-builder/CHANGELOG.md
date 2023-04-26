@@ -1,4 +1,4 @@
-# @eth-pepe/ci-builder
+# @eth-optimism/ci-builder
 
 ## 0.5.0
 

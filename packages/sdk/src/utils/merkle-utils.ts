@@ -4,7 +4,7 @@ import {
   fromHexString,
   toHexString,
   toRpcHexString,
-} from '@eth-pepe/core-utils'
+} from '@eth-optimism/core-utils'
 import { MerkleTree } from 'merkletreejs'
 
 /**

@@ -1,14 +1,14 @@
-module github.com/ethereum-pepe/pepe/batch-submitter
+module github.com/ethereum-optimism/pepe/batch-submitter
 
 go 1.18
 
-replace github.com/ethereum-pepe/pepe/bss-core v0.0.0 => ../bss-core
+replace github.com/ethereum-optimism/pepe/bss-core v0.0.0 => ../bss-core
 
-replace github.com/ethereum-pepe/pepe/l2geth v0.0.0 => ../l2geth
+replace github.com/ethereum-optimism/pepe/l2geth v0.0.0 => ../l2geth
 
 require (
-	github.com/ethereum-pepe/pepe/bss-core v0.0.0
-	github.com/ethereum-pepe/pepe/l2geth v0.0.0
+	github.com/ethereum-optimism/pepe/bss-core v0.0.0
+	github.com/ethereum-optimism/pepe/l2geth v0.0.0
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/getsentry/sentry-go v0.12.0
 	github.com/prometheus/client_golang v1.11.1

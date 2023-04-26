@@ -3,7 +3,7 @@ import { HardhatUserConfig } from 'hardhat/config'
 import dotenv from 'dotenv'
 
 // Hardhat plugins
-import '@eth-pepe/hardhat-deploy-config'
+import '@eth-optimism/hardhat-deploy-config'
 import '@foundry-rs/hardhat-forge'
 import '@nomiclabs/hardhat-ethers'
 import 'hardhat-deploy'

@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/ethereum-pepe/pepe/l2geth/metrics"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p"
+	"github.com/ethereum-optimism/pepe/l2geth/metrics"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p"
 )
 
 var (

@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/urfave/cli"
 
-	batchsubmitter "github.com/ethereum-pepe/pepe/batch-submitter"
-	"github.com/ethereum-pepe/pepe/batch-submitter/flags"
+	batchsubmitter "github.com/ethereum-optimism/pepe/batch-submitter"
+	"github.com/ethereum-optimism/pepe/batch-submitter/flags"
 )
 
 var (

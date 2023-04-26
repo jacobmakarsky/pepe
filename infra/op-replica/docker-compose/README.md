@@ -62,13 +62,13 @@ Change any other settings required for your environment
 ### Docker Image Versions
 
 We recommend using the latest versions of both docker images. Find them as GitHub tags
-[here](https://github.com/ethereum-pepe/pepe/tags) and as published Docker images linked in the badges:
+[here](https://github.com/ethereum-optimism/pepe/tags) and as published Docker images linked in the badges:
 
 | Package                                                                                                                         | Docker                                                                                                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`@eth-pepe/l2geth`](https://github.com/ethereum-pepe/pepe/tree/master/l2geth)                                      | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/l2geth)](https://hub.docker.com/r/ethereumoptimism/l2geth/tags?page=1&ordering=last_updated)                             |
-| [`@eth-pepe/data-transport-layer`](https://github.com/ethereum-pepe/pepe/tree/master/packages/data-transport-layer) | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/data-transport-layer)](https://hub.docker.com/r/ethereumoptimism/data-transport-layer/tags?page=1&ordering=last_updated) |
-| [`@eth-pepe/replica-healthcheck`](https://github.com/ethereum-pepe/pepe/tree/master/packages/replica-healthcheck) | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/replica-healthcheck)](https://hub.docker.com/r/ethereumoptimism/replica-healthcheck/tags?page=1&ordering=last_updated) |
+| [`@eth-optimism/l2geth`](https://github.com/ethereum-optimism/pepe/tree/master/l2geth)                                      | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/l2geth)](https://hub.docker.com/r/ethereumoptimism/l2geth/tags?page=1&ordering=last_updated)                             |
+| [`@eth-optimism/data-transport-layer`](https://github.com/ethereum-optimism/pepe/tree/master/packages/data-transport-layer) | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/data-transport-layer)](https://hub.docker.com/r/ethereumoptimism/data-transport-layer/tags?page=1&ordering=last_updated) |
+| [`@eth-optimism/replica-healthcheck`](https://github.com/ethereum-optimism/pepe/tree/master/packages/replica-healthcheck) | [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/ethereumoptimism/replica-healthcheck)](https://hub.docker.com/r/ethereumoptimism/replica-healthcheck/tags?page=1&ordering=last_updated) |
 
 
 ## Usage

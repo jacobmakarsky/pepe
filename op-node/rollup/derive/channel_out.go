@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethereum-pepe/pepe/op-node/rollup"
+	"github.com/ethereum-optimism/pepe/op-node/rollup"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rlp"
@@ -22,7 +22,7 @@ var ErrTooManyRLPBytes = errors.New("batch would cause RLP bytes to go over limi
 // This is the fixed overhead frame size, calculated as specified
 // in the [Frame Format] specs: 16 + 2 + 4 + 1 = 23 bytes.
 //
-// [Frame Format]: https://github.com/ethereum-pepe/pepe/blob/develop/specs/derivation.md#frame-format
+// [Frame Format]: https://github.com/ethereum-optimism/pepe/blob/develop/specs/derivation.md#frame-format
 const FrameV0OverHeadSize = 23
 
 type ChannelOut struct {

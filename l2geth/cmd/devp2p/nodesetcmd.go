@@ -21,10 +21,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/core/forkid"
-	"github.com/ethereum-pepe/pepe/l2geth/p2p/enr"
-	"github.com/ethereum-pepe/pepe/l2geth/params"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/core/forkid"
+	"github.com/ethereum-optimism/pepe/l2geth/p2p/enr"
+	"github.com/ethereum-optimism/pepe/l2geth/params"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -28,16 +28,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum-pepe/pepe/l2geth/common"
-	"github.com/ethereum-pepe/pepe/l2geth/common/hexutil"
-	"github.com/ethereum-pepe/pepe/l2geth/core"
-	"github.com/ethereum-pepe/pepe/l2geth/core/rawdb"
-	"github.com/ethereum-pepe/pepe/l2geth/core/state"
-	"github.com/ethereum-pepe/pepe/l2geth/core/types"
-	"github.com/ethereum-pepe/pepe/l2geth/internal/ethapi"
-	"github.com/ethereum-pepe/pepe/l2geth/rlp"
-	"github.com/ethereum-pepe/pepe/l2geth/rpc"
-	"github.com/ethereum-pepe/pepe/l2geth/trie"
+	"github.com/ethereum-optimism/pepe/l2geth/common"
+	"github.com/ethereum-optimism/pepe/l2geth/common/hexutil"
+	"github.com/ethereum-optimism/pepe/l2geth/core"
+	"github.com/ethereum-optimism/pepe/l2geth/core/rawdb"
+	"github.com/ethereum-optimism/pepe/l2geth/core/state"
+	"github.com/ethereum-optimism/pepe/l2geth/core/types"
+	"github.com/ethereum-optimism/pepe/l2geth/internal/ethapi"
+	"github.com/ethereum-optimism/pepe/l2geth/rlp"
+	"github.com/ethereum-optimism/pepe/l2geth/rpc"
+	"github.com/ethereum-optimism/pepe/l2geth/trie"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum full node-related

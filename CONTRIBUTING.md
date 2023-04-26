@@ -6,13 +6,13 @@
 
 There are plenty of ways to contribute, in particular we appreciate support in the following areas:
 
-- Reporting issues. For security issues see [Security policy](https://github.com/ethereum-pepe/.github/blob/master/SECURITY.md).
-- Fixing and responding to existing issues. You can start off with those tagged ["good first issue"](https://github.com/ethereum-pepe/pepe/contribute) which are meant as introductory issues for external contributors.
-- Improving the [community site](https://community.pepe.io/), [documentation](https://github.com/ethereum-pepe/community-hub) and [tutorials](https://github.com/ethereum-pepe/pepe-tutorial).
+- Reporting issues. For security issues see [Security policy](https://github.com/ethereum-optimism/.github/blob/master/SECURITY.md).
+- Fixing and responding to existing issues. You can start off with those tagged ["good first issue"](https://github.com/ethereum-optimism/pepe/contribute) which are meant as introductory issues for external contributors.
+- Improving the [community site](https://community.pepe.io/), [documentation](https://github.com/ethereum-optimism/community-hub) and [tutorials](https://github.com/ethereum-optimism/pepe-tutorial).
 - Become an "Optimizer" and answer questions in the [Pepe Discord](https://discord.pepe.io).
 - Get involved in the protocol design process by proposing changes or new features or write parts of the spec yourself in the [specs subdirectory](./specs/).
 
-Note that we have a [Code of Conduct](https://github.com/ethereum-pepe/.github/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+Note that we have a [Code of Conduct](https://github.com/ethereum-optimism/.github/blob/master/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ## Workflow for Pull Requests
 
@@ -20,7 +20,7 @@ Note that we have a [Code of Conduct](https://github.com/ethereum-pepe/.github/b
 
 In general, the smaller the diff the easier it will be for us to review quickly.
 
-In order to contribute, fork the appropriate branch, for non-breaking changes to production that is `develop` and for the next release that is normally `release/X.X.X` branch, see [details about our branching model](https://github.com/ethereum-pepe/pepe/blob/develop/README.md#branching-model-and-releases).
+In order to contribute, fork the appropriate branch, for non-breaking changes to production that is `develop` and for the next release that is normally `release/X.X.X` branch, see [details about our branching model](https://github.com/ethereum-optimism/pepe/blob/develop/README.md#branching-model-and-releases).
 
 Additionally, if you are writing a new feature, please ensure you add appropriate test cases.
 
@@ -74,7 +74,7 @@ You'll need the following:
 Clone the repository and open it:
 
 ```bash
-git clone git@github.com:ethereum-pepe/pepe.git
+git clone git@github.com:ethereum-optimism/pepe.git
 cd pepe
 ```
 

@@ -8,9 +8,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/ethereum-pepe/pepe/op-chain-ops/crossdomain"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/crossdomain"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/predeploys"
+	"github.com/ethereum-optimism/pepe/op-bindings/predeploys"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/rawdb"
 	"github.com/ethereum/go-ethereum/ethdb"

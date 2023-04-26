@@ -7,7 +7,7 @@ import (
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ethereum-pepe/pepe/op-chain-ops/eof"
+	"github.com/ethereum-optimism/pepe/op-chain-ops/eof"
 	"github.com/ethereum/go-ethereum/log"
 )
 

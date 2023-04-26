@@ -19,14 +19,14 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli"
 
-	"github.com/ethereum-pepe/pepe/op-bindings/bindings"
-	"github.com/ethereum-pepe/pepe/op-node/eth"
-	"github.com/ethereum-pepe/pepe/op-node/sources"
-	"github.com/ethereum-pepe/pepe/op-proposer/metrics"
-	oplog "github.com/ethereum-pepe/pepe/op-service/log"
-	oppprof "github.com/ethereum-pepe/pepe/op-service/pprof"
-	oprpc "github.com/ethereum-pepe/pepe/op-service/rpc"
-	"github.com/ethereum-pepe/pepe/op-service/txmgr"
+	"github.com/ethereum-optimism/pepe/op-bindings/bindings"
+	"github.com/ethereum-optimism/pepe/op-node/eth"
+	"github.com/ethereum-optimism/pepe/op-node/sources"
+	"github.com/ethereum-optimism/pepe/op-proposer/metrics"
+	oplog "github.com/ethereum-optimism/pepe/op-service/log"
+	oppprof "github.com/ethereum-optimism/pepe/op-service/pprof"
+	oprpc "github.com/ethereum-optimism/pepe/op-service/rpc"
+	"github.com/ethereum-optimism/pepe/op-service/txmgr"
 )
 
 var supportedL2OutputVersion = eth.Bytes32{}

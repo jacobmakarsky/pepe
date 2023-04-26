@@ -1,5 +1,5 @@
 import { DeployFunction } from 'hardhat-deploy/dist/types'
-import '@eth-pepe/hardhat-deploy-config'
+import '@eth-optimism/hardhat-deploy-config'
 
 import {
   assertContractVariable,

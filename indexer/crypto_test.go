@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	indexer "github.com/ethereum-pepe/pepe/indexer"
+	indexer "github.com/ethereum-optimism/pepe/indexer"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

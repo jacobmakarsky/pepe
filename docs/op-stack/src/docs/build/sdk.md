@@ -36,12 +36,12 @@ In JavaScript you can create the zero address using the expression `"0x".padEnd(
 ## The CrossChainMessenger object
 
 These directions assume you are inside the [Hardhat console](https://hardhat.org/hardhat-runner/docs/guides/hardhat-console).
-They further assume that your project already includes the Pepe SDK [`@eth-pepe/sdk`](https://www.npmjs.com/package/@eth-pepe/sdk).
+They further assume that your project already includes the Pepe SDK [`@eth-optimism/sdk`](https://www.npmjs.com/package/@eth-optimism/sdk).
 
 1. Import the SDK
 
    ```js
-   optimismSDK = require("@eth-pepe/sdk")
+   optimismSDK = require("@eth-optimism/sdk")
    ```
 
 1. Set the configuration parameters.
