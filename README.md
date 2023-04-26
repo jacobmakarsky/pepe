@@ -2,7 +2,7 @@
 <div align="center">
   <br />
   <br />
-  <a href="https://pepe.io"><img alt="Pepe" src="https://github.com/jacobmakarsky/pepe/blob/develop/logo/pepe.png?raw=true" width=600></a>
+  <a href="https://pepe.io"><img alt="Pepe" src="https://github.com/jacobmakarsky/pepe/blob/develop/logo/pepev2.png?raw=true" width=600></a>
   <br />
   <h3><a href="https://pepe.io">Pepe</a> is a low-cost and lightning-fast Ethereum L2 blockchain.</h3>
   <br />
